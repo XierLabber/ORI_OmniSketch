@@ -1,0 +1,7 @@
+<map id="OmniSketch::Sketch::SketchBase&lt; key_len, T &gt;" name="OmniSketch::Sketch::SketchBase&lt; key_len, T &gt;">
+<area shape="rect" id="node1" title="Base sketch." alt="" coords="5,173,207,214"/>
+<area shape="rect" id="node2" href="$class_omni_sketch_1_1_sketch_1_1_bloom_filter.html" title=" " alt="" coords="257,5,431,61"/>
+<area shape="rect" id="node3" href="$class_omni_sketch_1_1_sketch_1_1_bloom_filter.html" title="Bloom Filter." alt="" coords="257,85,431,141"/>
+<area shape="rect" id="node4" href="$class_omni_sketch_1_1_sketch_1_1_counting_bloom_filter.html" title="Counting Bloom Filter." alt="" coords="263,165,425,221"/>
+<area shape="rect" id="node5" href="$class_omni_sketch_1_1_sketch_1_1_sketch_learn.html" title="Sketch Learn." alt="" coords="255,245,433,301"/>
+</map>
