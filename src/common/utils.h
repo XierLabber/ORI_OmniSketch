@@ -1,6 +1,6 @@
 /**
  * @file utils.h
- * @author FerricIon (you@domain.com)
+ * @author FerricIon XierLabber (you@domain.com)
  * @brief Some utils
  *
  * @copyright Copyright (c) 2022
@@ -11,6 +11,8 @@
 #include <string_view>
 #include <toml++/toml.h>
 #include <vector>
+
+// #define NEGATIVE
 
 /**
  * @brief Utils of manipulating integers, parsing configuration files and so on.
@@ -296,11 +298,56 @@ public:
    * @return the overflowed value
    */
   T operator+(T val);
+#ifndef NEGATIVE
   /**
    * @brief Get the value of the counter
    *
    */
   T getVal() const { return counter; }
+  /**
+   * @brief Set the value of the counter
+   *
+   */
+  void setVal(T val) {
+    const T thres = static_cast<T>(1) << (bits);
+    if (val >= thres || val < 0)
+      throw std::overflow_error(
+          "Overflow: The value being set overflows. Expected in [" +
+          std::to_string(-thres) + ", " + std::to_string(thres - 1) +
+          "], but got " + std::to_string(val) + " instead.");
+    counter = val;
+  }
+#else
+  /**
+   * @brief Get the value of the counter
+   *
+   */
+  T getVal() const {
+    /*
+    return counter;
+    */
+    if (counter >= (static_cast<T>(1) << (bits - 1))) {
+      return counter - (static_cast<T>(1) << bits);
+    }
+    return counter;
+  }
+  /**
+   * @brief Set the value of the counter
+   *
+   */
+  void setVal(T val) {
+    const T thres = static_cast<T>(1) << (bits - 1);
+    if (val >= thres || val < -thres)
+      throw std::overflow_error(
+          "Overflow: The value being set overflows. Expected in [" +
+          std::to_string(-thres) + ", " + std::to_string(thres - 1) +
+          "], but got " + std::to_string(val) + " instead.");
+    if (val >= 0)
+      counter = val;
+    else
+      counter = val + (thres << 1);
+  }
+#endif
 };
 
 } // namespace OmniSketch::Util
@@ -324,6 +371,7 @@ DynamicIntX<T>::DynamicIntX(size_t bits) : counter(0), bits(bits) {
 }
 
 template <typename T> T DynamicIntX<T>::operator+(T val) {
+#ifndef NEGATIVE
   const T constant = static_cast<T>(1) << bits;
   constexpr T bound = (static_cast<T>(1) << (sizeof(T) * 8 - 2)) - 1;
 
@@ -341,6 +389,7 @@ template <typename T> T DynamicIntX<T>::operator+(T val) {
     T add = counter + (val & (constant - 1));
     counter = add % constant;
     overflow += add / constant;
+    assert(counter >= 0);
     return overflow;
   } // negative update, and T must be signed
   else {
@@ -358,8 +407,24 @@ template <typename T> T DynamicIntX<T>::operator+(T val) {
     T negate_overflow = negate >> bits;
     T add = constant + counter - (negate & (constant - 1));
     counter = add % constant;
+    assert(counter >= 0);
     return -(negate_overflow + 1 - (add / constant));
   }
+#else
+  T result = getVal() + val;
+  T off = static_cast<T>(1) << (bits - 1);
+  if (val >= 0) {
+    result += off;
+    setVal(result % (off << 1) - off);
+    T overflow = result / (off << 1);
+    return overflow;
+  } else {
+    result -= (off - 1);
+    T overflow = result / (off << 1);
+    setVal(result % (off << 1) + off - 1);
+    return overflow;
+  }
+#endif
 }
 
 } // namespace OmniSketch::Util

@@ -1,0 +1,13 @@
+prefix=/home/yang/anaconda3/envs/my_test_env
+exec_prefix=/home/yang/anaconda3/envs/my_test_env
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/coin
+
+Name: Osi
+Description: COIN-OR Open Solver Interface
+URL: https://projects.coin-or.org/Osi
+Version: 0.108.7
+Libs: -L${libdir} -lOsi
+Libs.private: 
+Cflags: -I${includedir}
+Requires.private: coinutils 

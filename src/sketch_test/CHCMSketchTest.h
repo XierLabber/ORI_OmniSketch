@@ -124,6 +124,9 @@ void CHCMSketchTest<key_len, no_layer, T, hash_t>::runTest() {
   /// remember that the left ptr must point to the base class in order to call
   /// the methods in it
 
+  this->testSize(ptr);
+  this->show();
+
   /// Step ii. Get ground truth
   ///
   ///       1. read data
@@ -146,6 +149,20 @@ void CHCMSketchTest<key_len, no_layer, T, hash_t>::runTest() {
   this->testSize(ptr);
   ///        3. show metrics
   this->show();
+
+  printf("\n  CM DEPTH: %d\n  CM WIDTH: %d\n", depth, width);
+  printf("  WIDTH_CNT: [");
+  for(int i = 0; i < width_cnt.size();i++)
+  {
+    printf("%ld", width_cnt[i]);
+    if(i != width_cnt.size() - 1)
+    {
+      printf(", ");
+    }
+  }
+  printf("]\n");
+  printf("  RATIO: %lf\n\n", cnt_no_ratio);
+  printf("============================================\n");
 
   return;
 }

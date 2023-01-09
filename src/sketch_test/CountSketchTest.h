@@ -11,9 +11,9 @@
 #include <common/test.h>
 #include <sketch/CountSketch.h>
 
-#define CS_PARA_PATH "CM.para"
-#define CS_TEST_PATH "CM.test"
-#define CS_DATA_PATH "CM.data"
+#define CS_PARA_PATH "CS.para"
+#define CS_TEST_PATH "CS.test"
+#define CS_DATA_PATH "CS.data"
 
 namespace OmniSketch::Test {
 

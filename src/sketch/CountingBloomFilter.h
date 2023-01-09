@@ -1,6 +1,6 @@
 /**
  * @file CountingBloomFilter.h
- * @author KyleLv (you@domain.com)
+ * @author KyleLv, XierLabber(debug) (you@domain.com)
  * @brief Counting Bloom Filter
  *
  * @copyright Copyright (c) 2022
@@ -160,9 +160,11 @@ void CountingBloomFilter<key_len, hash_t>::remove(
 
 template <int32_t key_len, typename hash_t>
 size_t CountingBloomFilter<key_len, hash_t>::size() const {
+  counter->print_rate("");
   return sizeof(*this)            // instance
          + sizeof(hash_t) * nhash // hash functions
-         + counter->size();       // counter size
+         + counter->size()        // counter size
+         - ncnt / 8;
 }
 
 template <int32_t key_len, typename hash_t>

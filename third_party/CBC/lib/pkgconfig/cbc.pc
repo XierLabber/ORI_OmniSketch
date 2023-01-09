@@ -1,0 +1,13 @@
+prefix=/home/yang/anaconda3/envs/my_test_env
+exec_prefix=/home/yang/anaconda3/envs/my_test_env
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/coin
+
+Name: CBC
+Description: COIN-OR Branch and Cut
+URL: https://projects.coin-or.org/Cbc
+Version: 2.10.8
+Libs: -L${libdir} -lCbcSolver -lCbc
+Libs.private: -lpthread -lrt -lreadline -lncurses  
+Cflags: -I${includedir}
+Requires.private: clp osi-clp cgl osi coinutils 

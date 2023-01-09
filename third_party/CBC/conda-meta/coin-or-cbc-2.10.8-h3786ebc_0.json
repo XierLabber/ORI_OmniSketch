@@ -1,0 +1,771 @@
+{
+  "build": "h3786ebc_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "coincbc * *_metapackage"
+  ],
+  "depends": [
+    "coin-or-cgl >=0.60,<0.61.0a0",
+    "coin-or-clp >=1.17,<1.18.0a0",
+    "coin-or-osi >=0.108,<0.109.0a0",
+    "coin-or-utils >=2.11,<2.12.0a0",
+    "libgcc-ng >=10.3.0",
+    "libstdcxx-ng >=10.3.0"
+  ],
+  "extracted_package_dir": "/home/yang/anaconda3/pkgs/coin-or-cbc-2.10.8-h3786ebc_0",
+  "features": "",
+  "files": [
+    "bin/cbc",
+    "include/coin/CbcBranchActual.hpp",
+    "include/coin/CbcBranchAllDifferent.hpp",
+    "include/coin/CbcBranchBase.hpp",
+    "include/coin/CbcBranchCut.hpp",
+    "include/coin/CbcBranchDecision.hpp",
+    "include/coin/CbcBranchDefaultDecision.hpp",
+    "include/coin/CbcBranchDynamic.hpp",
+    "include/coin/CbcBranchLotsize.hpp",
+    "include/coin/CbcBranchToFixLots.hpp",
+    "include/coin/CbcBranchingObject.hpp",
+    "include/coin/CbcClique.hpp",
+    "include/coin/CbcCompare.hpp",
+    "include/coin/CbcCompareActual.hpp",
+    "include/coin/CbcCompareBase.hpp",
+    "include/coin/CbcCompareDefault.hpp",
+    "include/coin/CbcCompareDepth.hpp",
+    "include/coin/CbcCompareEstimate.hpp",
+    "include/coin/CbcCompareObjective.hpp",
+    "include/coin/CbcConfig.h",
+    "include/coin/CbcConsequence.hpp",
+    "include/coin/CbcCountRowCut.hpp",
+    "include/coin/CbcCutGenerator.hpp",
+    "include/coin/CbcCutModifier.hpp",
+    "include/coin/CbcCutSubsetModifier.hpp",
+    "include/coin/CbcDummyBranchingObject.hpp",
+    "include/coin/CbcEventHandler.hpp",
+    "include/coin/CbcFathom.hpp",
+    "include/coin/CbcFathomDynamicProgramming.hpp",
+    "include/coin/CbcFeasibilityBase.hpp",
+    "include/coin/CbcFixVariable.hpp",
+    "include/coin/CbcFollowOn.hpp",
+    "include/coin/CbcFullNodeInfo.hpp",
+    "include/coin/CbcGeneral.hpp",
+    "include/coin/CbcGeneralDepth.hpp",
+    "include/coin/CbcHeuristic.hpp",
+    "include/coin/CbcHeuristicDINS.hpp",
+    "include/coin/CbcHeuristicDW.hpp",
+    "include/coin/CbcHeuristicDive.hpp",
+    "include/coin/CbcHeuristicDiveCoefficient.hpp",
+    "include/coin/CbcHeuristicDiveFractional.hpp",
+    "include/coin/CbcHeuristicDiveGuided.hpp",
+    "include/coin/CbcHeuristicDiveLineSearch.hpp",
+    "include/coin/CbcHeuristicDivePseudoCost.hpp",
+    "include/coin/CbcHeuristicDiveVectorLength.hpp",
+    "include/coin/CbcHeuristicFPump.hpp",
+    "include/coin/CbcHeuristicGreedy.hpp",
+    "include/coin/CbcHeuristicLocal.hpp",
+    "include/coin/CbcHeuristicPivotAndFix.hpp",
+    "include/coin/CbcHeuristicRENS.hpp",
+    "include/coin/CbcHeuristicRINS.hpp",
+    "include/coin/CbcHeuristicRandRound.hpp",
+    "include/coin/CbcHeuristicVND.hpp",
+    "include/coin/CbcLinked.hpp",
+    "include/coin/CbcMessage.hpp",
+    "include/coin/CbcMipStartIO.hpp",
+    "include/coin/CbcModel.hpp",
+    "include/coin/CbcNWay.hpp",
+    "include/coin/CbcNode.hpp",
+    "include/coin/CbcNodeInfo.hpp",
+    "include/coin/CbcObject.hpp",
+    "include/coin/CbcObjectUpdateData.hpp",
+    "include/coin/CbcParam.hpp",
+    "include/coin/CbcPartialNodeInfo.hpp",
+    "include/coin/CbcSOS.hpp",
+    "include/coin/CbcSimpleInteger.hpp",
+    "include/coin/CbcSimpleIntegerDynamicPseudoCost.hpp",
+    "include/coin/CbcSimpleIntegerPseudoCost.hpp",
+    "include/coin/CbcSolver.hpp",
+    "include/coin/CbcStrategy.hpp",
+    "include/coin/CbcSubProblem.hpp",
+    "include/coin/CbcTree.hpp",
+    "include/coin/CbcTreeLocal.hpp",
+    "include/coin/Cbc_C_Interface.h",
+    "include/coin/ClpAmplObjective.hpp",
+    "include/coin/ClpConstraintAmpl.hpp",
+    "include/coin/OsiCbcSolverInterface.hpp",
+    "lib/libCbc.so",
+    "lib/libCbc.so.3",
+    "lib/libCbc.so.3.10.8",
+    "lib/libCbcSolver.so",
+    "lib/libCbcSolver.so.3",
+    "lib/libCbcSolver.so.3.10.8",
+    "lib/libOsiCbc.so",
+    "lib/libOsiCbc.so.3",
+    "lib/libOsiCbc.so.3.10.8",
+    "lib/pkgconfig/cbc.pc",
+    "lib/pkgconfig/osi-cbc.pc",
+    "share/coin/doc/Cbc/AUTHORS",
+    "share/coin/doc/Cbc/LICENSE",
+    "share/coin/doc/Cbc/cbc_addlibs.txt"
+  ],
+  "fn": "coin-or-cbc-2.10.8-h3786ebc_0.tar.bz2",
+  "license": "EPL-2.0",
+  "license_family": "OTHER",
+  "link": {
+    "source": "/home/yang/anaconda3/pkgs/coin-or-cbc-2.10.8-h3786ebc_0",
+    "type": 1
+  },
+  "md5": "a7f1d9773101f34e3cedf335992865f7",
+  "name": "coin-or-cbc",
+  "package_tarball_full_path": "/home/yang/anaconda3/pkgs/coin-or-cbc-2.10.8-h3786ebc_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/cbc",
+        "path_type": "hardlink",
+        "sha256": "1062ddeceae9d7b3896076134a59435e100f9989bc806e7095dfb12d3e9f9939",
+        "sha256_in_prefix": "1062ddeceae9d7b3896076134a59435e100f9989bc806e7095dfb12d3e9f9939",
+        "size_in_bytes": 16864
+      },
+      {
+        "_path": "include/coin/CbcBranchActual.hpp",
+        "path_type": "hardlink",
+        "sha256": "c0de5af197b7c7d7efe66f59fe13ee9496a3e8d8ff52a8e6e591a2a162352507",
+        "sha256_in_prefix": "c0de5af197b7c7d7efe66f59fe13ee9496a3e8d8ff52a8e6e591a2a162352507",
+        "size_in_bytes": 739
+      },
+      {
+        "_path": "include/coin/CbcBranchAllDifferent.hpp",
+        "path_type": "hardlink",
+        "sha256": "5c2aedd74b116c2302e26527c7a90988d2c07347e00043169cfd1706eb7bc224",
+        "sha256_in_prefix": "5c2aedd74b116c2302e26527c7a90988d2c07347e00043169cfd1706eb7bc224",
+        "size_in_bytes": 1581
+      },
+      {
+        "_path": "include/coin/CbcBranchBase.hpp",
+        "path_type": "hardlink",
+        "sha256": "4632153f00e9d712edf10b2791fa0c22335b1da2fe2cc96079bc5a44e6a9061b",
+        "sha256_in_prefix": "4632153f00e9d712edf10b2791fa0c22335b1da2fe2cc96079bc5a44e6a9061b",
+        "size_in_bytes": 2263
+      },
+      {
+        "_path": "include/coin/CbcBranchCut.hpp",
+        "path_type": "hardlink",
+        "sha256": "40e890b50e0fd7ca8a5c3c9d59347f88186518aaa310f8161e71f69c623a22ba",
+        "sha256_in_prefix": "40e890b50e0fd7ca8a5c3c9d59347f88186518aaa310f8161e71f69c623a22ba",
+        "size_in_bytes": 5773
+      },
+      {
+        "_path": "include/coin/CbcBranchDecision.hpp",
+        "path_type": "hardlink",
+        "sha256": "2b21420158d8955e4b4b5980986c5821ee4f4c868af4345f80d741f34eb8df87",
+        "sha256_in_prefix": "2b21420158d8955e4b4b5980986c5821ee4f4c868af4345f80d741f34eb8df87",
+        "size_in_bytes": 4252
+      },
+      {
+        "_path": "include/coin/CbcBranchDefaultDecision.hpp",
+        "path_type": "hardlink",
+        "sha256": "59b11853684c633d60288fd666877b6a033c3fc0fdda8eda3fa02ac11b4bc2c5",
+        "sha256_in_prefix": "59b11853684c633d60288fd666877b6a033c3fc0fdda8eda3fa02ac11b4bc2c5",
+        "size_in_bytes": 3300
+      },
+      {
+        "_path": "include/coin/CbcBranchDynamic.hpp",
+        "path_type": "hardlink",
+        "sha256": "136a2849023a250b89b79541a13b9c6628a679860125f2aec918663e1e641cc7",
+        "sha256_in_prefix": "136a2849023a250b89b79541a13b9c6628a679860125f2aec918663e1e641cc7",
+        "size_in_bytes": 6936
+      },
+      {
+        "_path": "include/coin/CbcBranchLotsize.hpp",
+        "path_type": "hardlink",
+        "sha256": "fd3261611708dfcbc5108cafeff70097df434615cad3ef4e5dc129614adcd1c5",
+        "sha256_in_prefix": "fd3261611708dfcbc5108cafeff70097df434615cad3ef4e5dc129614adcd1c5",
+        "size_in_bytes": 7581
+      },
+      {
+        "_path": "include/coin/CbcBranchToFixLots.hpp",
+        "path_type": "hardlink",
+        "sha256": "7f86caff5aca2faab44abeed1072c8fe9da454faaca04add7f867f65b3b1f63f",
+        "sha256_in_prefix": "7f86caff5aca2faab44abeed1072c8fe9da454faaca04add7f867f65b3b1f63f",
+        "size_in_bytes": 2917
+      },
+      {
+        "_path": "include/coin/CbcBranchingObject.hpp",
+        "path_type": "hardlink",
+        "sha256": "ace37fac24a9ae85aef77608e1d61f8b7c8d6d6425164b1de7286490e8d5ab22",
+        "sha256_in_prefix": "ace37fac24a9ae85aef77608e1d61f8b7c8d6d6425164b1de7286490e8d5ab22",
+        "size_in_bytes": 7721
+      },
+      {
+        "_path": "include/coin/CbcClique.hpp",
+        "path_type": "hardlink",
+        "sha256": "09f85847e9fad6dd79cfda6821be3c6df93993f457933b6b4151ccfbf70ab838",
+        "sha256_in_prefix": "09f85847e9fad6dd79cfda6821be3c6df93993f457933b6b4151ccfbf70ab838",
+        "size_in_bytes": 9892
+      },
+      {
+        "_path": "include/coin/CbcCompare.hpp",
+        "path_type": "hardlink",
+        "sha256": "050958e2f8b788362d26be678367f6e0228cf27aa0f74d7d4f87560d3e80fcbd",
+        "sha256_in_prefix": "050958e2f8b788362d26be678367f6e0228cf27aa0f74d7d4f87560d3e80fcbd",
+        "size_in_bytes": 883
+      },
+      {
+        "_path": "include/coin/CbcCompareActual.hpp",
+        "path_type": "hardlink",
+        "sha256": "cca15b1738b95ed9d4e75f464d434efe869539e6c98f2acd364afb72f5967424",
+        "sha256_in_prefix": "cca15b1738b95ed9d4e75f464d434efe869539e6c98f2acd364afb72f5967424",
+        "size_in_bytes": 456
+      },
+      {
+        "_path": "include/coin/CbcCompareBase.hpp",
+        "path_type": "hardlink",
+        "sha256": "009f5605808f942e5a9d528d7653470a9fe87a20c784429d0267973629e06caf",
+        "sha256_in_prefix": "009f5605808f942e5a9d528d7653470a9fe87a20c784429d0267973629e06caf",
+        "size_in_bytes": 3884
+      },
+      {
+        "_path": "include/coin/CbcCompareDefault.hpp",
+        "path_type": "hardlink",
+        "sha256": "8966d57959dbf00284c8c67501c14312e5b9fcf20de9cf2eaaf9efa0e4cb4e76",
+        "sha256_in_prefix": "8966d57959dbf00284c8c67501c14312e5b9fcf20de9cf2eaaf9efa0e4cb4e76",
+        "size_in_bytes": 3509
+      },
+      {
+        "_path": "include/coin/CbcCompareDepth.hpp",
+        "path_type": "hardlink",
+        "sha256": "f31af6e89c49c944e36a9eb5b4aa3f8022efdf3e9dc4eba4011e5ade7eb09ec3",
+        "sha256_in_prefix": "f31af6e89c49c944e36a9eb5b4aa3f8022efdf3e9dc4eba4011e5ade7eb09ec3",
+        "size_in_bytes": 1358
+      },
+      {
+        "_path": "include/coin/CbcCompareEstimate.hpp",
+        "path_type": "hardlink",
+        "sha256": "024b13ea3bd325bada0f19ebb70abb821759ead2e0a58f0f6d5c41ccd06248ec",
+        "sha256_in_prefix": "024b13ea3bd325bada0f19ebb70abb821759ead2e0a58f0f6d5c41ccd06248ec",
+        "size_in_bytes": 1331
+      },
+      {
+        "_path": "include/coin/CbcCompareObjective.hpp",
+        "path_type": "hardlink",
+        "sha256": "7ce3a5c8d3b7af5d719ea1350dbfe4a0941c779260694f4bfbf91adc56a96c81",
+        "sha256_in_prefix": "7ce3a5c8d3b7af5d719ea1350dbfe4a0941c779260694f4bfbf91adc56a96c81",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "include/coin/CbcConfig.h",
+        "path_type": "hardlink",
+        "sha256": "7c4700bc2873ed934a773dfa5327930edc7f3584f3cb8c0e74768a56bb10bbee",
+        "sha256_in_prefix": "7c4700bc2873ed934a773dfa5327930edc7f3584f3cb8c0e74768a56bb10bbee",
+        "size_in_bytes": 374
+      },
+      {
+        "_path": "include/coin/CbcConsequence.hpp",
+        "path_type": "hardlink",
+        "sha256": "c90287a9fcfcbf27a39e5af9269bf60db1a6878fb9a1b988d0c4960eef87bc77",
+        "sha256_in_prefix": "c90287a9fcfcbf27a39e5af9269bf60db1a6878fb9a1b988d0c4960eef87bc77",
+        "size_in_bytes": 1239
+      },
+      {
+        "_path": "include/coin/CbcCountRowCut.hpp",
+        "path_type": "hardlink",
+        "sha256": "d54a261337d754920b7c70915c0f7d87e824b06794df34898ec23de70bc3d389",
+        "sha256_in_prefix": "d54a261337d754920b7c70915c0f7d87e824b06794df34898ec23de70bc3d389",
+        "size_in_bytes": 5138
+      },
+      {
+        "_path": "include/coin/CbcCutGenerator.hpp",
+        "path_type": "hardlink",
+        "sha256": "510321743f7aa76795f255c4d257e80bd25e131c675fd4937e900a43feb9cccc",
+        "sha256_in_prefix": "510321743f7aa76795f255c4d257e80bd25e131c675fd4937e900a43feb9cccc",
+        "size_in_bytes": 15295
+      },
+      {
+        "_path": "include/coin/CbcCutModifier.hpp",
+        "path_type": "hardlink",
+        "sha256": "e6ba4d4ef95bacf5b840cb6b9c427c24d727d53f018b4a4bcde4a3b25cf633ef",
+        "sha256_in_prefix": "e6ba4d4ef95bacf5b840cb6b9c427c24d727d53f018b4a4bcde4a3b25cf633ef",
+        "size_in_bytes": 1323
+      },
+      {
+        "_path": "include/coin/CbcCutSubsetModifier.hpp",
+        "path_type": "hardlink",
+        "sha256": "e8607ddbefa48cd49fac42a746356ae21a261ca7c3c9d64aa665daa6bdec0f80",
+        "sha256_in_prefix": "e8607ddbefa48cd49fac42a746356ae21a261ca7c3c9d64aa665daa6bdec0f80",
+        "size_in_bytes": 1612
+      },
+      {
+        "_path": "include/coin/CbcDummyBranchingObject.hpp",
+        "path_type": "hardlink",
+        "sha256": "fa0c4fff5dd94d8e60b9656849b7a2c83584b6cb2c8c79b933332ec6c94e624f",
+        "sha256_in_prefix": "fa0c4fff5dd94d8e60b9656849b7a2c83584b6cb2c8c79b933332ec6c94e624f",
+        "size_in_bytes": 2689
+      },
+      {
+        "_path": "include/coin/CbcEventHandler.hpp",
+        "path_type": "hardlink",
+        "sha256": "8e9d473e3212e1aed2510a7045a5c929326ac6b8da7d8f13a404b5382a6ab201",
+        "sha256_in_prefix": "8e9d473e3212e1aed2510a7045a5c929326ac6b8da7d8f13a404b5382a6ab201",
+        "size_in_bytes": 6718
+      },
+      {
+        "_path": "include/coin/CbcFathom.hpp",
+        "path_type": "hardlink",
+        "sha256": "f33141643b0c80cd15913f35c198b490d856fb161608d81e50ed957014e89dec",
+        "sha256_in_prefix": "f33141643b0c80cd15913f35c198b490d856fb161608d81e50ed957014e89dec",
+        "size_in_bytes": 3292
+      },
+      {
+        "_path": "include/coin/CbcFathomDynamicProgramming.hpp",
+        "path_type": "hardlink",
+        "sha256": "efd81548cd1eaec890728d06359fd05739c831534e545253ede52672b81dfeb3",
+        "sha256_in_prefix": "efd81548cd1eaec890728d06359fd05739c831534e545253ede52672b81dfeb3",
+        "size_in_bytes": 5494
+      },
+      {
+        "_path": "include/coin/CbcFeasibilityBase.hpp",
+        "path_type": "hardlink",
+        "sha256": "f755573bc6f6924ab7bf9b89426321fe09fbfa1b98a8b109bedf8be865864b9f",
+        "sha256_in_prefix": "f755573bc6f6924ab7bf9b89426321fe09fbfa1b98a8b109bedf8be865864b9f",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "include/coin/CbcFixVariable.hpp",
+        "path_type": "hardlink",
+        "sha256": "5840755b7b3ec17923d14d608366ef7655a852bd28f967c2e870b25b9e41b528",
+        "sha256_in_prefix": "5840755b7b3ec17923d14d608366ef7655a852bd28f967c2e870b25b9e41b528",
+        "size_in_bytes": 1871
+      },
+      {
+        "_path": "include/coin/CbcFollowOn.hpp",
+        "path_type": "hardlink",
+        "sha256": "d953b66454a57907517d8f1bba3ff5214e006e7dabf46c465d49401e4c589650",
+        "sha256_in_prefix": "d953b66454a57907517d8f1bba3ff5214e006e7dabf46c465d49401e4c589650",
+        "size_in_bytes": 6227
+      },
+      {
+        "_path": "include/coin/CbcFullNodeInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "9744ffccab2115e4117e48d17952daa95217f9c0489d9190e1ea4664740263ae",
+        "sha256_in_prefix": "9744ffccab2115e4117e48d17952daa95217f9c0489d9190e1ea4664740263ae",
+        "size_in_bytes": 5331
+      },
+      {
+        "_path": "include/coin/CbcGeneral.hpp",
+        "path_type": "hardlink",
+        "sha256": "5d8e7a94788e192e3d445301bd0364936b1c8ed7e3124db8cbc673065668aef8",
+        "sha256_in_prefix": "5d8e7a94788e192e3d445301bd0364936b1c8ed7e3124db8cbc673065668aef8",
+        "size_in_bytes": 1468
+      },
+      {
+        "_path": "include/coin/CbcGeneralDepth.hpp",
+        "path_type": "hardlink",
+        "sha256": "e20fd318091251fd662772be08fec641d5cafca58e32192e34d8ea46df273227",
+        "sha256_in_prefix": "e20fd318091251fd662772be08fec641d5cafca58e32192e34d8ea46df273227",
+        "size_in_bytes": 8221
+      },
+      {
+        "_path": "include/coin/CbcHeuristic.hpp",
+        "path_type": "hardlink",
+        "sha256": "614deca548e4277ae326843503f8a91fc82a165f4b99ce775c0dd0c4265c3ed5",
+        "sha256_in_prefix": "614deca548e4277ae326843503f8a91fc82a165f4b99ce775c0dd0c4265c3ed5",
+        "size_in_bytes": 22601
+      },
+      {
+        "_path": "include/coin/CbcHeuristicDINS.hpp",
+        "path_type": "hardlink",
+        "sha256": "ec4ffe6cad008f6ee5bd1c1298bfa10767b8f928cd6d981d29097d45626ef28d",
+        "sha256_in_prefix": "ec4ffe6cad008f6ee5bd1c1298bfa10767b8f928cd6d981d29097d45626ef28d",
+        "size_in_bytes": 2456
+      },
+      {
+        "_path": "include/coin/CbcHeuristicDW.hpp",
+        "path_type": "hardlink",
+        "sha256": "46b4926607fba469ac683e1176c30754f7f846442a69b9d709cee7d65fdc0e9f",
+        "sha256_in_prefix": "46b4926607fba469ac683e1176c30754f7f846442a69b9d709cee7d65fdc0e9f",
+        "size_in_bytes": 9848
+      },
+      {
+        "_path": "include/coin/CbcHeuristicDive.hpp",
+        "path_type": "hardlink",
+        "sha256": "b7e2355260576baf7cfaf2c20fa2bba0b13eab4d702b4a6445a30dc5b0a4fb46",
+        "sha256_in_prefix": "b7e2355260576baf7cfaf2c20fa2bba0b13eab4d702b4a6445a30dc5b0a4fb46",
+        "size_in_bytes": 5397
+      },
+      {
+        "_path": "include/coin/CbcHeuristicDiveCoefficient.hpp",
+        "path_type": "hardlink",
+        "sha256": "5d43642a753131798b50adae7632aeae24d572c5748f32de2fd6a00cd09572ad",
+        "sha256_in_prefix": "5d43642a753131798b50adae7632aeae24d572c5748f32de2fd6a00cd09572ad",
+        "size_in_bytes": 1492
+      },
+      {
+        "_path": "include/coin/CbcHeuristicDiveFractional.hpp",
+        "path_type": "hardlink",
+        "sha256": "2ca5cdc5ea5da0572843f65016259d7187e74a0416a439fc3e5a00211cc5455a",
+        "sha256_in_prefix": "2ca5cdc5ea5da0572843f65016259d7187e74a0416a439fc3e5a00211cc5455a",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "include/coin/CbcHeuristicDiveGuided.hpp",
+        "path_type": "hardlink",
+        "sha256": "afd781e541e238517358242c892a22efda805ea2f6d867846e73e54bf04c0e4c",
+        "sha256_in_prefix": "afd781e541e238517358242c892a22efda805ea2f6d867846e73e54bf04c0e4c",
+        "size_in_bytes": 1504
+      },
+      {
+        "_path": "include/coin/CbcHeuristicDiveLineSearch.hpp",
+        "path_type": "hardlink",
+        "sha256": "e0d2eb12344b76e3024a07e42336d1b58693f3d63fc6c8c01ac7da6ef2c5cf21",
+        "sha256_in_prefix": "e0d2eb12344b76e3024a07e42336d1b58693f3d63fc6c8c01ac7da6ef2c5cf21",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "include/coin/CbcHeuristicDivePseudoCost.hpp",
+        "path_type": "hardlink",
+        "sha256": "dfd68585c70c70d2f24ed86551057a3feed4ee161cb4df616b541dbe85db7474",
+        "sha256_in_prefix": "dfd68585c70c70d2f24ed86551057a3feed4ee161cb4df616b541dbe85db7474",
+        "size_in_bytes": 1799
+      },
+      {
+        "_path": "include/coin/CbcHeuristicDiveVectorLength.hpp",
+        "path_type": "hardlink",
+        "sha256": "a545ac38d9c1573c13e21b86fcb8ed6fccc34a730dc543ba30d232f45e6cfbfe",
+        "sha256_in_prefix": "a545ac38d9c1573c13e21b86fcb8ed6fccc34a730dc543ba30d232f45e6cfbfe",
+        "size_in_bytes": 1504
+      },
+      {
+        "_path": "include/coin/CbcHeuristicFPump.hpp",
+        "path_type": "hardlink",
+        "sha256": "a4df288a68282cd5d897fa0069137f0768ec6f06cae705e6523556e2d93ab27b",
+        "sha256_in_prefix": "a4df288a68282cd5d897fa0069137f0768ec6f06cae705e6523556e2d93ab27b",
+        "size_in_bytes": 11483
+      },
+      {
+        "_path": "include/coin/CbcHeuristicGreedy.hpp",
+        "path_type": "hardlink",
+        "sha256": "bb8686ab365e1aa5f8d5963142fa6ad76a61e1087e9b2061c5607bf60fc1c848",
+        "sha256_in_prefix": "bb8686ab365e1aa5f8d5963142fa6ad76a61e1087e9b2061c5607bf60fc1c848",
+        "size_in_bytes": 8361
+      },
+      {
+        "_path": "include/coin/CbcHeuristicLocal.hpp",
+        "path_type": "hardlink",
+        "sha256": "4011a8a5c4f3056c63cd5c862e9674f81e756bb7d89dd5c3d73cbb961381929d",
+        "sha256_in_prefix": "4011a8a5c4f3056c63cd5c862e9674f81e756bb7d89dd5c3d73cbb961381929d",
+        "size_in_bytes": 6933
+      },
+      {
+        "_path": "include/coin/CbcHeuristicPivotAndFix.hpp",
+        "path_type": "hardlink",
+        "sha256": "c1bdf0b1fe9fb3b3910811ec4efbe6df5618cdb339edc14a8f5ad13f8ad3895b",
+        "sha256_in_prefix": "c1bdf0b1fe9fb3b3910811ec4efbe6df5618cdb339edc14a8f5ad13f8ad3895b",
+        "size_in_bytes": 1477
+      },
+      {
+        "_path": "include/coin/CbcHeuristicRENS.hpp",
+        "path_type": "hardlink",
+        "sha256": "cff5381980962f00dd6e2c9806423611c9977d007269d74d4aea3616e4ba62b8",
+        "sha256_in_prefix": "cff5381980962f00dd6e2c9806423611c9977d007269d74d4aea3616e4ba62b8",
+        "size_in_bytes": 1888
+      },
+      {
+        "_path": "include/coin/CbcHeuristicRINS.hpp",
+        "path_type": "hardlink",
+        "sha256": "dc9abf997a5363eed34fcfb82eb994bbb5e4b874385660581dd33e54af30623b",
+        "sha256_in_prefix": "dc9abf997a5363eed34fcfb82eb994bbb5e4b874385660581dd33e54af30623b",
+        "size_in_bytes": 2649
+      },
+      {
+        "_path": "include/coin/CbcHeuristicRandRound.hpp",
+        "path_type": "hardlink",
+        "sha256": "08328adfaa897e002afec7e50645594327bf248d62655f321c10edee49c1a4d9",
+        "sha256_in_prefix": "08328adfaa897e002afec7e50645594327bf248d62655f321c10edee49c1a4d9",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "include/coin/CbcHeuristicVND.hpp",
+        "path_type": "hardlink",
+        "sha256": "04d1526f4df5d66ae08f886cb223a50931c15a4c90cebd95c6400d6e4d68669d",
+        "sha256_in_prefix": "04d1526f4df5d66ae08f886cb223a50931c15a4c90cebd95c6400d6e4d68669d",
+        "size_in_bytes": 2247
+      },
+      {
+        "_path": "include/coin/CbcLinked.hpp",
+        "path_type": "hardlink",
+        "sha256": "ce5c04a0905a96e5853fd710f370468aa88dead846733ca3cab43b82b7f6f730",
+        "sha256_in_prefix": "ce5c04a0905a96e5853fd710f370468aa88dead846733ca3cab43b82b7f6f730",
+        "size_in_bytes": 39473
+      },
+      {
+        "_path": "include/coin/CbcMessage.hpp",
+        "path_type": "hardlink",
+        "sha256": "950c6e6388bae7f2551cac954a5b3e5f018af20e8e578683df139207270f2881",
+        "sha256_in_prefix": "950c6e6388bae7f2551cac954a5b3e5f018af20e8e578683df139207270f2881",
+        "size_in_bytes": 1861
+      },
+      {
+        "_path": "include/coin/CbcMipStartIO.hpp",
+        "path_type": "hardlink",
+        "sha256": "8af2bc57be47d7b554d8c73e284873eb672cd676b25bfbfcb10c71e08429b78e",
+        "sha256_in_prefix": "8af2bc57be47d7b554d8c73e284873eb672cd676b25bfbfcb10c71e08429b78e",
+        "size_in_bytes": 799
+      },
+      {
+        "_path": "include/coin/CbcModel.hpp",
+        "path_type": "hardlink",
+        "sha256": "623ba86a0695ad92e779d9ab0ba9cc57d687aa1330383222df562f6c21abcd6f",
+        "sha256_in_prefix": "623ba86a0695ad92e779d9ab0ba9cc57d687aa1330383222df562f6c21abcd6f",
+        "size_in_bytes": 104614
+      },
+      {
+        "_path": "include/coin/CbcNWay.hpp",
+        "path_type": "hardlink",
+        "sha256": "e799e0a8f71c22cb3c2edd2b75cd30a0b8c9af994481c0e9ec332c1321c6a5c8",
+        "sha256_in_prefix": "e799e0a8f71c22cb3c2edd2b75cd30a0b8c9af994481c0e9ec332c1321c6a5c8",
+        "size_in_bytes": 5009
+      },
+      {
+        "_path": "include/coin/CbcNode.hpp",
+        "path_type": "hardlink",
+        "sha256": "950ab45aa01eb454b541f941b885e48188c33b5572060c162979282cca049a5a",
+        "sha256_in_prefix": "950ab45aa01eb454b541f941b885e48188c33b5572060c162979282cca049a5a",
+        "size_in_bytes": 11319
+      },
+      {
+        "_path": "include/coin/CbcNodeInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "ee173805ceac928ebf06cd65468a862c7ba6f8253fbe7597603b8dd6543966d1",
+        "sha256_in_prefix": "ee173805ceac928ebf06cd65468a862c7ba6f8253fbe7597603b8dd6543966d1",
+        "size_in_bytes": 9996
+      },
+      {
+        "_path": "include/coin/CbcObject.hpp",
+        "path_type": "hardlink",
+        "sha256": "89b4e859263125cb591e0b905173df073515c28f5ab95d5b5741cb8b81599c2e",
+        "sha256_in_prefix": "89b4e859263125cb591e0b905173df073515c28f5ab95d5b5741cb8b81599c2e",
+        "size_in_bytes": 9103
+      },
+      {
+        "_path": "include/coin/CbcObjectUpdateData.hpp",
+        "path_type": "hardlink",
+        "sha256": "d03af51a0384b649247a0cd4a6b28c65a3119b13dbe35a61d325ca0212b37fdd",
+        "sha256_in_prefix": "d03af51a0384b649247a0cd4a6b28c65a3119b13dbe35a61d325ca0212b37fdd",
+        "size_in_bytes": 1397
+      },
+      {
+        "_path": "include/coin/CbcParam.hpp",
+        "path_type": "hardlink",
+        "sha256": "2aa70b622c14a81c89b4e9ae128e152a269a58b3297c0fa9a6abd9b23a79babb",
+        "sha256_in_prefix": "2aa70b622c14a81c89b4e9ae128e152a269a58b3297c0fa9a6abd9b23a79babb",
+        "size_in_bytes": 9287
+      },
+      {
+        "_path": "include/coin/CbcPartialNodeInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "5a0b5a2be6ea7ae82e8173ed4e2ddf0efda13bc2a02cc920fa6c0f9f412150df",
+        "sha256_in_prefix": "5a0b5a2be6ea7ae82e8173ed4e2ddf0efda13bc2a02cc920fa6c0f9f412150df",
+        "size_in_bytes": 3131
+      },
+      {
+        "_path": "include/coin/CbcSOS.hpp",
+        "path_type": "hardlink",
+        "sha256": "1da0a87e9b8ac99b9fcc95b15928527d1bf30a8d813c42f9f4e349e107cabe90",
+        "sha256_in_prefix": "1da0a87e9b8ac99b9fcc95b15928527d1bf30a8d813c42f9f4e349e107cabe90",
+        "size_in_bytes": 9006
+      },
+      {
+        "_path": "include/coin/CbcSimpleInteger.hpp",
+        "path_type": "hardlink",
+        "sha256": "bd71cebda20b226d719c538168e2b28a39667aec552c5fe077afc55f10d613df",
+        "sha256_in_prefix": "bd71cebda20b226d719c538168e2b28a39667aec552c5fe077afc55f10d613df",
+        "size_in_bytes": 9227
+      },
+      {
+        "_path": "include/coin/CbcSimpleIntegerDynamicPseudoCost.hpp",
+        "path_type": "hardlink",
+        "sha256": "e5ac1503e1a3ce7ab25996760421b6f4f917a9d046724e2c086e4ee176ceabbd",
+        "sha256_in_prefix": "e5ac1503e1a3ce7ab25996760421b6f4f917a9d046724e2c086e4ee176ceabbd",
+        "size_in_bytes": 17856
+      },
+      {
+        "_path": "include/coin/CbcSimpleIntegerPseudoCost.hpp",
+        "path_type": "hardlink",
+        "sha256": "e64b0d843ca952890d69ec802086fda253f194fb565dcffb1a26f7798c891105",
+        "sha256_in_prefix": "e64b0d843ca952890d69ec802086fda253f194fb565dcffb1a26f7798c891105",
+        "size_in_bytes": 3136
+      },
+      {
+        "_path": "include/coin/CbcSolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "9607f7792610a7134687fd11786d9aae626c3c64472abf16ab671331e273fd2a",
+        "sha256_in_prefix": "9607f7792610a7134687fd11786d9aae626c3c64472abf16ab671331e273fd2a",
+        "size_in_bytes": 12086
+      },
+      {
+        "_path": "include/coin/CbcStrategy.hpp",
+        "path_type": "hardlink",
+        "sha256": "16e2c68f17d3ed369a3c1a68c3b00783c62372213870422c299f3825d2bb87f5",
+        "sha256_in_prefix": "16e2c68f17d3ed369a3c1a68c3b00783c62372213870422c299f3825d2bb87f5",
+        "size_in_bytes": 6831
+      },
+      {
+        "_path": "include/coin/CbcSubProblem.hpp",
+        "path_type": "hardlink",
+        "sha256": "eca23efb3dde65475643eac303b464432ac7df8f25b7a63125b07c1d11cc8b41",
+        "sha256_in_prefix": "eca23efb3dde65475643eac303b464432ac7df8f25b7a63125b07c1d11cc8b41",
+        "size_in_bytes": 2108
+      },
+      {
+        "_path": "include/coin/CbcTree.hpp",
+        "path_type": "hardlink",
+        "sha256": "4f8ce9430ae78f625dd0481e56d9c869bc2a1644a5cde63049542a29e5fa838c",
+        "sha256_in_prefix": "4f8ce9430ae78f625dd0481e56d9c869bc2a1644a5cde63049542a29e5fa838c",
+        "size_in_bytes": 12432
+      },
+      {
+        "_path": "include/coin/CbcTreeLocal.hpp",
+        "path_type": "hardlink",
+        "sha256": "e96bf144180948a72431eb940fb2d6b033f102bbc26ced08f487ab242e15aee9",
+        "sha256_in_prefix": "e96bf144180948a72431eb940fb2d6b033f102bbc26ced08f487ab242e15aee9",
+        "size_in_bytes": 10681
+      },
+      {
+        "_path": "include/coin/Cbc_C_Interface.h",
+        "path_type": "hardlink",
+        "sha256": "4d357ac9e9dde7d450f2a71a7d53013d114be4c0b5d56cea636200fde2dd5497",
+        "sha256_in_prefix": "4d357ac9e9dde7d450f2a71a7d53013d114be4c0b5d56cea636200fde2dd5497",
+        "size_in_bytes": 26952
+      },
+      {
+        "_path": "include/coin/ClpAmplObjective.hpp",
+        "path_type": "hardlink",
+        "sha256": "d3b46f9b87834c80f7e1db9f833597d4d7c9514eee2df38beb7dc8849cffe532",
+        "sha256_in_prefix": "d3b46f9b87834c80f7e1db9f833597d4d7c9514eee2df38beb7dc8849cffe532",
+        "size_in_bytes": 3082
+      },
+      {
+        "_path": "include/coin/ClpConstraintAmpl.hpp",
+        "path_type": "hardlink",
+        "sha256": "fded09fa45f7b0ca96798aee0001159e745a6558906941056ccc68ce51980e91",
+        "sha256_in_prefix": "fded09fa45f7b0ca96798aee0001159e745a6558906941056ccc68ce51980e91",
+        "size_in_bytes": 2760
+      },
+      {
+        "_path": "include/coin/OsiCbcSolverInterface.hpp",
+        "path_type": "hardlink",
+        "sha256": "10871003122eb75a67d21aeae3b88cca448d2896ca5fc33dc526fa2a65c52b57",
+        "sha256_in_prefix": "10871003122eb75a67d21aeae3b88cca448d2896ca5fc33dc526fa2a65c52b57",
+        "size_in_bytes": 28345
+      },
+      {
+        "_path": "lib/libCbc.so",
+        "path_type": "softlink",
+        "sha256": "b8cea0a40615d351a73d4ae3649d78afd7f74259e6f6d6deb50d20e02f0848b9",
+        "size_in_bytes": 1410112
+      },
+      {
+        "_path": "lib/libCbc.so.3",
+        "path_type": "softlink",
+        "sha256": "b8cea0a40615d351a73d4ae3649d78afd7f74259e6f6d6deb50d20e02f0848b9",
+        "size_in_bytes": 1410112
+      },
+      {
+        "_path": "lib/libCbc.so.3.10.8",
+        "path_type": "hardlink",
+        "sha256": "b8cea0a40615d351a73d4ae3649d78afd7f74259e6f6d6deb50d20e02f0848b9",
+        "sha256_in_prefix": "b8cea0a40615d351a73d4ae3649d78afd7f74259e6f6d6deb50d20e02f0848b9",
+        "size_in_bytes": 1410112
+      },
+      {
+        "_path": "lib/libCbcSolver.so",
+        "path_type": "softlink",
+        "sha256": "66318a761f5bac4d87c6889972ce56bf3673a185bb458882740da924263a1ab3",
+        "size_in_bytes": 1170760
+      },
+      {
+        "_path": "lib/libCbcSolver.so.3",
+        "path_type": "softlink",
+        "sha256": "66318a761f5bac4d87c6889972ce56bf3673a185bb458882740da924263a1ab3",
+        "size_in_bytes": 1170760
+      },
+      {
+        "_path": "lib/libCbcSolver.so.3.10.8",
+        "path_type": "hardlink",
+        "sha256": "66318a761f5bac4d87c6889972ce56bf3673a185bb458882740da924263a1ab3",
+        "sha256_in_prefix": "66318a761f5bac4d87c6889972ce56bf3673a185bb458882740da924263a1ab3",
+        "size_in_bytes": 1170760
+      },
+      {
+        "_path": "lib/libOsiCbc.so",
+        "path_type": "softlink",
+        "sha256": "ee85ce9b4522d781e05a35b34a93f9805c9fdfc2d1731b5078cc6c855f3d3185",
+        "size_in_bytes": 103504
+      },
+      {
+        "_path": "lib/libOsiCbc.so.3",
+        "path_type": "softlink",
+        "sha256": "ee85ce9b4522d781e05a35b34a93f9805c9fdfc2d1731b5078cc6c855f3d3185",
+        "size_in_bytes": 103504
+      },
+      {
+        "_path": "lib/libOsiCbc.so.3.10.8",
+        "path_type": "hardlink",
+        "sha256": "ee85ce9b4522d781e05a35b34a93f9805c9fdfc2d1731b5078cc6c855f3d3185",
+        "sha256_in_prefix": "ee85ce9b4522d781e05a35b34a93f9805c9fdfc2d1731b5078cc6c855f3d3185",
+        "size_in_bytes": 103504
+      },
+      {
+        "_path": "lib/pkgconfig/cbc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/coin-or-cbc-meta_1651802218477/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "047bdcba5108e02f9bee3b4ab80618a998820985325960e27a8eee6192838a4f",
+        "sha256_in_prefix": "32805eaec16d21462c82e760fdf476e6834f6473c2f1dbca9e5cbe73ff2c2d82",
+        "size_in_bytes": 853
+      },
+      {
+        "_path": "lib/pkgconfig/osi-cbc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/coin-or-cbc-meta_1651802218477/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "82b7f0d745e38d6b811907d8db64834c95af72a2545aa5de975523adcd76639f",
+        "sha256_in_prefix": "20554e39a99208f4b3b4c76604d09cf6dfb60a946f8869bab2c25c53c0d47e0b",
+        "size_in_bytes": 775
+      },
+      {
+        "_path": "share/coin/doc/Cbc/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "64cf37399b525e0b12762f003a440859df36bc4f35384093fe10b4d7bdcc21b5",
+        "sha256_in_prefix": "64cf37399b525e0b12762f003a440859df36bc4f35384093fe10b4d7bdcc21b5",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "share/coin/doc/Cbc/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0076749b626931ea5aaee25ddd5019fbfd96da78243cc0d5bd24fe246500981f",
+        "sha256_in_prefix": "0076749b626931ea5aaee25ddd5019fbfd96da78243cc0d5bd24fe246500981f",
+        "size_in_bytes": 11415
+      },
+      {
+        "_path": "share/coin/doc/Cbc/cbc_addlibs.txt",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/coin-or-cbc-meta_1651802218477/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "8561edf530f6ed93a3c90b4aa230ffceb9697866cba9007ef1d1b387037914e2",
+        "sha256_in_prefix": "00a0f914d0c380c7d263c63699fd31a5ef535216290523f05cf4c6630b8e01fa",
+        "size_in_bytes": 280
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "51aa8be5218970b9c129cf2325b9c3ab6520a23deb6dd75abd5599ee2111e779",
+  "size": 1059805,
+  "subdir": "linux-64",
+  "timestamp": 1651802436924,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/coin-or-cbc-2.10.8-h3786ebc_0.tar.bz2",
+  "version": "2.10.8"
+}

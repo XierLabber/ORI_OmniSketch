@@ -17,23 +17,30 @@
 
 namespace OmniSketch::Hash {
 
-AwareHash::AwareHash() {
+AwareHash::AwareHash(int32_t reset) {
   static const int32_t GEN_INIT_MAGIC = 388650253;
   static const int32_t GEN_SCALE_MAGIC = 388650319;
   static const int32_t GEN_HARDENER_MAGIC = 1176845762;
   static int32_t index = 0;
   static uint64_t seed = 0;
-  seed = rand();
   static AwareHash gen_hash(GEN_INIT_MAGIC, GEN_SCALE_MAGIC,
                             GEN_HARDENER_MAGIC);
+  if(!reset){                         
+    seed = rand();
 
-  uint64_t mangled;
-  mangled = Util::Mangle(seed + (index++));
-  init = gen_hash((const uint8_t *)&mangled, sizeof(uint64_t));
-  mangled = Util::Mangle(seed + (index++));
-  scale = gen_hash((const uint8_t *)&mangled, sizeof(uint64_t));
-  mangled = Util::Mangle(seed + (index++));
-  hardener = gen_hash((const uint8_t *)&mangled, sizeof(uint64_t));
+    uint64_t mangled;
+    mangled = Util::Mangle(seed + (index++));
+    init = gen_hash((const uint8_t *)&mangled, sizeof(uint64_t));
+    mangled = Util::Mangle(seed + (index++));
+    scale = gen_hash((const uint8_t *)&mangled, sizeof(uint64_t));
+    mangled = Util::Mangle(seed + (index++));
+    hardener = gen_hash((const uint8_t *)&mangled, sizeof(uint64_t));
+  }
+  else{
+    index = 20;
+    seed = 0;
+    srand(1);
+  }
 }
 
 uint64_t AwareHash::hash(const uint8_t *data, const int32_t n) const {

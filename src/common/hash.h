@@ -179,7 +179,7 @@ public:
    * hash collisions are expected.
    *
    */
-  AwareHash();
+  AwareHash(int32_t reset = 0);
 };
 
 } // namespace OmniSketch::Hash

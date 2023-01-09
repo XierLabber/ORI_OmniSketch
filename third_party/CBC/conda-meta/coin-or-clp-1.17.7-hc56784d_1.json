@@ -1,0 +1,578 @@
+{
+  "build": "hc56784d_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "coincbc * *_metapackage"
+  ],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "coin-or-osi >=0.108,<0.109.0a0",
+    "coin-or-utils >=2.11,<2.12.0a0",
+    "libblas >=3.9.0,<4.0a0",
+    "libcblas >=3.9.0,<4.0a0",
+    "libgcc-ng >=12",
+    "libgfortran-ng",
+    "libgfortran5 >=10.3.0",
+    "liblapack >=3.9.0,<4.0a0",
+    "libstdcxx-ng >=12",
+    "libzlib >=1.2.12,<1.3.0a0",
+    "ncurses >=6.3,<7.0a0",
+    "readline >=8.1.2,<9.0a0"
+  ],
+  "extracted_package_dir": "/home/yang/anaconda3/pkgs/coin-or-clp-1.17.7-hc56784d_1",
+  "features": "",
+  "files": [
+    "bin/clp",
+    "include/coin/CbcOrClpParam.cpp",
+    "include/coin/CbcOrClpParam.hpp",
+    "include/coin/ClpCholeskyBase.hpp",
+    "include/coin/ClpCholeskyDense.hpp",
+    "include/coin/ClpCholeskyPardiso.hpp",
+    "include/coin/ClpConfig.h",
+    "include/coin/ClpConstraint.hpp",
+    "include/coin/ClpConstraintLinear.hpp",
+    "include/coin/ClpConstraintQuadratic.hpp",
+    "include/coin/ClpDualRowDantzig.hpp",
+    "include/coin/ClpDualRowPivot.hpp",
+    "include/coin/ClpDualRowSteepest.hpp",
+    "include/coin/ClpDummyMatrix.hpp",
+    "include/coin/ClpDynamicExampleMatrix.hpp",
+    "include/coin/ClpDynamicMatrix.hpp",
+    "include/coin/ClpEventHandler.hpp",
+    "include/coin/ClpFactorization.hpp",
+    "include/coin/ClpGubDynamicMatrix.hpp",
+    "include/coin/ClpGubMatrix.hpp",
+    "include/coin/ClpInterior.hpp",
+    "include/coin/ClpLinearObjective.hpp",
+    "include/coin/ClpMatrixBase.hpp",
+    "include/coin/ClpMessage.hpp",
+    "include/coin/ClpModel.hpp",
+    "include/coin/ClpNetworkMatrix.hpp",
+    "include/coin/ClpNode.hpp",
+    "include/coin/ClpNonLinearCost.hpp",
+    "include/coin/ClpObjective.hpp",
+    "include/coin/ClpPEDualRowDantzig.hpp",
+    "include/coin/ClpPEDualRowSteepest.hpp",
+    "include/coin/ClpPEPrimalColumnDantzig.hpp",
+    "include/coin/ClpPEPrimalColumnSteepest.hpp",
+    "include/coin/ClpPESimplex.hpp",
+    "include/coin/ClpPackedMatrix.hpp",
+    "include/coin/ClpParameters.hpp",
+    "include/coin/ClpPdcoBase.hpp",
+    "include/coin/ClpPlusMinusOneMatrix.hpp",
+    "include/coin/ClpPresolve.hpp",
+    "include/coin/ClpPrimalColumnDantzig.hpp",
+    "include/coin/ClpPrimalColumnPivot.hpp",
+    "include/coin/ClpPrimalColumnSteepest.hpp",
+    "include/coin/ClpQuadraticObjective.hpp",
+    "include/coin/ClpSimplex.hpp",
+    "include/coin/ClpSimplexDual.hpp",
+    "include/coin/ClpSimplexNonlinear.hpp",
+    "include/coin/ClpSimplexOther.hpp",
+    "include/coin/ClpSimplexPrimal.hpp",
+    "include/coin/ClpSolve.hpp",
+    "include/coin/Clp_C_Interface.h",
+    "include/coin/Idiot.hpp",
+    "include/coin/OsiClpSolverInterface.hpp",
+    "lib/libClp.so",
+    "lib/libClp.so.1",
+    "lib/libClp.so.1.14.7",
+    "lib/libClpSolver.so",
+    "lib/libClpSolver.so.1",
+    "lib/libClpSolver.so.1.14.7",
+    "lib/libOsiClp.so",
+    "lib/libOsiClp.so.1",
+    "lib/libOsiClp.so.1.14.7",
+    "lib/pkgconfig/clp.pc",
+    "lib/pkgconfig/osi-clp.pc",
+    "share/coin/doc/Clp/AUTHORS",
+    "share/coin/doc/Clp/LICENSE",
+    "share/coin/doc/Clp/clp_addlibs.txt"
+  ],
+  "fn": "coin-or-clp-1.17.7-hc56784d_1.tar.bz2",
+  "license": "EPL-2.0",
+  "license_family": "OTHER",
+  "link": {
+    "source": "/home/yang/anaconda3/pkgs/coin-or-clp-1.17.7-hc56784d_1",
+    "type": 1
+  },
+  "md5": "2228e8432f1f0af25a49f89498297684",
+  "name": "coin-or-clp",
+  "package_tarball_full_path": "/home/yang/anaconda3/pkgs/coin-or-clp-1.17.7-hc56784d_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/clp",
+        "path_type": "hardlink",
+        "sha256": "13785e930693785ffcae5e0a75bfdd25f9843b26f6e920ff05b289d2df083a62",
+        "sha256_in_prefix": "13785e930693785ffcae5e0a75bfdd25f9843b26f6e920ff05b289d2df083a62",
+        "size_in_bytes": 17080
+      },
+      {
+        "_path": "include/coin/CbcOrClpParam.cpp",
+        "path_type": "hardlink",
+        "sha256": "028e9d7d167e80c73cada5193cdc6ad1e46b44e53b21658ac0245ff395561f5f",
+        "sha256_in_prefix": "028e9d7d167e80c73cada5193cdc6ad1e46b44e53b21658ac0245ff395561f5f",
+        "size_in_bytes": 153669
+      },
+      {
+        "_path": "include/coin/CbcOrClpParam.hpp",
+        "path_type": "hardlink",
+        "sha256": "ac9a5acc953e094020c818269ca183c4e89f6b58c06aa86765318f269d0e38e6",
+        "sha256_in_prefix": "ac9a5acc953e094020c818269ca183c4e89f6b58c06aa86765318f269d0e38e6",
+        "size_in_bytes": 17659
+      },
+      {
+        "_path": "include/coin/ClpCholeskyBase.hpp",
+        "path_type": "hardlink",
+        "sha256": "391bbfe054a1afb3f00ac11cba105841bbfafe08318f514d68643f780cfc2dd5",
+        "sha256_in_prefix": "391bbfe054a1afb3f00ac11cba105841bbfafe08318f514d68643f780cfc2dd5",
+        "size_in_bytes": 8286
+      },
+      {
+        "_path": "include/coin/ClpCholeskyDense.hpp",
+        "path_type": "hardlink",
+        "sha256": "9e57e6d1602eb61511d9e4aa6ef470ba7d9a9966812f4c7ec64b18ad8df10333",
+        "sha256_in_prefix": "9e57e6d1602eb61511d9e4aa6ef470ba7d9a9966812f4c7ec64b18ad8df10333",
+        "size_in_bytes": 5186
+      },
+      {
+        "_path": "include/coin/ClpCholeskyPardiso.hpp",
+        "path_type": "hardlink",
+        "sha256": "c19d6452f68da173a7a3e8d4a27673014cf174dc95f00cdaea782c1b8b5e6cb6",
+        "sha256_in_prefix": "c19d6452f68da173a7a3e8d4a27673014cf174dc95f00cdaea782c1b8b5e6cb6",
+        "size_in_bytes": 1967
+      },
+      {
+        "_path": "include/coin/ClpConfig.h",
+        "path_type": "hardlink",
+        "sha256": "3992fe1606c12730842e2d773a6e35647d00cc02fb55be8e41759be1e6b99f4a",
+        "sha256_in_prefix": "3992fe1606c12730842e2d773a6e35647d00cc02fb55be8e41759be1e6b99f4a",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "include/coin/ClpConstraint.hpp",
+        "path_type": "hardlink",
+        "sha256": "a0ebbffdf0842b72223f2833cdeecdf2e69b3eaf285e25785d48e01fa9115d9f",
+        "sha256_in_prefix": "a0ebbffdf0842b72223f2833cdeecdf2e69b3eaf285e25785d48e01fa9115d9f",
+        "size_in_bytes": 3299
+      },
+      {
+        "_path": "include/coin/ClpConstraintLinear.hpp",
+        "path_type": "hardlink",
+        "sha256": "649fb1a9fe1e96bf047d5fd014ab47a38b8885f07b14cf0f518e124a33fb21f9",
+        "sha256_in_prefix": "649fb1a9fe1e96bf047d5fd014ab47a38b8885f07b14cf0f518e124a33fb21f9",
+        "size_in_bytes": 2918
+      },
+      {
+        "_path": "include/coin/ClpConstraintQuadratic.hpp",
+        "path_type": "hardlink",
+        "sha256": "4f94028bc953d0999a44d2cfc425413d5714ec5df5fe2f8f1f234a6808e0497d",
+        "sha256_in_prefix": "4f94028bc953d0999a44d2cfc425413d5714ec5df5fe2f8f1f234a6808e0497d",
+        "size_in_bytes": 3224
+      },
+      {
+        "_path": "include/coin/ClpDualRowDantzig.hpp",
+        "path_type": "hardlink",
+        "sha256": "c7f4edc16958a4e08ce3492a711f1cdad41d58d5d4ae830e3f452388779b9392",
+        "sha256_in_prefix": "c7f4edc16958a4e08ce3492a711f1cdad41d58d5d4ae830e3f452388779b9392",
+        "size_in_bytes": 1734
+      },
+      {
+        "_path": "include/coin/ClpDualRowPivot.hpp",
+        "path_type": "hardlink",
+        "sha256": "eab00108071054736e608fb5c788913a2063ca7cef941cf299adb5b00bb1bf3b",
+        "sha256_in_prefix": "eab00108071054736e608fb5c788913a2063ca7cef941cf299adb5b00bb1bf3b",
+        "size_in_bytes": 3625
+      },
+      {
+        "_path": "include/coin/ClpDualRowSteepest.hpp",
+        "path_type": "hardlink",
+        "sha256": "acefd86e2adf5a4aebffcb46f570443d38699302fafd131efa663ad288d6359b",
+        "sha256_in_prefix": "acefd86e2adf5a4aebffcb46f570443d38699302fafd131efa663ad288d6359b",
+        "size_in_bytes": 4377
+      },
+      {
+        "_path": "include/coin/ClpDummyMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "dec678408d2de05b5c656d42e724836c52d27ad3a66f1ad0ab0ce3a27ce5a699",
+        "sha256_in_prefix": "dec678408d2de05b5c656d42e724836c52d27ad3a66f1ad0ab0ce3a27ce5a699",
+        "size_in_bytes": 6383
+      },
+      {
+        "_path": "include/coin/ClpDynamicExampleMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "8004ffabd5375eb9cf78a8856ff038f0c34f8ebfd5676123c2436197ede54bc5",
+        "sha256_in_prefix": "8004ffabd5375eb9cf78a8856ff038f0c34f8ebfd5676123c2436197ede54bc5",
+        "size_in_bytes": 6410
+      },
+      {
+        "_path": "include/coin/ClpDynamicMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "dc2da37ef4f80ccec647b9d2ea574d5bb2d5ea752d0b34074d7c337a27ea791e",
+        "sha256_in_prefix": "dc2da37ef4f80ccec647b9d2ea574d5bb2d5ea752d0b34074d7c337a27ea791e",
+        "size_in_bytes": 12922
+      },
+      {
+        "_path": "include/coin/ClpEventHandler.hpp",
+        "path_type": "hardlink",
+        "sha256": "53d18f73c08d3dd7b059230e8def5db28f9eb6e4159322c4788624dd27db7dee",
+        "sha256_in_prefix": "53d18f73c08d3dd7b059230e8def5db28f9eb6e4159322c4788624dd27db7dee",
+        "size_in_bytes": 5409
+      },
+      {
+        "_path": "include/coin/ClpFactorization.hpp",
+        "path_type": "hardlink",
+        "sha256": "63ea05b3a43f9673bec03617ad0c7a11a4af250aa16ff415861325c543fc8227",
+        "sha256_in_prefix": "63ea05b3a43f9673bec03617ad0c7a11a4af250aa16ff415861325c543fc8227",
+        "size_in_bytes": 15830
+      },
+      {
+        "_path": "include/coin/ClpGubDynamicMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "341c7cb64f561d81872690baaef591bcd1d7728fa0f5fbea63da81bc75a5d957",
+        "sha256_in_prefix": "341c7cb64f561d81872690baaef591bcd1d7728fa0f5fbea63da81bc75a5d957",
+        "size_in_bytes": 7417
+      },
+      {
+        "_path": "include/coin/ClpGubMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "f069032c771d1c01d0c45e5d0fcf91157a15ddeb280691be620f0a4592c7867b",
+        "sha256_in_prefix": "f069032c771d1c01d0c45e5d0fcf91157a15ddeb280691be620f0a4592c7867b",
+        "size_in_bytes": 13288
+      },
+      {
+        "_path": "include/coin/ClpInterior.hpp",
+        "path_type": "hardlink",
+        "sha256": "fe24ca4393cf5139d8a30dc0797481551a35888bc9c00a27efe5638a547898a1",
+        "sha256_in_prefix": "fe24ca4393cf5139d8a30dc0797481551a35888bc9c00a27efe5638a547898a1",
+        "size_in_bytes": 17589
+      },
+      {
+        "_path": "include/coin/ClpLinearObjective.hpp",
+        "path_type": "hardlink",
+        "sha256": "b62436ca8ec1a558b5ff31fc2956e005cdf4676f4081f6e383066f11a731a166",
+        "sha256_in_prefix": "b62436ca8ec1a558b5ff31fc2956e005cdf4676f4081f6e383066f11a731a166",
+        "size_in_bytes": 2907
+      },
+      {
+        "_path": "include/coin/ClpMatrixBase.hpp",
+        "path_type": "hardlink",
+        "sha256": "c5d914eb8f7cb555c6ca9e94c069cf11e88c054cb7d718e15b884d43502c3072",
+        "sha256_in_prefix": "c5d914eb8f7cb555c6ca9e94c069cf11e88c054cb7d718e15b884d43502c3072",
+        "size_in_bytes": 21331
+      },
+      {
+        "_path": "include/coin/ClpMessage.hpp",
+        "path_type": "hardlink",
+        "sha256": "3a346a82341d8b08337a0d1aad6ffa65dccc14f5e3bd71214d11619cc4cd5bab",
+        "sha256_in_prefix": "3a346a82341d8b08337a0d1aad6ffa65dccc14f5e3bd71214d11619cc4cd5bab",
+        "size_in_bytes": 2863
+      },
+      {
+        "_path": "include/coin/ClpModel.hpp",
+        "path_type": "hardlink",
+        "sha256": "65da8e121939ce733cb7c2395e7707826f5703ad995496970d3028d55f07c264",
+        "sha256_in_prefix": "65da8e121939ce733cb7c2395e7707826f5703ad995496970d3028d55f07c264",
+        "size_in_bytes": 45366
+      },
+      {
+        "_path": "include/coin/ClpNetworkMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "284ead55118ba57907dc19a844d5a82458cdb963544d57bbd606594876e3417a",
+        "sha256_in_prefix": "284ead55118ba57907dc19a844d5a82458cdb963544d57bbd606594876e3417a",
+        "size_in_bytes": 8539
+      },
+      {
+        "_path": "include/coin/ClpNode.hpp",
+        "path_type": "hardlink",
+        "sha256": "756ea87c42167803d74c51b45f8d4f46184ac321ab66dcbb0dbd77b72971b5ce",
+        "sha256_in_prefix": "756ea87c42167803d74c51b45f8d4f46184ac321ab66dcbb0dbd77b72971b5ce",
+        "size_in_bytes": 8959
+      },
+      {
+        "_path": "include/coin/ClpNonLinearCost.hpp",
+        "path_type": "hardlink",
+        "sha256": "f8a3cecec107d48d874d1ce0c20a605636e6444a1430f53153f26ec21a67961f",
+        "sha256_in_prefix": "f8a3cecec107d48d874d1ce0c20a605636e6444a1430f53153f26ec21a67961f",
+        "size_in_bytes": 13356
+      },
+      {
+        "_path": "include/coin/ClpObjective.hpp",
+        "path_type": "hardlink",
+        "sha256": "3107cafe6959eb3480126d636e852d844bf5c43b81d78f61d1dec48537598a0e",
+        "sha256_in_prefix": "3107cafe6959eb3480126d636e852d844bf5c43b81d78f61d1dec48537598a0e",
+        "size_in_bytes": 3740
+      },
+      {
+        "_path": "include/coin/ClpPEDualRowDantzig.hpp",
+        "path_type": "hardlink",
+        "sha256": "71aa7ee355623832b196b97b8be0807778905aac80263b5676ad5f4603f16f22",
+        "sha256_in_prefix": "71aa7ee355623832b196b97b8be0807778905aac80263b5676ad5f4603f16f22",
+        "size_in_bytes": 2178
+      },
+      {
+        "_path": "include/coin/ClpPEDualRowSteepest.hpp",
+        "path_type": "hardlink",
+        "sha256": "7788715dd482bc64e78dfc18c955c8fb1ec5d73b5abd5b8049d40c8376c036a1",
+        "sha256_in_prefix": "7788715dd482bc64e78dfc18c955c8fb1ec5d73b5abd5b8049d40c8376c036a1",
+        "size_in_bytes": 2636
+      },
+      {
+        "_path": "include/coin/ClpPEPrimalColumnDantzig.hpp",
+        "path_type": "hardlink",
+        "sha256": "69952b9a7ed853b8b3658af3eff69890649d50b87ddd9edf729e380aee2ae759",
+        "sha256_in_prefix": "69952b9a7ed853b8b3658af3eff69890649d50b87ddd9edf729e380aee2ae759",
+        "size_in_bytes": 1981
+      },
+      {
+        "_path": "include/coin/ClpPEPrimalColumnSteepest.hpp",
+        "path_type": "hardlink",
+        "sha256": "b83122a8410dde05a34cc4c1734f762df15fa7303d71f27825036fd5e8f992d0",
+        "sha256_in_prefix": "b83122a8410dde05a34cc4c1734f762df15fa7303d71f27825036fd5e8f992d0",
+        "size_in_bytes": 3202
+      },
+      {
+        "_path": "include/coin/ClpPESimplex.hpp",
+        "path_type": "hardlink",
+        "sha256": "27b73751df239d5804386edaf77c65e7eff2bc6c7630e1fe610b9a60b4f1c314",
+        "sha256_in_prefix": "27b73751df239d5804386edaf77c65e7eff2bc6c7630e1fe610b9a60b4f1c314",
+        "size_in_bytes": 8062
+      },
+      {
+        "_path": "include/coin/ClpPackedMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "3a482cb12db30898873928fb4d693fe714bac257b7bfef3927f365edd8d8f8b4",
+        "sha256_in_prefix": "3a482cb12db30898873928fb4d693fe714bac257b7bfef3927f365edd8d8f8b4",
+        "size_in_bytes": 26645
+      },
+      {
+        "_path": "include/coin/ClpParameters.hpp",
+        "path_type": "hardlink",
+        "sha256": "d2da0e575d6718a3655965440c4c1576f0dfd521137a4781fadb666949778567",
+        "sha256_in_prefix": "d2da0e575d6718a3655965440c4c1576f0dfd521137a4781fadb666949778567",
+        "size_in_bytes": 4568
+      },
+      {
+        "_path": "include/coin/ClpPdcoBase.hpp",
+        "path_type": "hardlink",
+        "sha256": "84f26376a6751ffbbd216199127bc285d6c6e6baae7d34a85cd154f21095a6a7",
+        "sha256_in_prefix": "84f26376a6751ffbbd216199127bc285d6c6e6baae7d34a85cd154f21095a6a7",
+        "size_in_bytes": 2559
+      },
+      {
+        "_path": "include/coin/ClpPlusMinusOneMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "6fd346e76060ac7c9d06e4a2c5ffd2f6a894d75e75327956d1d68b2833afb2e4",
+        "sha256_in_prefix": "6fd346e76060ac7c9d06e4a2c5ffd2f6a894d75e75327956d1d68b2833afb2e4",
+        "size_in_bytes": 21560
+      },
+      {
+        "_path": "include/coin/ClpPresolve.hpp",
+        "path_type": "hardlink",
+        "sha256": "e9721bf42a7e4d977a6c5b16aa07ced067fc06d8ebe2a877be1c232998a3073a",
+        "sha256_in_prefix": "e9721bf42a7e4d977a6c5b16aa07ced067fc06d8ebe2a877be1c232998a3073a",
+        "size_in_bytes": 11032
+      },
+      {
+        "_path": "include/coin/ClpPrimalColumnDantzig.hpp",
+        "path_type": "hardlink",
+        "sha256": "feadd4141e4b4c5012026496e49897578d4d13ee0ef3f0c87929ff88a12f8c36",
+        "sha256_in_prefix": "feadd4141e4b4c5012026496e49897578d4d13ee0ef3f0c87929ff88a12f8c36",
+        "size_in_bytes": 1885
+      },
+      {
+        "_path": "include/coin/ClpPrimalColumnPivot.hpp",
+        "path_type": "hardlink",
+        "sha256": "6097a1be156b4bbc2668f14871743b75014314a3166b45a3bc96058563bf69cb",
+        "sha256_in_prefix": "6097a1be156b4bbc2668f14871743b75014314a3166b45a3bc96058563bf69cb",
+        "size_in_bytes": 4585
+      },
+      {
+        "_path": "include/coin/ClpPrimalColumnSteepest.hpp",
+        "path_type": "hardlink",
+        "sha256": "e38bc9e2e91e1a6cc1c7a422bef6aa4bfe783a95786aa634e66f2256c77816ce",
+        "sha256_in_prefix": "e38bc9e2e91e1a6cc1c7a422bef6aa4bfe783a95786aa634e66f2256c77816ce",
+        "size_in_bytes": 8719
+      },
+      {
+        "_path": "include/coin/ClpQuadraticObjective.hpp",
+        "path_type": "hardlink",
+        "sha256": "ee5ce409ae1b245170ad4f766e1c607659c1674c224faa1f985790bb18b316ab",
+        "sha256_in_prefix": "ee5ce409ae1b245170ad4f766e1c607659c1674c224faa1f985790bb18b316ab",
+        "size_in_bytes": 4793
+      },
+      {
+        "_path": "include/coin/ClpSimplex.hpp",
+        "path_type": "hardlink",
+        "sha256": "48226deec10efa06becaf8af055e5a3164a94c561fbba858abc9c528408da164",
+        "sha256_in_prefix": "48226deec10efa06becaf8af055e5a3164a94c561fbba858abc9c528408da164",
+        "size_in_bytes": 72222
+      },
+      {
+        "_path": "include/coin/ClpSimplexDual.hpp",
+        "path_type": "hardlink",
+        "sha256": "e45147fa1b6c9600d97fe9fba134e0c870166c1a61679f6a4387daf254f0b7eb",
+        "sha256_in_prefix": "e45147fa1b6c9600d97fe9fba134e0c870166c1a61679f6a4387daf254f0b7eb",
+        "size_in_bytes": 11841
+      },
+      {
+        "_path": "include/coin/ClpSimplexNonlinear.hpp",
+        "path_type": "hardlink",
+        "sha256": "ad568f4e074575f0ad55c2c153c78bc64072471da84a13b8026b7baeadb17a25",
+        "sha256_in_prefix": "ad568f4e074575f0ad55c2c153c78bc64072471da84a13b8026b7baeadb17a25",
+        "size_in_bytes": 3747
+      },
+      {
+        "_path": "include/coin/ClpSimplexOther.hpp",
+        "path_type": "hardlink",
+        "sha256": "463e471fe718e64f75b874b4ddc3eaaa9d13b8354a24436c97621783cd2654de",
+        "sha256_in_prefix": "463e471fe718e64f75b874b4ddc3eaaa9d13b8354a24436c97621783cd2654de",
+        "size_in_bytes": 12507
+      },
+      {
+        "_path": "include/coin/ClpSimplexPrimal.hpp",
+        "path_type": "hardlink",
+        "sha256": "c31a71d467cc23d1156439fa0915cc23a09b51a83ed85c2b85d49cca923e92e2",
+        "sha256_in_prefix": "c31a71d467cc23d1156439fa0915cc23a09b51a83ed85c2b85d49cca923e92e2",
+        "size_in_bytes": 8629
+      },
+      {
+        "_path": "include/coin/ClpSolve.hpp",
+        "path_type": "hardlink",
+        "sha256": "47b381e98f8aed51e6c94e8d88693a295cd7aaf14d4e1e41c8885941a7aa30fc",
+        "sha256_in_prefix": "47b381e98f8aed51e6c94e8d88693a295cd7aaf14d4e1e41c8885941a7aa30fc",
+        "size_in_bytes": 13530
+      },
+      {
+        "_path": "include/coin/Clp_C_Interface.h",
+        "path_type": "hardlink",
+        "sha256": "2d3adc2cc6563e11a2e302bf37b56c92e2ece7e3749f38546c7b2bc8e246069f",
+        "sha256_in_prefix": "2d3adc2cc6563e11a2e302bf37b56c92e2ece7e3749f38546c7b2bc8e246069f",
+        "size_in_bytes": 25521
+      },
+      {
+        "_path": "include/coin/Idiot.hpp",
+        "path_type": "hardlink",
+        "sha256": "26a31910a9604de9a449a0d4a155e4ab12c989ba635d6ba2100bee5e7bb2b072",
+        "sha256_in_prefix": "26a31910a9604de9a449a0d4a155e4ab12c989ba635d6ba2100bee5e7bb2b072",
+        "size_in_bytes": 9850
+      },
+      {
+        "_path": "include/coin/OsiClpSolverInterface.hpp",
+        "path_type": "hardlink",
+        "sha256": "f8e1a9b9a3a1916ff85de5170406309d60feb7aecd10684deae9779e0b235bb8",
+        "sha256_in_prefix": "f8e1a9b9a3a1916ff85de5170406309d60feb7aecd10684deae9779e0b235bb8",
+        "size_in_bytes": 57531
+      },
+      {
+        "_path": "lib/libClp.so",
+        "path_type": "softlink",
+        "sha256": "43edb51684f672c1b810ce15beb1570f6b0ea77169e7198e6e3c8eb7ca5a72c1",
+        "size_in_bytes": 2058408
+      },
+      {
+        "_path": "lib/libClp.so.1",
+        "path_type": "softlink",
+        "sha256": "43edb51684f672c1b810ce15beb1570f6b0ea77169e7198e6e3c8eb7ca5a72c1",
+        "size_in_bytes": 2058408
+      },
+      {
+        "_path": "lib/libClp.so.1.14.7",
+        "path_type": "hardlink",
+        "sha256": "43edb51684f672c1b810ce15beb1570f6b0ea77169e7198e6e3c8eb7ca5a72c1",
+        "sha256_in_prefix": "43edb51684f672c1b810ce15beb1570f6b0ea77169e7198e6e3c8eb7ca5a72c1",
+        "size_in_bytes": 2058408
+      },
+      {
+        "_path": "lib/libClpSolver.so",
+        "path_type": "softlink",
+        "sha256": "7c755a4430db85004d1adcfe9ccd10240b496c1a1308dcd26b461212beb6a50c",
+        "size_in_bytes": 469072
+      },
+      {
+        "_path": "lib/libClpSolver.so.1",
+        "path_type": "softlink",
+        "sha256": "7c755a4430db85004d1adcfe9ccd10240b496c1a1308dcd26b461212beb6a50c",
+        "size_in_bytes": 469072
+      },
+      {
+        "_path": "lib/libClpSolver.so.1.14.7",
+        "path_type": "hardlink",
+        "sha256": "7c755a4430db85004d1adcfe9ccd10240b496c1a1308dcd26b461212beb6a50c",
+        "sha256_in_prefix": "7c755a4430db85004d1adcfe9ccd10240b496c1a1308dcd26b461212beb6a50c",
+        "size_in_bytes": 469072
+      },
+      {
+        "_path": "lib/libOsiClp.so",
+        "path_type": "softlink",
+        "sha256": "b067a32b98ccb390df362b1421eb628ef4d1a67f9337b72c83b239f5210e2e6f",
+        "size_in_bytes": 435720
+      },
+      {
+        "_path": "lib/libOsiClp.so.1",
+        "path_type": "softlink",
+        "sha256": "b067a32b98ccb390df362b1421eb628ef4d1a67f9337b72c83b239f5210e2e6f",
+        "size_in_bytes": 435720
+      },
+      {
+        "_path": "lib/libOsiClp.so.1.14.7",
+        "path_type": "hardlink",
+        "sha256": "b067a32b98ccb390df362b1421eb628ef4d1a67f9337b72c83b239f5210e2e6f",
+        "sha256_in_prefix": "b067a32b98ccb390df362b1421eb628ef4d1a67f9337b72c83b239f5210e2e6f",
+        "size_in_bytes": 435720
+      },
+      {
+        "_path": "lib/pkgconfig/clp.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/coin-or-clp_1657214249708/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "508433d1b1a394215a3ea695cfaa7771b7da314cb17fecc4a34b3b44ad0ff7b7",
+        "sha256_in_prefix": "019ae6e4178cbfdee41dd7a160a025942e655171a6b5e035b0bbe798af29ec1a",
+        "size_in_bytes": 830
+      },
+      {
+        "_path": "lib/pkgconfig/osi-clp.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/coin-or-clp_1657214249708/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "c010e2dafe6862f67909d68dbf475210ccd1740cb858d0b785c69ef5020a7313",
+        "sha256_in_prefix": "1f7795e5ba79d9682abc597d0a6eb137ef0ec5857d4bd00a0bb3d07b5b4d442b",
+        "size_in_bytes": 803
+      },
+      {
+        "_path": "share/coin/doc/Clp/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "85a1e1f7d019749b3b28def3403d8bb3d182b280d85a63755f1fc712aaf705f0",
+        "sha256_in_prefix": "85a1e1f7d019749b3b28def3403d8bb3d182b280d85a63755f1fc712aaf705f0",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "share/coin/doc/Clp/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0076749b626931ea5aaee25ddd5019fbfd96da78243cc0d5bd24fe246500981f",
+        "sha256_in_prefix": "0076749b626931ea5aaee25ddd5019fbfd96da78243cc0d5bd24fe246500981f",
+        "size_in_bytes": 11415
+      },
+      {
+        "_path": "share/coin/doc/Clp/clp_addlibs.txt",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/coin-or-clp_1657214249708/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "258583e24faecaaa4a5f0434ad07190c032ee60138688cf33ba4ebf7fd4ea223",
+        "sha256_in_prefix": "e167ba2c21c5dd208acb9e11299ae934ae773965437637bfc90427de95a58feb",
+        "size_in_bytes": 280
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ec34ccceac46c5da9e06be5d51d469b0594cd5d3802eefbe72e70319d735e2bd",
+  "size": 1307926,
+  "subdir": "linux-64",
+  "timestamp": 1657214469332,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/coin-or-clp-1.17.7-hc56784d_1.tar.bz2",
+  "version": "1.17.7"
+}

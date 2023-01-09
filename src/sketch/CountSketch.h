@@ -61,6 +61,9 @@ public:
    *
    */
   void clear();
+  int32_t getDepth() const;
+  int32_t getWidth() const;
+  T getCnt(int32_t i, int32_t j);
 };
 
 } // namespace OmniSketch::Sketch
@@ -72,6 +75,21 @@ public:
 //-----------------------------------------------------------------------------
 
 namespace OmniSketch::Sketch {
+
+template <int32_t key_len, typename T, typename hash_t>
+int32_t CountSketch<key_len, T, hash_t>::getDepth() const{
+  return depth;
+}
+
+template <int32_t key_len, typename T, typename hash_t>
+int32_t CountSketch<key_len, T, hash_t>::getWidth() const{
+  return width;
+}
+
+template <int32_t key_len, typename T, typename hash_t>
+T CountSketch<key_len, T, hash_t>::getCnt(int32_t i, int32_t j){
+  return counter[i][j];
+}
 
 template <int32_t key_len, typename T, typename hash_t>
 CountSketch<key_len, T, hash_t>::CountSketch(int32_t depth_, int32_t width_)

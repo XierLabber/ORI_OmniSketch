@@ -95,6 +95,10 @@ void FlowRadarTest<key_len, T, hash_t>::runTest() {
   fmt::print("DataSet: {:d} records with {:d} keys ({})\n", data.size(),
              gnd_truth.size(), data_file);
 
+  Data::GndTruth<key_len, T> heavy_part;
+  heavy_part.getHeavyHitter(gnd_truth, gnd_truth.size() * 0.3, Data::TopK);
+  printf("SIZE: %ld\n", heavy_part.size());
+
   std::unique_ptr<Sketch::SketchBase<key_len, T>> ptr(
       new Sketch::FlowRadar<key_len, T, hash_t>(
           flow_filter_bit, flow_filter_hash, count_table_num,
@@ -102,7 +106,7 @@ void FlowRadarTest<key_len, T, hash_t>::runTest() {
 
   this->testSize(ptr);
   this->testUpdate(ptr, data.begin(), data.end(), Data::InPacket);
-  this->testDecode(ptr, gnd_truth);
+  this->testDecode(ptr, heavy_part);
   // show
   this->show();
 

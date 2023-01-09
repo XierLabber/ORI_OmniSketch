@@ -1,0 +1,585 @@
+{
+  "build": "h202d8b1_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "coincbc * *_metapackage"
+  ],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "libblas >=3.9.0,<4.0a0",
+    "libcblas >=3.9.0,<4.0a0",
+    "libgcc-ng >=12",
+    "libgfortran-ng",
+    "libgfortran5 >=10.3.0",
+    "liblapack >=3.9.0,<4.0a0",
+    "liblapacke >=3.9.0,<4.0a0",
+    "libstdcxx-ng >=12",
+    "libzlib >=1.2.12,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/yang/anaconda3/pkgs/coin-or-utils-2.11.6-h202d8b1_1",
+  "features": "",
+  "files": [
+    "include/coin/CoinAlloc.hpp",
+    "include/coin/CoinBuild.hpp",
+    "include/coin/CoinDenseFactorization.hpp",
+    "include/coin/CoinDenseVector.hpp",
+    "include/coin/CoinDistance.hpp",
+    "include/coin/CoinError.hpp",
+    "include/coin/CoinFactorization.hpp",
+    "include/coin/CoinFileIO.hpp",
+    "include/coin/CoinFinite.hpp",
+    "include/coin/CoinFloatEqual.hpp",
+    "include/coin/CoinHelperFunctions.hpp",
+    "include/coin/CoinIndexedVector.hpp",
+    "include/coin/CoinLpIO.hpp",
+    "include/coin/CoinMessage.hpp",
+    "include/coin/CoinMessageHandler.hpp",
+    "include/coin/CoinModel.hpp",
+    "include/coin/CoinModelUseful.hpp",
+    "include/coin/CoinMpsIO.hpp",
+    "include/coin/CoinOslFactorization.hpp",
+    "include/coin/CoinPackedMatrix.hpp",
+    "include/coin/CoinPackedVector.hpp",
+    "include/coin/CoinPackedVectorBase.hpp",
+    "include/coin/CoinParam.hpp",
+    "include/coin/CoinPragma.hpp",
+    "include/coin/CoinPresolveDoubleton.hpp",
+    "include/coin/CoinPresolveDual.hpp",
+    "include/coin/CoinPresolveDupcol.hpp",
+    "include/coin/CoinPresolveEmpty.hpp",
+    "include/coin/CoinPresolveFixed.hpp",
+    "include/coin/CoinPresolveForcing.hpp",
+    "include/coin/CoinPresolveImpliedFree.hpp",
+    "include/coin/CoinPresolveIsolated.hpp",
+    "include/coin/CoinPresolveMatrix.hpp",
+    "include/coin/CoinPresolveMonitor.hpp",
+    "include/coin/CoinPresolvePsdebug.hpp",
+    "include/coin/CoinPresolveSingleton.hpp",
+    "include/coin/CoinPresolveSubst.hpp",
+    "include/coin/CoinPresolveTighten.hpp",
+    "include/coin/CoinPresolveTripleton.hpp",
+    "include/coin/CoinPresolveUseless.hpp",
+    "include/coin/CoinPresolveZeros.hpp",
+    "include/coin/CoinRational.hpp",
+    "include/coin/CoinSearchTree.hpp",
+    "include/coin/CoinShallowPackedVector.hpp",
+    "include/coin/CoinSignal.hpp",
+    "include/coin/CoinSimpFactorization.hpp",
+    "include/coin/CoinSmartPtr.hpp",
+    "include/coin/CoinSnapshot.hpp",
+    "include/coin/CoinSort.hpp",
+    "include/coin/CoinStructuredModel.hpp",
+    "include/coin/CoinTime.hpp",
+    "include/coin/CoinTypes.hpp",
+    "include/coin/CoinUtility.hpp",
+    "include/coin/CoinUtilsConfig.h",
+    "include/coin/CoinWarmStart.hpp",
+    "include/coin/CoinWarmStartBasis.hpp",
+    "include/coin/CoinWarmStartDual.hpp",
+    "include/coin/CoinWarmStartPrimalDual.hpp",
+    "include/coin/CoinWarmStartVector.hpp",
+    "include/coin/Coin_C_defines.h",
+    "lib/libCoinUtils.so",
+    "lib/libCoinUtils.so.3",
+    "lib/libCoinUtils.so.3.11.6",
+    "lib/pkgconfig/coinutils.pc",
+    "share/coin/doc/CoinUtils/AUTHORS",
+    "share/coin/doc/CoinUtils/LICENSE",
+    "share/coin/doc/CoinUtils/coinutils_addlibs.txt"
+  ],
+  "fn": "coin-or-utils-2.11.6-h202d8b1_1.tar.bz2",
+  "license": "EPL-2.0",
+  "license_family": "OTHER",
+  "link": {
+    "source": "/home/yang/anaconda3/pkgs/coin-or-utils-2.11.6-h202d8b1_1",
+    "type": 1
+  },
+  "md5": "17c3dbf384b5d56de68aa9051eb37cfc",
+  "name": "coin-or-utils",
+  "package_tarball_full_path": "/home/yang/anaconda3/pkgs/coin-or-utils-2.11.6-h202d8b1_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/coin/CoinAlloc.hpp",
+        "path_type": "hardlink",
+        "sha256": "8ed53aeeb6d24542886b40ae9cfacf22d1af02a236bc9d80e8de61e52105c4f1",
+        "sha256_in_prefix": "8ed53aeeb6d24542886b40ae9cfacf22d1af02a236bc9d80e8de61e52105c4f1",
+        "size_in_bytes": 5143
+      },
+      {
+        "_path": "include/coin/CoinBuild.hpp",
+        "path_type": "hardlink",
+        "sha256": "2232c3bfbf641edb7d8785ba2f3aa12c431950bd0eb79c17cb4392e10ef2c9ad",
+        "sha256_in_prefix": "2232c3bfbf641edb7d8785ba2f3aa12c431950bd0eb79c17cb4392e10ef2c9ad",
+        "size_in_bytes": 4908
+      },
+      {
+        "_path": "include/coin/CoinDenseFactorization.hpp",
+        "path_type": "hardlink",
+        "sha256": "16b6fe354c9a49eba6f4f43ae81a7573da89376d993f48c6ede921e665dababc",
+        "sha256_in_prefix": "16b6fe354c9a49eba6f4f43ae81a7573da89376d993f48c6ede921e665dababc",
+        "size_in_bytes": 13425
+      },
+      {
+        "_path": "include/coin/CoinDenseVector.hpp",
+        "path_type": "hardlink",
+        "sha256": "febb8cf9fd2324a73771ff3682e98df1f384afe61908c89a60c44548d4e69eaa",
+        "sha256_in_prefix": "febb8cf9fd2324a73771ff3682e98df1f384afe61908c89a60c44548d4e69eaa",
+        "size_in_bytes": 11870
+      },
+      {
+        "_path": "include/coin/CoinDistance.hpp",
+        "path_type": "hardlink",
+        "sha256": "019376a51f1e68f61af55a5c2ebf3d0f4d5e790a09d1142904e1ce57ac3b0dfa",
+        "sha256_in_prefix": "019376a51f1e68f61af55a5c2ebf3d0f4d5e790a09d1142904e1ce57ac3b0dfa",
+        "size_in_bytes": 1201
+      },
+      {
+        "_path": "include/coin/CoinError.hpp",
+        "path_type": "hardlink",
+        "sha256": "310c355ea9ca0f3ef444e42284b97b9b7d268d8d4a6a34a291966121902d0faa",
+        "sha256_in_prefix": "310c355ea9ca0f3ef444e42284b97b9b7d268d8d4a6a34a291966121902d0faa",
+        "size_in_bytes": 7966
+      },
+      {
+        "_path": "include/coin/CoinFactorization.hpp",
+        "path_type": "hardlink",
+        "sha256": "6b429347a384402e83ad8a65f4b55aebc3b0f9ca2d2b3b050578d969fc9084f0",
+        "sha256_in_prefix": "6b429347a384402e83ad8a65f4b55aebc3b0f9ca2d2b3b050578d969fc9084f0",
+        "size_in_bytes": 65876
+      },
+      {
+        "_path": "include/coin/CoinFileIO.hpp",
+        "path_type": "hardlink",
+        "sha256": "54c8c62e062b5c35e22fefbce243f1224a9a0eff58c0e0b0631d463d5ebacf02",
+        "sha256_in_prefix": "54c8c62e062b5c35e22fefbce243f1224a9a0eff58c0e0b0631d463d5ebacf02",
+        "size_in_bytes": 6478
+      },
+      {
+        "_path": "include/coin/CoinFinite.hpp",
+        "path_type": "hardlink",
+        "sha256": "1966fbcedb31dfa546cff97340c3166a5bc3267caedd703ed391376bc411af89",
+        "sha256_in_prefix": "1966fbcedb31dfa546cff97340c3166a5bc3267caedd703ed391376bc411af89",
+        "size_in_bytes": 1279
+      },
+      {
+        "_path": "include/coin/CoinFloatEqual.hpp",
+        "path_type": "hardlink",
+        "sha256": "de969e71338082e4542e43656418ce33d68c2cd00d3ebf4c761d18694b4d3de7",
+        "sha256_in_prefix": "de969e71338082e4542e43656418ce33d68c2cd00d3ebf4c761d18694b4d3de7",
+        "size_in_bytes": 3823
+      },
+      {
+        "_path": "include/coin/CoinHelperFunctions.hpp",
+        "path_type": "hardlink",
+        "sha256": "20dce7aabe9b1ab5f94e2da8c1a5fdfc427c8c0cabcd912fd1f88858798d16ff",
+        "sha256_in_prefix": "20dce7aabe9b1ab5f94e2da8c1a5fdfc427c8c0cabcd912fd1f88858798d16ff",
+        "size_in_bytes": 31482
+      },
+      {
+        "_path": "include/coin/CoinIndexedVector.hpp",
+        "path_type": "hardlink",
+        "sha256": "fa9ed9fa7609dbb0d466ff72a8552ab2396d8d7e17540927018a9a6f85a93be7",
+        "sha256_in_prefix": "fa9ed9fa7609dbb0d466ff72a8552ab2396d8d7e17540927018a9a6f85a93be7",
+        "size_in_bytes": 41196
+      },
+      {
+        "_path": "include/coin/CoinLpIO.hpp",
+        "path_type": "hardlink",
+        "sha256": "a364e30f486ae0b6650f05a1c5d4995a398681743f1b57b1ff882d6bb8c50762",
+        "sha256_in_prefix": "a364e30f486ae0b6650f05a1c5d4995a398681743f1b57b1ff882d6bb8c50762",
+        "size_in_bytes": 29396
+      },
+      {
+        "_path": "include/coin/CoinMessage.hpp",
+        "path_type": "hardlink",
+        "sha256": "9f767a69e96333cf273923418ad7627d845b355c78e71cf488b6aea7f50da934",
+        "sha256_in_prefix": "9f767a69e96333cf273923418ad7627d845b355c78e71cf488b6aea7f50da934",
+        "size_in_bytes": 2272
+      },
+      {
+        "_path": "include/coin/CoinMessageHandler.hpp",
+        "path_type": "hardlink",
+        "sha256": "431e899fb5cf214101ab6971ec27ec658ab61610297abd0ab0d5e6646e7f9880",
+        "sha256_in_prefix": "431e899fb5cf214101ab6971ec27ec658ab61610297abd0ab0d5e6646e7f9880",
+        "size_in_bytes": 22658
+      },
+      {
+        "_path": "include/coin/CoinModel.hpp",
+        "path_type": "hardlink",
+        "sha256": "c3848d097676cd16578b8c6b0693c163e2da06f7fb2569131895d6b536766bed",
+        "sha256_in_prefix": "c3848d097676cd16578b8c6b0693c163e2da06f7fb2569131895d6b536766bed",
+        "size_in_bytes": 42183
+      },
+      {
+        "_path": "include/coin/CoinModelUseful.hpp",
+        "path_type": "hardlink",
+        "sha256": "36a553e0308cafbf53c44b41618adbb884631678fb247f3506bc5464b1893e04",
+        "sha256_in_prefix": "36a553e0308cafbf53c44b41618adbb884631678fb247f3506bc5464b1893e04",
+        "size_in_bytes": 11714
+      },
+      {
+        "_path": "include/coin/CoinMpsIO.hpp",
+        "path_type": "hardlink",
+        "sha256": "78d9eb5fad7cd549dffbb5e85c7f651d93dc463dadfc776dd87ec297b1292bef",
+        "sha256_in_prefix": "78d9eb5fad7cd549dffbb5e85c7f651d93dc463dadfc776dd87ec297b1292bef",
+        "size_in_bytes": 31928
+      },
+      {
+        "_path": "include/coin/CoinOslFactorization.hpp",
+        "path_type": "hardlink",
+        "sha256": "26a23c09f5dff47674776987ab4f26afce0d0236db3b14e9d24f46a156f7b3bc",
+        "sha256_in_prefix": "26a23c09f5dff47674776987ab4f26afce0d0236db3b14e9d24f46a156f7b3bc",
+        "size_in_bytes": 8299
+      },
+      {
+        "_path": "include/coin/CoinPackedMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "c99c27211b0fe911b2555fbf3803111b60e4b30c79a764d2c934217456ad0d3f",
+        "sha256_in_prefix": "c99c27211b0fe911b2555fbf3803111b60e4b30c79a764d2c934217456ad0d3f",
+        "size_in_bytes": 38592
+      },
+      {
+        "_path": "include/coin/CoinPackedVector.hpp",
+        "path_type": "hardlink",
+        "sha256": "11b5349cbefed97f1bac55acd68a762f0796296e8d26c87188dfb18ad1ff5ecd",
+        "sha256_in_prefix": "11b5349cbefed97f1bac55acd68a762f0796296e8d26c87188dfb18ad1ff5ecd",
+        "size_in_bytes": 20900
+      },
+      {
+        "_path": "include/coin/CoinPackedVectorBase.hpp",
+        "path_type": "hardlink",
+        "sha256": "0c932936127b5571a2896f301f57e7fed0873c25d123a8341318ae20a2d78f9b",
+        "sha256_in_prefix": "0c932936127b5571a2896f301f57e7fed0873c25d123a8341318ae20a2d78f9b",
+        "size_in_bytes": 9386
+      },
+      {
+        "_path": "include/coin/CoinParam.hpp",
+        "path_type": "hardlink",
+        "sha256": "37a34f1d2a9601d029c95520373b1861aef47b81b720bea4f84d62e75c1d2881",
+        "sha256_in_prefix": "37a34f1d2a9601d029c95520373b1861aef47b81b720bea4f84d62e75c1d2881",
+        "size_in_bytes": 21883
+      },
+      {
+        "_path": "include/coin/CoinPragma.hpp",
+        "path_type": "hardlink",
+        "sha256": "12cf97b5b1020339a2b8e0f0c59088282911907d52a141dca73a86c248404503",
+        "sha256_in_prefix": "12cf97b5b1020339a2b8e0f0c59088282911907d52a141dca73a86c248404503",
+        "size_in_bytes": 864
+      },
+      {
+        "_path": "include/coin/CoinPresolveDoubleton.hpp",
+        "path_type": "hardlink",
+        "sha256": "aa1c601007b03238e1ac27b6ba2b84b4014c1eeb2695c5f48790d4c52c1dc4bd",
+        "sha256_in_prefix": "aa1c601007b03238e1ac27b6ba2b84b4014c1eeb2695c5f48790d4c52c1dc4bd",
+        "size_in_bytes": 1600
+      },
+      {
+        "_path": "include/coin/CoinPresolveDual.hpp",
+        "path_type": "hardlink",
+        "sha256": "1e20e744d4e11ec5de028b7e64fdd12d69f22730132b1a25f401d40c5ff332e5",
+        "sha256_in_prefix": "1e20e744d4e11ec5de028b7e64fdd12d69f22730132b1a25f401d40c5ff332e5",
+        "size_in_bytes": 2815
+      },
+      {
+        "_path": "include/coin/CoinPresolveDupcol.hpp",
+        "path_type": "hardlink",
+        "sha256": "3e7533ba7a4533a0d78d50af9995fb685558743db5cbe16a71c7744f838c438a",
+        "sha256_in_prefix": "3e7533ba7a4533a0d78d50af9995fb685558743db5cbe16a71c7744f838c438a",
+        "size_in_bytes": 6229
+      },
+      {
+        "_path": "include/coin/CoinPresolveEmpty.hpp",
+        "path_type": "hardlink",
+        "sha256": "16c71005ac335d1a179e57901ffcdcc63f141e7d1ed48b51346d2ad99b67ce5c",
+        "sha256_in_prefix": "16c71005ac335d1a179e57901ffcdcc63f141e7d1ed48b51346d2ad99b67ce5c",
+        "size_in_bytes": 3382
+      },
+      {
+        "_path": "include/coin/CoinPresolveFixed.hpp",
+        "path_type": "hardlink",
+        "sha256": "9137e836340c17e6d486edab1acf65129f21f3620ec9dfa3ee0bda70f9cdbaec",
+        "sha256_in_prefix": "9137e836340c17e6d486edab1acf65129f21f3620ec9dfa3ee0bda70f9cdbaec",
+        "size_in_bytes": 5957
+      },
+      {
+        "_path": "include/coin/CoinPresolveForcing.hpp",
+        "path_type": "hardlink",
+        "sha256": "6ac418356c477b16b8b4998bb181fd7726290dd3228366907c0abe9aaa3fc703",
+        "sha256_in_prefix": "6ac418356c477b16b8b4998bb181fd7726290dd3228366907c0abe9aaa3fc703",
+        "size_in_bytes": 1736
+      },
+      {
+        "_path": "include/coin/CoinPresolveImpliedFree.hpp",
+        "path_type": "hardlink",
+        "sha256": "ea9ad4a15c3810e36bf108ccd78d16a834d4eb8a3e4ab47271f66a6676a25e43",
+        "sha256_in_prefix": "ea9ad4a15c3810e36bf108ccd78d16a834d4eb8a3e4ab47271f66a6676a25e43",
+        "size_in_bytes": 1806
+      },
+      {
+        "_path": "include/coin/CoinPresolveIsolated.hpp",
+        "path_type": "hardlink",
+        "sha256": "659653c7187dedc23aad8537730af090113942a7f058c2e964da5d96abf97aff",
+        "sha256_in_prefix": "659653c7187dedc23aad8537730af090113942a7f058c2e964da5d96abf97aff",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "include/coin/CoinPresolveMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "d5c75217f8fd821944ea94129c05ed40b580d3bd9fa418e4ba58bdae24df3b5d",
+        "sha256_in_prefix": "d5c75217f8fd821944ea94129c05ed40b580d3bd9fa418e4ba58bdae24df3b5d",
+        "size_in_bytes": 62437
+      },
+      {
+        "_path": "include/coin/CoinPresolveMonitor.hpp",
+        "path_type": "hardlink",
+        "sha256": "2eee44cf4c1d799495af5c4f173e3e0e399307dc73512ed62077e806f935bd8f",
+        "sha256_in_prefix": "2eee44cf4c1d799495af5c4f173e3e0e399307dc73512ed62077e806f935bd8f",
+        "size_in_bytes": 3511
+      },
+      {
+        "_path": "include/coin/CoinPresolvePsdebug.hpp",
+        "path_type": "hardlink",
+        "sha256": "551e6d86efe8419a6ea92cd19953e335555cb78ef1d53dafafe1e73bade9a782",
+        "sha256_in_prefix": "551e6d86efe8419a6ea92cd19953e335555cb78ef1d53dafafe1e73bade9a782",
+        "size_in_bytes": 6652
+      },
+      {
+        "_path": "include/coin/CoinPresolveSingleton.hpp",
+        "path_type": "hardlink",
+        "sha256": "ffd38127cb5a9094592859a88aa133eca58fbd3817aedb0458c4b81d21d28be3",
+        "sha256_in_prefix": "ffd38127cb5a9094592859a88aa133eca58fbd3817aedb0458c4b81d21d28be3",
+        "size_in_bytes": 2807
+      },
+      {
+        "_path": "include/coin/CoinPresolveSubst.hpp",
+        "path_type": "hardlink",
+        "sha256": "6a43a7f1b0a20b5f2893b5bb9cbaa88e2f526146d064ca4b46ddff8b54e0e10f",
+        "sha256_in_prefix": "6a43a7f1b0a20b5f2893b5bb9cbaa88e2f526146d064ca4b46ddff8b54e0e10f",
+        "size_in_bytes": 3040
+      },
+      {
+        "_path": "include/coin/CoinPresolveTighten.hpp",
+        "path_type": "hardlink",
+        "sha256": "cb1ec1fc852cb86678a758ea2c0c3a6641ff9f3f58495214cd100cbb0a461103",
+        "sha256_in_prefix": "cb1ec1fc852cb86678a758ea2c0c3a6641ff9f3f58495214cd100cbb0a461103",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "include/coin/CoinPresolveTripleton.hpp",
+        "path_type": "hardlink",
+        "sha256": "3b59f5713d431c63f2910eaea3045dcbd2432f04711480a4fbcd41e730639758",
+        "sha256_in_prefix": "3b59f5713d431c63f2910eaea3045dcbd2432f04711480a4fbcd41e730639758",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "include/coin/CoinPresolveUseless.hpp",
+        "path_type": "hardlink",
+        "sha256": "c326c2ca72a6cb2d0638d0549b99da2e936a4c002f347dbbe6d5c0b97ea6695d",
+        "sha256_in_prefix": "c326c2ca72a6cb2d0638d0549b99da2e936a4c002f347dbbe6d5c0b97ea6695d",
+        "size_in_bytes": 1819
+      },
+      {
+        "_path": "include/coin/CoinPresolveZeros.hpp",
+        "path_type": "hardlink",
+        "sha256": "c6567987cb73c5429989929db3be20ab1a1eb12041da0d46fa043fa0316f6aa3",
+        "sha256_in_prefix": "c6567987cb73c5429989929db3be20ab1a1eb12041da0d46fa043fa0316f6aa3",
+        "size_in_bytes": 1604
+      },
+      {
+        "_path": "include/coin/CoinRational.hpp",
+        "path_type": "hardlink",
+        "sha256": "a8908680b824585d8303da75f77e5497ed5748973a021b52dcdbae873044a1e7",
+        "sha256_in_prefix": "a8908680b824585d8303da75f77e5497ed5748973a021b52dcdbae873044a1e7",
+        "size_in_bytes": 872
+      },
+      {
+        "_path": "include/coin/CoinSearchTree.hpp",
+        "path_type": "hardlink",
+        "sha256": "aab2918ac02b6f9a4ff00ddddcfa8f8a6f6b0eb717597bb468960a103c6af0e9",
+        "sha256_in_prefix": "aab2918ac02b6f9a4ff00ddddcfa8f8a6f6b0eb717597bb468960a103c6af0e9",
+        "size_in_bytes": 14342
+      },
+      {
+        "_path": "include/coin/CoinShallowPackedVector.hpp",
+        "path_type": "hardlink",
+        "sha256": "95ea700a6295634cf8319713fc4a36d6dba597c900f19c192db2a13caf1f639e",
+        "sha256_in_prefix": "95ea700a6295634cf8319713fc4a36d6dba597c900f19c192db2a13caf1f639e",
+        "size_in_bytes": 4869
+      },
+      {
+        "_path": "include/coin/CoinSignal.hpp",
+        "path_type": "hardlink",
+        "sha256": "ed70d36d139a1e1f44bd4a70f27c2b5d21e3244cacab8293a8ad9f332532dbc8",
+        "sha256_in_prefix": "ed70d36d139a1e1f44bd4a70f27c2b5d21e3244cacab8293a8ad9f332532dbc8",
+        "size_in_bytes": 3414
+      },
+      {
+        "_path": "include/coin/CoinSimpFactorization.hpp",
+        "path_type": "hardlink",
+        "sha256": "9a5d9754fe860a35fec57e68801a2c793c66e48a3694f428c04b48b924d4ba47",
+        "sha256_in_prefix": "9a5d9754fe860a35fec57e68801a2c793c66e48a3694f428c04b48b924d4ba47",
+        "size_in_bytes": 13042
+      },
+      {
+        "_path": "include/coin/CoinSmartPtr.hpp",
+        "path_type": "hardlink",
+        "sha256": "980ead5b6ba16f605debcae687f21f228284006e4102d22bbf64c6bef0ab99a5",
+        "sha256_in_prefix": "980ead5b6ba16f605debcae687f21f228284006e4102d22bbf64c6bef0ab99a5",
+        "size_in_bytes": 20900
+      },
+      {
+        "_path": "include/coin/CoinSnapshot.hpp",
+        "path_type": "hardlink",
+        "sha256": "051146fa911f6964049385b8df1ce0e16ae00b18446b7f7f5e9daa1a22493fdc",
+        "sha256_in_prefix": "051146fa911f6964049385b8df1ce0e16ae00b18446b7f7f5e9daa1a22493fdc",
+        "size_in_bytes": 15542
+      },
+      {
+        "_path": "include/coin/CoinSort.hpp",
+        "path_type": "hardlink",
+        "sha256": "0778c6edc22ce6500233d62961fa25f9ce167013ade1c65f79844939ddfad6ae",
+        "sha256_in_prefix": "0778c6edc22ce6500233d62961fa25f9ce167013ade1c65f79844939ddfad6ae",
+        "size_in_bytes": 20437
+      },
+      {
+        "_path": "include/coin/CoinStructuredModel.hpp",
+        "path_type": "hardlink",
+        "sha256": "a146754221995aa06b1545e276689913dff13532708e24d9b7a8fe0ed71c35e7",
+        "sha256_in_prefix": "a146754221995aa06b1545e276689913dff13532708e24d9b7a8fe0ed71c35e7",
+        "size_in_bytes": 8573
+      },
+      {
+        "_path": "include/coin/CoinTime.hpp",
+        "path_type": "hardlink",
+        "sha256": "a1e8b7ea5d7e59a520386bc1722646a600f6f7b3c9eda0428fbcd26823d6f9e9",
+        "sha256_in_prefix": "a1e8b7ea5d7e59a520386bc1722646a600f6f7b3c9eda0428fbcd26823d6f9e9",
+        "size_in_bytes": 9145
+      },
+      {
+        "_path": "include/coin/CoinTypes.hpp",
+        "path_type": "hardlink",
+        "sha256": "22dd9b0b1f220138af8edf98fbfc5b9df0fb2588d118f62294ff5e202776355b",
+        "sha256_in_prefix": "22dd9b0b1f220138af8edf98fbfc5b9df0fb2588d118f62294ff5e202776355b",
+        "size_in_bytes": 1647
+      },
+      {
+        "_path": "include/coin/CoinUtility.hpp",
+        "path_type": "hardlink",
+        "sha256": "7f62546c18a19ab81f0c2de3f3a6983e81bea59468d156daaa528fab186b72d5",
+        "sha256_in_prefix": "7f62546c18a19ab81f0c2de3f3a6983e81bea59468d156daaa528fab186b72d5",
+        "size_in_bytes": 626
+      },
+      {
+        "_path": "include/coin/CoinUtilsConfig.h",
+        "path_type": "hardlink",
+        "sha256": "774f6db9e5826c5e88b2856cf15ecd7a61ffded28539c4e4efb8565d3b7e4df9",
+        "sha256_in_prefix": "774f6db9e5826c5e88b2856cf15ecd7a61ffded28539c4e4efb8565d3b7e4df9",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "include/coin/CoinWarmStart.hpp",
+        "path_type": "hardlink",
+        "sha256": "2a2e3d6034bd8650ae29fe9bfc2281c0a266825cb9ed330c104d00d7e5c7d29a",
+        "sha256_in_prefix": "2a2e3d6034bd8650ae29fe9bfc2281c0a266825cb9ed330c104d00d7e5c7d29a",
+        "size_in_bytes": 1579
+      },
+      {
+        "_path": "include/coin/CoinWarmStartBasis.hpp",
+        "path_type": "hardlink",
+        "sha256": "c0f4597784e9b7a426a6f344531c9f25d5c63f6192095eb8988b93c8841d3c92",
+        "sha256_in_prefix": "c0f4597784e9b7a426a6f344531c9f25d5c63f6192095eb8988b93c8841d3c92",
+        "size_in_bytes": 15493
+      },
+      {
+        "_path": "include/coin/CoinWarmStartDual.hpp",
+        "path_type": "hardlink",
+        "sha256": "337c4f36055a781571285aeb40060cd5359d593d827d14d1044ac4c910678c3f",
+        "sha256_in_prefix": "337c4f36055a781571285aeb40060cd5359d593d827d14d1044ac4c910678c3f",
+        "size_in_bytes": 4950
+      },
+      {
+        "_path": "include/coin/CoinWarmStartPrimalDual.hpp",
+        "path_type": "hardlink",
+        "sha256": "aeed0fc3eb2111e7cd972ffbc711d7af86e101efe37f08df11a0ca82463a3ef1",
+        "sha256_in_prefix": "aeed0fc3eb2111e7cd972ffbc711d7af86e101efe37f08df11a0ca82463a3ef1",
+        "size_in_bytes": 6429
+      },
+      {
+        "_path": "include/coin/CoinWarmStartVector.hpp",
+        "path_type": "hardlink",
+        "sha256": "807e333b061510a70c225011e9879a1158cadcaf2eb1b1b88ac8968a339ad6d0",
+        "sha256_in_prefix": "807e333b061510a70c225011e9879a1158cadcaf2eb1b1b88ac8968a339ad6d0",
+        "size_in_bytes": 13326
+      },
+      {
+        "_path": "include/coin/Coin_C_defines.h",
+        "path_type": "hardlink",
+        "sha256": "ae26ce1ba7852953dcbf0771b7182373b68a621f6b621993c1ea3f5da8fc7c66",
+        "sha256_in_prefix": "ae26ce1ba7852953dcbf0771b7182373b68a621f6b621993c1ea3f5da8fc7c66",
+        "size_in_bytes": 3960
+      },
+      {
+        "_path": "lib/libCoinUtils.so",
+        "path_type": "softlink",
+        "sha256": "90a29948be95c8184e277a05df8e381a49e9c903a002d05757d6523569da2081",
+        "size_in_bytes": 1477488
+      },
+      {
+        "_path": "lib/libCoinUtils.so.3",
+        "path_type": "softlink",
+        "sha256": "90a29948be95c8184e277a05df8e381a49e9c903a002d05757d6523569da2081",
+        "size_in_bytes": 1477488
+      },
+      {
+        "_path": "lib/libCoinUtils.so.3.11.6",
+        "path_type": "hardlink",
+        "sha256": "90a29948be95c8184e277a05df8e381a49e9c903a002d05757d6523569da2081",
+        "sha256_in_prefix": "90a29948be95c8184e277a05df8e381a49e9c903a002d05757d6523569da2081",
+        "size_in_bytes": 1477488
+      },
+      {
+        "_path": "lib/pkgconfig/coinutils.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/coin-or-utils_1657124804119/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "b416e15676ee4291ac27c3561cf5afb521b4dc25cf968709aacfa3d0ab734331",
+        "sha256_in_prefix": "0fa01369c20c6b108114f3b4649b5b41505ab501f59a0dee94a0914984f3c99a",
+        "size_in_bytes": 1342
+      },
+      {
+        "_path": "share/coin/doc/CoinUtils/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "bfcaf734f1d3694401a7a752277a2f4f213a19df0da7a0b5322b1cb3c4e1cee6",
+        "sha256_in_prefix": "bfcaf734f1d3694401a7a752277a2f4f213a19df0da7a0b5322b1cb3c4e1cee6",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "share/coin/doc/CoinUtils/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0076749b626931ea5aaee25ddd5019fbfd96da78243cc0d5bd24fe246500981f",
+        "sha256_in_prefix": "0076749b626931ea5aaee25ddd5019fbfd96da78243cc0d5bd24fe246500981f",
+        "size_in_bytes": 11415
+      },
+      {
+        "_path": "share/coin/doc/CoinUtils/coinutils_addlibs.txt",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/coin-or-utils_1657124804119/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "a293cc0ce768ea3bdadad02fa93fbe1dbdc19938b0c5bcfbddd2439a44b07022",
+        "sha256_in_prefix": "55c6143b2d1369316b7574e2e5ce9b909dc75b2b016016546f85cfe6b4e07585",
+        "size_in_bytes": 274
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "07ad11e03f80824175ae5cfaaba14e4bc5850dc385f5863fcdf133d667abae61",
+  "size": 757522,
+  "subdir": "linux-64",
+  "timestamp": 1657124952183,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/coin-or-utils-2.11.6-h202d8b1_1.tar.bz2",
+  "version": "2.11.6"
+}

@@ -1,0 +1,26 @@
+==> 2022-07-17 20:00:59 <==
+# cmd: /home/yang/anaconda3/bin/conda create -n my_test_env -c conda-forge coincbc
+# conda version: 4.13.0
++conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
++conda-forge/linux-64::_openmp_mutex-4.5-2_gnu
++conda-forge/linux-64::bzip2-1.0.8-h7f98852_4
++conda-forge/linux-64::coin-or-cbc-2.10.8-h3786ebc_0
++conda-forge/linux-64::coin-or-cgl-0.60.6-h6f57e76_1
++conda-forge/linux-64::coin-or-clp-1.17.7-hc56784d_1
++conda-forge/linux-64::coin-or-osi-0.108.7-h2720bb7_1
++conda-forge/linux-64::coin-or-utils-2.11.6-h202d8b1_1
++conda-forge/linux-64::libblas-3.9.0-15_linux64_openblas
++conda-forge/linux-64::libcblas-3.9.0-15_linux64_openblas
++conda-forge/linux-64::libgcc-ng-12.1.0-h8d9b700_16
++conda-forge/linux-64::libgfortran-ng-12.1.0-h69a702a_16
++conda-forge/linux-64::libgfortran5-12.1.0-hdcd56e2_16
++conda-forge/linux-64::libgomp-12.1.0-h8d9b700_16
++conda-forge/linux-64::liblapack-3.9.0-15_linux64_openblas
++conda-forge/linux-64::liblapacke-3.9.0-15_linux64_openblas
++conda-forge/linux-64::libopenblas-0.3.20-pthreads_h78a6416_0
++conda-forge/linux-64::libstdcxx-ng-12.1.0-ha89aaad_16
++conda-forge/linux-64::libzlib-1.2.12-h166bdaf_2
++conda-forge/linux-64::ncurses-6.3-h27087fc_1
++conda-forge/linux-64::readline-8.1.2-h0f457ee_0
++conda-forge/noarch::coincbc-2.10.8-0_metapackage
+# update specs: ['coincbc']

@@ -12,9 +12,9 @@
 #include <common/test.h>
 #include <sketch/CUSketch.h>
 
-#define CU_PARA_PATH "CM.para"
-#define CU_TEST_PATH "CM.test"
-#define CU_DATA_PATH "CM.data"
+#define CU_PARA_PATH "CU.para"
+#define CU_TEST_PATH "CU.test"
+#define CU_DATA_PATH "CU.data"
 
 namespace OmniSketch::Test {
 

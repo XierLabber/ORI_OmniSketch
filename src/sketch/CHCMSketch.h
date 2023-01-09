@@ -133,6 +133,29 @@ void CHCMSketch<key_len, no_layer, T, hash_t>::update(
 template <int32_t key_len, int32_t no_layer, typename T, typename hash_t>
 T CHCMSketch<key_len, no_layer, T, hash_t>::query(
     const FlowKey<key_len> &flowkey) const {
+
+  static bool my_cnt_distrib = true;
+  if (my_cnt_distrib) {
+      std::vector<double> distrib(32);
+      for (int32_t i = 0; i < no_cnt[0]; ++i) {
+      T val = ch->getOriginalCnt(i);
+      for (int32_t k = 0; k < 32; ++k) {
+          if (std::abs(val) >= (1 << k))
+          distrib[k] += 1.0;
+          else
+          break;
+      }
+      }
+      for (int32_t k = 0; k < 32; ++k) {
+      std::cout << k << ": " << distrib[k] / no_cnt[0] << " \n";
+      if (distrib[k] == 0.0) {
+          std::cout << std::endl;
+          break;
+      }
+      }
+      my_cnt_distrib = false;
+  }
+  
   T min_val = std::numeric_limits<T>::max();
   for (int32_t i = 0; i < depth; ++i) {
     int32_t index = hash_fns[i](flowkey) % width;
@@ -143,6 +166,7 @@ T CHCMSketch<key_len, no_layer, T, hash_t>::query(
 
 template <int32_t key_len, int32_t no_layer, typename T, typename hash_t>
 size_t CHCMSketch<key_len, no_layer, T, hash_t>::size() const {
+  ch->print_rate("COUNT MIN CH");
   return sizeof(*this)            // instance
          + depth * sizeof(hash_t) // hashing class
          + ch->size();            // ch

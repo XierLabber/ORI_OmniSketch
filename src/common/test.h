@@ -294,7 +294,7 @@ public:
    * @param ptr_sketch  pointer to the sketch
    * @param gnd_truth   ground truth
    */
-  virtual void
+  virtual double
   testQuery(std::unique_ptr<Sketch::SketchBase<key_len, T>> &ptr_sketch,
             const Data::GndTruth<key_len, T> &gnd_truth) final;
   /**
@@ -318,7 +318,7 @@ public:
    * @param threshold   threshold value of heavy hitters
    * @param gnd_truth_heavy_hitters ground truth of heavy hitters
    */
-  virtual void
+  virtual double
   testHeavyHitter(std::unique_ptr<Sketch::SketchBase<key_len, T>> &ptr_sketch,
                   double threshold,
                   Data::GndTruth<key_len, T> gnd_truth_heavy_hitters) final;
@@ -345,7 +345,7 @@ public:
    * @param ptr_sketch  pointer to the sketch
    * @param gnd_truth   ground truth
    */
-  virtual void
+  virtual double
   testDecode(std::unique_ptr<Sketch::SketchBase<key_len, T>> &ptr_sketch,
              Data::GndTruth<key_len, T> gnd_truth) final;
 };
@@ -552,7 +552,7 @@ void TestBase<key_len, T>::testUpdate(
 }
 
 template <int32_t key_len, typename T>
-void TestBase<key_len, T>::testQuery(
+double TestBase<key_len, T>::testQuery(
     std::unique_ptr<Sketch::SketchBase<key_len, T>> &ptr_sketch,
     const Data::GndTruth<key_len, T> &gnd_truth) {
   // config
@@ -563,7 +563,16 @@ void TestBase<key_len, T>::testQuery(
   const bool measure_dist = metric_vec.in(Metric::DIST);
   std::vector<double> dist(metric_vec.quantiles.size()); // zero initialized
 
+  int32_t needed_turns = gnd_truth.size() * 1;
+  int32_t finished_turns = 0;
+
   for (const auto &kv : gnd_truth) {
+    /*
+    if(kv.get_right() < 1000)
+    {
+      break;
+    }
+    */
     START_TIMER;
     T estimated_size = ptr_sketch->query(kv.get_left());
     STOP_TIMER;
@@ -581,29 +590,43 @@ void TestBase<key_len, T>::testQuery(
                                   metric_vec.quantiles.end(), RE);
       dist[ptr - metric_vec.quantiles.begin()] += 1.0;
     }
+    finished_turns++;
+    if(finished_turns >= needed_turns)
+    {
+      break;
+    }
   }
+  // printf("CONSIDER %d FLOWS FOR ALL!\n",finished_turns);
   // add statistics
   if (metric_vec.in(Metric::RATE)) {
-    query[Metric::RATE] = 1.0 * gnd_truth.size() / TIMER_RESULT * 1e6;
+    // query[Metric::RATE] = 1.0 * gnd_truth.size() / TIMER_RESULT * 1e6;
+    query[Metric::RATE] = 1.0 * needed_turns / TIMER_RESULT * 1e6;
   }
   if (metric_vec.in(Metric::ARE)) {
-    query[Metric::ARE] = ARE / gnd_truth.size();
+    // query[Metric::ARE] = ARE / gnd_truth.size();
+    query[Metric::ARE] = ARE / needed_turns;
   }
   if (metric_vec.in(Metric::AAE)) {
-    query[Metric::AAE] = AAE / gnd_truth.size();
+    // query[Metric::AAE] = AAE / gnd_truth.size();
+    query[Metric::AAE] = AAE / needed_turns;
   }
   if (metric_vec.in(Metric::ACC)) {
-    query[Metric::ACC] = corr / gnd_truth.size();
+    // query[Metric::ACC] = corr / gnd_truth.size();
+    query[Metric::ACC] = corr / needed_turns;
   }
   if (metric_vec.in(PODF)) {
     query[Metric::PODF] =
-        std::make_pair(metric_vec.podf, podf_cnt / gnd_truth.size());
+        // std::make_pair(metric_vec.podf, podf_cnt / gnd_truth.size());
+        std::make_pair(metric_vec.podf, podf_cnt / needed_turns);
+        printf("PODF::TOTAL %d FLOWS\n", needed_turns);
   }
   if (measure_dist) {
     for (auto &v : dist)
-      v /= gnd_truth.size();
+      // v /= gnd_truth.size();
+      v /= needed_turns;
     query[Metric::DIST] = std::make_pair(metric_vec.quantiles, dist);
   }
+  return ARE / needed_turns;
 }
 
 template <int32_t key_len, typename T>
@@ -644,7 +667,7 @@ void TestBase<key_len, T>::testLookup(
 }
 
 template <int32_t key_len, typename T>
-void TestBase<key_len, T>::testHeavyHitter(
+double TestBase<key_len, T>::testHeavyHitter(
     std::unique_ptr<Sketch::SketchBase<key_len, T>> &ptr_sketch,
     double threshold, Data::GndTruth<key_len, T> gnd_truth_heavy_hitters) {
   // config
@@ -687,6 +710,11 @@ void TestBase<key_len, T>::testHeavyHitter(
   if (metric_vec.in(Metric::F1)) {
     heavy_hitter[Metric::F1] = 2 * precision * recall / (precision + recall);
   }
+
+  if(recall > 0.9)
+    return ARE / TP;
+  else
+    return 100.0;
 }
 
 template <int32_t key_len, typename T>
@@ -738,7 +766,7 @@ void TestBase<key_len, T>::testHeavyChanger(
 }
 
 template <int32_t key_len, typename T>
-void TestBase<key_len, T>::testDecode(
+double TestBase<key_len, T>::testDecode(
     std::unique_ptr<Sketch::SketchBase<key_len, T>> &ptr_sketch,
     Data::GndTruth<key_len, T> gnd_truth) {
   // config
@@ -780,6 +808,14 @@ void TestBase<key_len, T>::testDecode(
   if (metric_vec.in(Metric::RATIO)) {
     decode[Metric::RATIO] = decoded_flows / gnd_truth.size();
   }
+  printf("DECODE GND TRUTH SIZE: %ld\n", gnd_truth.size());
+
+  double ans = 1;
+  if((int32_t)decoded_flows == gnd_truth.size())
+  {
+    ans = ARE / decoded_flows;
+  }
+
   // Only collect the metric if there is decoded flows
   if (decoded_flows) {
     if (metric_vec.in(Metric::ARE)) {
@@ -801,6 +837,7 @@ void TestBase<key_len, T>::testDecode(
       query[Metric::DIST] = std::make_pair(metric_vec.quantiles, dist);
     }
   }
+  return ans;
 }
 
 #undef DEFINE_TIMERS

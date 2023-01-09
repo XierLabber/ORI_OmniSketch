@@ -11,6 +11,10 @@
 
 #include <common/hash.h>
 #include <sketch/BloomFilter.h>
+#include <ctime>
+
+#define TEST_DECODE_TIME
+// #define ONLY_COUNTER_SIZE
 
 namespace OmniSketch::Sketch {
 /**
@@ -138,6 +142,13 @@ void FlowRadar<key_len, T, hash_t>::update(const FlowKey<key_len> &flowkey,
 
 template <int32_t key_len, typename T, typename hash_t>
 Data::Estimation<key_len, T> FlowRadar<key_len, T, hash_t>::decode() {
+
+#ifdef TEST_DECODE_TIME
+  auto MY_TIMER = std::chrono::microseconds::zero();                              \
+  auto MY_TICK = std::chrono::steady_clock::now();                                \
+  auto MY_TOCK = std::chrono::steady_clock::now();
+#endif
+  
   // an optimized implementation
   class CompareFlowCount {
   public:
@@ -179,15 +190,28 @@ Data::Estimation<key_len, T> FlowRadar<key_len, T, hash_t>::decode() {
     }
     est[flowkey] = size;
   }
+
+#ifdef TEST_DECODE_TIME
+  MY_TOCK = std::chrono::steady_clock::now();
+  MY_TIMER = std::chrono::duration_cast<std::chrono::microseconds>(MY_TOCK - MY_TICK);
+  printf("\nDECODE COST %ldms\n", static_cast<int64_t>(MY_TIMER.count()));
+#endif
+
   return est;
 }
 
 template <int32_t key_len, typename T, typename hash_t>
 size_t FlowRadar<key_len, T, hash_t>::size() const {
+  #ifndef ONLY_COUNTER_SIZE
   return sizeof(*this)                                 // instance
          + num_count_hash * sizeof(hash_t)             // hashing class
          + num_count_table * (sizeof(T) * 2 + key_len) // count table
          + flow_filter->size();                        // flow filter
+  #else
+  return sizeof(*this)                                 // instance
+         + num_count_hash * sizeof(hash_t)             // hashing class
+         + num_count_table * (sizeof(T) * 2);          // count table
+  #endif
 }
 
 template <int32_t key_len, typename T, typename hash_t>

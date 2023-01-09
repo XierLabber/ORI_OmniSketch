@@ -1,0 +1,355 @@
+{
+  "build": "h6f57e76_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "coincbc * *_metapackage"
+  ],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "coin-or-clp >=1.17,<1.18.0a0",
+    "coin-or-osi >=0.108,<0.109.0a0",
+    "coin-or-utils >=2.11,<2.12.0a0",
+    "libblas >=3.9.0,<4.0a0",
+    "libcblas >=3.9.0,<4.0a0",
+    "libgcc-ng >=12",
+    "liblapack >=3.9.0,<4.0a0",
+    "libstdcxx-ng >=12",
+    "libzlib >=1.2.12,<1.3.0a0",
+    "ncurses >=6.2,<7.0a0",
+    "readline >=8.1,<9.0a0"
+  ],
+  "extracted_package_dir": "/home/yang/anaconda3/pkgs/coin-or-cgl-0.60.6-h6f57e76_1",
+  "features": "",
+  "files": [
+    "include/coin/Cgl012cut.hpp",
+    "include/coin/CglAllDifferent.hpp",
+    "include/coin/CglClique.hpp",
+    "include/coin/CglConfig.h",
+    "include/coin/CglCutGenerator.hpp",
+    "include/coin/CglDuplicateRow.hpp",
+    "include/coin/CglFlowCover.hpp",
+    "include/coin/CglGMI.hpp",
+    "include/coin/CglGMIParam.hpp",
+    "include/coin/CglGomory.hpp",
+    "include/coin/CglKnapsackCover.hpp",
+    "include/coin/CglLandP.hpp",
+    "include/coin/CglLandPValidator.hpp",
+    "include/coin/CglLiftAndProject.hpp",
+    "include/coin/CglMessage.hpp",
+    "include/coin/CglMixedIntegerRounding.hpp",
+    "include/coin/CglMixedIntegerRounding2.hpp",
+    "include/coin/CglOddHole.hpp",
+    "include/coin/CglParam.hpp",
+    "include/coin/CglPreProcess.hpp",
+    "include/coin/CglProbing.hpp",
+    "include/coin/CglRedSplit.hpp",
+    "include/coin/CglRedSplit2.hpp",
+    "include/coin/CglRedSplit2Param.hpp",
+    "include/coin/CglRedSplitParam.hpp",
+    "include/coin/CglResidualCapacity.hpp",
+    "include/coin/CglSimpleRounding.hpp",
+    "include/coin/CglStored.hpp",
+    "include/coin/CglTreeInfo.hpp",
+    "include/coin/CglTwomir.hpp",
+    "include/coin/CglZeroHalf.hpp",
+    "lib/libCgl.so",
+    "lib/libCgl.so.1",
+    "lib/libCgl.so.1.10.6",
+    "lib/pkgconfig/cgl.pc",
+    "share/coin/doc/Cgl/AUTHORS",
+    "share/coin/doc/Cgl/LICENSE",
+    "share/coin/doc/Cgl/cgl_addlibs.txt"
+  ],
+  "fn": "coin-or-cgl-0.60.6-h6f57e76_1.tar.bz2",
+  "license": "EPL-2.0",
+  "license_family": "OTHER",
+  "link": {
+    "source": "/home/yang/anaconda3/pkgs/coin-or-cgl-0.60.6-h6f57e76_1",
+    "type": 1
+  },
+  "md5": "ec7b69d08449a2e98f2228c060d519de",
+  "name": "coin-or-cgl",
+  "package_tarball_full_path": "/home/yang/anaconda3/pkgs/coin-or-cgl-0.60.6-h6f57e76_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/coin/Cgl012cut.hpp",
+        "path_type": "hardlink",
+        "sha256": "7503085347590130f6b947f1ccb27d30a2a79236a92497d0ed405f4aeaef5d17",
+        "sha256_in_prefix": "7503085347590130f6b947f1ccb27d30a2a79236a92497d0ed405f4aeaef5d17",
+        "size_in_bytes": 17090
+      },
+      {
+        "_path": "include/coin/CglAllDifferent.hpp",
+        "path_type": "hardlink",
+        "sha256": "684b2da5a725caff270487d1dd5db188c4f404e4cc08df86288c217aa2ac277c",
+        "sha256_in_prefix": "684b2da5a725caff270487d1dd5db188c4f404e4cc08df86288c217aa2ac277c",
+        "size_in_bytes": 2901
+      },
+      {
+        "_path": "include/coin/CglClique.hpp",
+        "path_type": "hardlink",
+        "sha256": "f89aac324ccddba52083f7dc8d5b293fa90b6feb713d4b478cc925d6569437b3",
+        "sha256_in_prefix": "f89aac324ccddba52083f7dc8d5b293fa90b6feb713d4b478cc925d6569437b3",
+        "size_in_bytes": 10695
+      },
+      {
+        "_path": "include/coin/CglConfig.h",
+        "path_type": "hardlink",
+        "sha256": "4c5827f755ad257ad4dc6f166181f4793a9c4023c35391d7abfb73b039c4c250",
+        "sha256_in_prefix": "4c5827f755ad257ad4dc6f166181f4793a9c4023c35391d7abfb73b039c4c250",
+        "size_in_bytes": 404
+      },
+      {
+        "_path": "include/coin/CglCutGenerator.hpp",
+        "path_type": "hardlink",
+        "sha256": "023c31962e00874b9d6607a4a697be87d65763e677df97d19712c78951fce0f0",
+        "sha256_in_prefix": "023c31962e00874b9d6607a4a697be87d65763e677df97d19712c78951fce0f0",
+        "size_in_bytes": 3475
+      },
+      {
+        "_path": "include/coin/CglDuplicateRow.hpp",
+        "path_type": "hardlink",
+        "sha256": "bbe11e51809edd7b98f9c8e814f018c17315adb9ef339a269b69e343ec6714fc",
+        "sha256_in_prefix": "bbe11e51809edd7b98f9c8e814f018c17315adb9ef339a269b69e343ec6714fc",
+        "size_in_bytes": 5624
+      },
+      {
+        "_path": "include/coin/CglFlowCover.hpp",
+        "path_type": "hardlink",
+        "sha256": "fdc14700dfe734bfbed400513847605663b047c76a2cd0989f5cd262a00f94a3",
+        "sha256_in_prefix": "fdc14700dfe734bfbed400513847605663b047c76a2cd0989f5cd262a00f94a3",
+        "size_in_bytes": 12331
+      },
+      {
+        "_path": "include/coin/CglGMI.hpp",
+        "path_type": "hardlink",
+        "sha256": "ea80553eaa1fc8a98ca8b82bfe2d33ad9e38dc6474c35a9fca46683048298d9a",
+        "sha256_in_prefix": "ea80553eaa1fc8a98ca8b82bfe2d33ad9e38dc6474c35a9fca46683048298d9a",
+        "size_in_bytes": 11642
+      },
+      {
+        "_path": "include/coin/CglGMIParam.hpp",
+        "path_type": "hardlink",
+        "sha256": "1da1e3a4eb87d20a906efc3641fc3f894c82bb1057e040a15f4c74e89babfb98",
+        "sha256_in_prefix": "1da1e3a4eb87d20a906efc3641fc3f894c82bb1057e040a15f4c74e89babfb98",
+        "size_in_bytes": 11815
+      },
+      {
+        "_path": "include/coin/CglGomory.hpp",
+        "path_type": "hardlink",
+        "sha256": "5a7b4e26b5d709845695794c03ec78b41edf01d3c564d6d27a07606189b9a33f",
+        "sha256_in_prefix": "5a7b4e26b5d709845695794c03ec78b41edf01d3c564d6d27a07606189b9a33f",
+        "size_in_bytes": 6464
+      },
+      {
+        "_path": "include/coin/CglKnapsackCover.hpp",
+        "path_type": "hardlink",
+        "sha256": "e29b8bab6a7c6f6b6f70702ecd07a96b3e1c408cdac761c6a9c604fa9cc6e501",
+        "sha256_in_prefix": "e29b8bab6a7c6f6b6f70702ecd07a96b3e1c408cdac761c6a9c604fa9cc6e501",
+        "size_in_bytes": 9179
+      },
+      {
+        "_path": "include/coin/CglLandP.hpp",
+        "path_type": "hardlink",
+        "sha256": "e5432b6ef4fe406c948d296a3a2d341ec2b2218bbb5acecbad1e1ca86fff378a",
+        "sha256_in_prefix": "e5432b6ef4fe406c948d296a3a2d341ec2b2218bbb5acecbad1e1ca86fff378a",
+        "size_in_bytes": 9648
+      },
+      {
+        "_path": "include/coin/CglLandPValidator.hpp",
+        "path_type": "hardlink",
+        "sha256": "0bc6e84257b3a6ef182bf809a23b51b6095ff80c52a228aa8ccf307ab0155934",
+        "sha256_in_prefix": "0bc6e84257b3a6ef182bf809a23b51b6095ff80c52a228aa8ccf307ab0155934",
+        "size_in_bytes": 3823
+      },
+      {
+        "_path": "include/coin/CglLiftAndProject.hpp",
+        "path_type": "hardlink",
+        "sha256": "9274522b995a244fcd6438dd0473a945f06c396aa129d6a1674352466c387f13",
+        "sha256_in_prefix": "9274522b995a244fcd6438dd0473a945f06c396aa129d6a1674352466c387f13",
+        "size_in_bytes": 2602
+      },
+      {
+        "_path": "include/coin/CglMessage.hpp",
+        "path_type": "hardlink",
+        "sha256": "cb3f3da8d8352a647563c8200705c1cfcb07004b6ecb361e5057808f5b997010",
+        "sha256_in_prefix": "cb3f3da8d8352a647563c8200705c1cfcb07004b6ecb361e5057808f5b997010",
+        "size_in_bytes": 1000
+      },
+      {
+        "_path": "include/coin/CglMixedIntegerRounding.hpp",
+        "path_type": "hardlink",
+        "sha256": "538d938376739953bf8d407e988a91cd4daac3600c35a31012dd75a25d452f96",
+        "sha256_in_prefix": "538d938376739953bf8d407e988a91cd4daac3600c35a31012dd75a25d452f96",
+        "size_in_bytes": 13428
+      },
+      {
+        "_path": "include/coin/CglMixedIntegerRounding2.hpp",
+        "path_type": "hardlink",
+        "sha256": "01374d584b11837f7695e2b6b1aa4d2ad684bc03c0fd596dc1eaf2740e8578f7",
+        "sha256_in_prefix": "01374d584b11837f7695e2b6b1aa4d2ad684bc03c0fd596dc1eaf2740e8578f7",
+        "size_in_bytes": 13519
+      },
+      {
+        "_path": "include/coin/CglOddHole.hpp",
+        "path_type": "hardlink",
+        "sha256": "536168c25ba620cf6ebeaa919cff64061957b73af6d35abb5e5ff473b614b9ac",
+        "sha256_in_prefix": "536168c25ba620cf6ebeaa919cff64061957b73af6d35abb5e5ff473b614b9ac",
+        "size_in_bytes": 4718
+      },
+      {
+        "_path": "include/coin/CglParam.hpp",
+        "path_type": "hardlink",
+        "sha256": "10e0236c91ca1765e004d3074523c015e66329fe4454bf9a78d4c191d1a467ac",
+        "sha256_in_prefix": "10e0236c91ca1765e004d3074523c015e66329fe4454bf9a78d4c191d1a467ac",
+        "size_in_bytes": 2432
+      },
+      {
+        "_path": "include/coin/CglPreProcess.hpp",
+        "path_type": "hardlink",
+        "sha256": "bad1f6754ce21b6a534c8f3622f08a094c2d2d780550430b8657f4c9929976c4",
+        "sha256_in_prefix": "bad1f6754ce21b6a534c8f3622f08a094c2d2d780550430b8657f4c9929976c4",
+        "size_in_bytes": 16303
+      },
+      {
+        "_path": "include/coin/CglProbing.hpp",
+        "path_type": "hardlink",
+        "sha256": "0be0a7508a5eb10ad66aa801af33925dcfa788d692cabc8fa5f88721e0733b56",
+        "sha256_in_prefix": "0be0a7508a5eb10ad66aa801af33925dcfa788d692cabc8fa5f88721e0733b56",
+        "size_in_bytes": 18961
+      },
+      {
+        "_path": "include/coin/CglRedSplit.hpp",
+        "path_type": "hardlink",
+        "sha256": "82766c19fa98cbad9d995ca4dbf4a03c68d5fa4b0b53758af5f78ba6bef35374",
+        "sha256_in_prefix": "82766c19fa98cbad9d995ca4dbf4a03c68d5fa4b0b53758af5f78ba6bef35374",
+        "size_in_bytes": 15232
+      },
+      {
+        "_path": "include/coin/CglRedSplit2.hpp",
+        "path_type": "hardlink",
+        "sha256": "7f83dd102fcd86cb0e3b3c31700fcf70f9f53473d14736458c0570e8e5614766",
+        "sha256_in_prefix": "7f83dd102fcd86cb0e3b3c31700fcf70f9f53473d14736458c0570e8e5614766",
+        "size_in_bytes": 18911
+      },
+      {
+        "_path": "include/coin/CglRedSplit2Param.hpp",
+        "path_type": "hardlink",
+        "sha256": "08a2864213619e8ce96326c8d4592aaae660b5265f188f19ba2030992fd07627",
+        "sha256_in_prefix": "08a2864213619e8ce96326c8d4592aaae660b5265f188f19ba2030992fd07627",
+        "size_in_bytes": 19507
+      },
+      {
+        "_path": "include/coin/CglRedSplitParam.hpp",
+        "path_type": "hardlink",
+        "sha256": "e5b82e18db43ea6dea8daa0a4f169e7f9a978e3b145185f38e5b992a6313a7ff",
+        "sha256_in_prefix": "e5b82e18db43ea6dea8daa0a4f169e7f9a978e3b145185f38e5b992a6313a7ff",
+        "size_in_bytes": 10357
+      },
+      {
+        "_path": "include/coin/CglResidualCapacity.hpp",
+        "path_type": "hardlink",
+        "sha256": "f687cd272fff70e4e05e89f2de26024c02cea8ca7712517d69b48de705f727ed",
+        "sha256_in_prefix": "f687cd272fff70e4e05e89f2de26024c02cea8ca7712517d69b48de705f727ed",
+        "size_in_bytes": 7258
+      },
+      {
+        "_path": "include/coin/CglSimpleRounding.hpp",
+        "path_type": "hardlink",
+        "sha256": "6fa07792089ac111167f154fdde7980ea4395d26c99df5ad4707ec0a27659cf3",
+        "sha256_in_prefix": "6fa07792089ac111167f154fdde7980ea4395d26c99df5ad4707ec0a27659cf3",
+        "size_in_bytes": 5348
+      },
+      {
+        "_path": "include/coin/CglStored.hpp",
+        "path_type": "hardlink",
+        "sha256": "2e209495b2a800886a3ae13b89a30b548f3d3f824ef7a6d361759d722326cfcd",
+        "sha256_in_prefix": "2e209495b2a800886a3ae13b89a30b548f3d3f824ef7a6d361759d722326cfcd",
+        "size_in_bytes": 3293
+      },
+      {
+        "_path": "include/coin/CglTreeInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "9c8839194e310fe1233cd0435c1f6852bab257c764018fe9dbe9f8fb89951b3e",
+        "sha256_in_prefix": "9c8839194e310fe1233cd0435c1f6852bab257c764018fe9dbe9f8fb89951b3e",
+        "size_in_bytes": 6625
+      },
+      {
+        "_path": "include/coin/CglTwomir.hpp",
+        "path_type": "hardlink",
+        "sha256": "e106a5197419e3a91149094c74f7400d41d6862f26a4657a55e5ac41bab84104",
+        "sha256_in_prefix": "e106a5197419e3a91149094c74f7400d41d6862f26a4657a55e5ac41bab84104",
+        "size_in_bytes": 18553
+      },
+      {
+        "_path": "include/coin/CglZeroHalf.hpp",
+        "path_type": "hardlink",
+        "sha256": "f23ff80af063e816dc662505aaa2d6ccf7dc7fa7a1a9d97a5fe15d916a023a40",
+        "sha256_in_prefix": "f23ff80af063e816dc662505aaa2d6ccf7dc7fa7a1a9d97a5fe15d916a023a40",
+        "size_in_bytes": 3566
+      },
+      {
+        "_path": "lib/libCgl.so",
+        "path_type": "softlink",
+        "sha256": "99ab08c103faafd939449e59f610dba71cc506d9825816309afe3e5686f6f2fd",
+        "size_in_bytes": 1283504
+      },
+      {
+        "_path": "lib/libCgl.so.1",
+        "path_type": "softlink",
+        "sha256": "99ab08c103faafd939449e59f610dba71cc506d9825816309afe3e5686f6f2fd",
+        "size_in_bytes": 1283504
+      },
+      {
+        "_path": "lib/libCgl.so.1.10.6",
+        "path_type": "hardlink",
+        "sha256": "99ab08c103faafd939449e59f610dba71cc506d9825816309afe3e5686f6f2fd",
+        "sha256_in_prefix": "99ab08c103faafd939449e59f610dba71cc506d9825816309afe3e5686f6f2fd",
+        "size_in_bytes": 1283504
+      },
+      {
+        "_path": "lib/pkgconfig/cgl.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/coin-or-cgl_1657214282125/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "ecd654a5c55433e2cfea2e0b1f007c4941263d8166c39e30312e60fdc1dad105",
+        "sha256_in_prefix": "1b1802923efe8d7bc9d6cadc078fd60435bab082e739aff47be016301dd2a84d",
+        "size_in_bytes": 808
+      },
+      {
+        "_path": "share/coin/doc/Cgl/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "3f8d3c29534de77fd8965c9a2902c656a09664a8221cfb32c4fed2b27873b22c",
+        "sha256_in_prefix": "3f8d3c29534de77fd8965c9a2902c656a09664a8221cfb32c4fed2b27873b22c",
+        "size_in_bytes": 1860
+      },
+      {
+        "_path": "share/coin/doc/Cgl/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0076749b626931ea5aaee25ddd5019fbfd96da78243cc0d5bd24fe246500981f",
+        "sha256_in_prefix": "0076749b626931ea5aaee25ddd5019fbfd96da78243cc0d5bd24fe246500981f",
+        "size_in_bytes": 11415
+      },
+      {
+        "_path": "share/coin/doc/Cgl/cgl_addlibs.txt",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/coin-or-cgl_1657214282125/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "8551850bc093edcc8f54a8492fad8e48279424f401d2e63e3a78e52b71d362c3",
+        "sha256_in_prefix": "6bec2e6424180c2d453096269fa260fb5650df64264f3b95938e9eb8f307d111",
+        "size_in_bytes": 268
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "084dbd21cd86e9a175197c16c8d5fbb84fd85f2f2f77fa482a950a5905d7312f",
+  "size": 603233,
+  "subdir": "linux-64",
+  "timestamp": 1657214443041,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/coin-or-cgl-0.60.6-h6f57e76_1.tar.bz2",
+  "version": "0.60.6"
+}

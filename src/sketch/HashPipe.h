@@ -11,6 +11,8 @@
 #include <common/hash.h>
 #include <common/sketch.h>
 
+// #define DO_NOT_CONSIDER_FLOWKEY_SIZE
+
 namespace OmniSketch::Sketch {
 /**
  * @brief Hash Pipe
@@ -185,9 +187,15 @@ HashPipe<key_len, T, hash_t>::getHeavyHitter(double threshold) const {
 
 template <int32_t key_len, typename T, typename hash_t>
 size_t HashPipe<key_len, T, hash_t>::size() const {
+#ifndef DO_NOT_CONSIDER_FLOWKEY_SIZE
   return sizeof(*this)                    // instance
          + sizeof(hash_t) * depth         // hashing class
-         + sizeof(Entry) * depth * width; // slots
+         + (sizeof(FlowKey<key_len>) + sizeof(T)) * depth * width; // slots
+#else
+  return sizeof(*this)                    // instance
+         + sizeof(hash_t) * depth         // hashing class
+         + sizeof(T) * depth * width;     // slots
+#endif
 }
 
 template <int32_t key_len, typename T, typename hash_t>
