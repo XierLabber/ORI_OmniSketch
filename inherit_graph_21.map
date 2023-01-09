@@ -1,3 +1,60 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structstd_1_1equal__to_3_01_omni_sketch_1_1_flow_key_3_01key__len_01_4_01_4.html" title="Compare if two flowkeys equal." alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node1" href="$class_omni_sketch_1_1_sketch_1_1_sketch_base.html" title=" " alt="" coords="5,2239,207,2281"/>
+<area shape="rect" id="node2" href="$class_omni_sketch_1_1_sketch_1_1_c_h_c_m_sketch.html" title=" " alt="" coords="284,5,467,61"/>
+<area shape="rect" id="node3" href="$class_omni_sketch_1_1_sketch_1_1_c_m_sketch.html" title=" " alt="" coords="289,85,461,141"/>
+<area shape="rect" id="node4" href="$class_omni_sketch_1_1_sketch_1_1_count_sketch.html" title=" " alt="" coords="285,165,465,221"/>
+<area shape="rect" id="node5" href="$class_my_sketch.html" title=" " alt="" coords="285,245,466,272"/>
+<area shape="rect" id="node6" href="$class_omni_sketch_1_1_sketch_1_1_c_h_c_m_sketch.html" title="Count Min Sketch with CH." alt="" coords="284,296,467,352"/>
+<area shape="rect" id="node7" href="$class_omni_sketch_1_1_sketch_1_1_c_h_c_u_sketch.html" title="CHCU Sketch." alt="" coords="285,376,465,432"/>
+<area shape="rect" id="node8" href="$class_omni_sketch_1_1_sketch_1_1_c_h_count_sketch.html" title="Count Sketch." alt="" coords="278,456,473,512"/>
+<area shape="rect" id="node9" href="$class_omni_sketch_1_1_sketch_1_1_c_h_deltoid.html" title="Deltoid with CH." alt="" coords="293,536,458,592"/>
+<area shape="rect" id="node10" href="$class_omni_sketch_1_1_sketch_1_1_c_h_deltoid2_tuple.html" title="Deltoid with CH." alt="" coords="278,616,473,672"/>
+<area shape="rect" id="node11" href="$class_omni_sketch_1_1_sketch_1_1_c_h_elastic_sketch.html" title="CH Elastic Sketch." alt="" coords="278,696,473,752"/>
+<area shape="rect" id="node12" href="$class_omni_sketch_1_1_sketch_1_1_c_h_flow_radar.html" title="Flow Radar." alt="" coords="282,776,469,832"/>
+<area shape="rect" id="node13" href="$class_omni_sketch_1_1_sketch_1_1_c_h_h_h_univ_mon.html" title="CHHHUnivMon." alt="" coords="277,856,473,912"/>
+<area shape="rect" id="node14" href="$class_omni_sketch_1_1_sketch_1_1_c_h_hash_pipe.html" title="CH Hash Pipe." alt="" coords="286,936,465,992"/>
+<area shape="rect" id="node15" href="$class_omni_sketch_1_1_sketch_1_1_c_h_heavy_keeper.html" title="CHHeavy Keeper." alt="" coords="278,1016,473,1072"/>
+<area shape="rect" id="node16" href="$class_omni_sketch_1_1_sketch_1_1_c_h_m_v_sketch.html" title=" " alt="" coords="284,1096,467,1152"/>
+<area shape="rect" id="node17" href="$class_omni_sketch_1_1_sketch_1_1_c_h_n_z_e_sketch.html" title=" " alt="" coords="281,1176,469,1232"/>
+<area shape="rect" id="node18" href="$class_omni_sketch_1_1_sketch_1_1_c_h_nitro_sketch.html" title="CHNitroSketch." alt="" coords="278,1256,473,1312"/>
+<area shape="rect" id="node19" href="$class_omni_sketch_1_1_sketch_1_1_c_h_p_r_sketch.html" title="CHPR Sketch." alt="" coords="286,1336,465,1392"/>
+<area shape="rect" id="node20" href="$class_omni_sketch_1_1_sketch_1_1_c_h_querying_counting_bloom_filter.html" title="CHCounting Bloom Filter." alt="" coords="255,1416,496,1472"/>
+<area shape="rect" id="node21" href="$class_omni_sketch_1_1_sketch_1_1_c_h_sketch_learn.html" title="Sketch Learn." alt="" coords="278,1496,473,1552"/>
+<area shape="rect" id="node22" href="$class_omni_sketch_1_1_sketch_1_1_c_h_sketch_learn2_tuple.html" title="Sketch Learn." alt="" coords="290,1577,461,1647"/>
+<area shape="rect" id="node23" href="$class_omni_sketch_1_1_sketch_1_1_c_h_univ_mon.html" title="CHUnivMon." alt="" coords="287,1672,463,1728"/>
+<area shape="rect" id="node24" href="$class_omni_sketch_1_1_sketch_1_1_c_h_waving_sketch.html" title="CHWaving Sketch." alt="" coords="278,1752,473,1808"/>
+<area shape="rect" id="node25" href="$class_omni_sketch_1_1_sketch_1_1_c_m_sketch.html" title="Count Min Sketch." alt="" coords="294,1832,457,1888"/>
+<area shape="rect" id="node26" href="$class_omni_sketch_1_1_sketch_1_1_c_u_sketch.html" title="CU Sketch." alt="" coords="295,1912,456,1968"/>
+<area shape="rect" id="node27" href="$class_omni_sketch_1_1_sketch_1_1_count_sketch.html" title="Count Sketch." alt="" coords="285,1992,465,2048"/>
+<area shape="rect" id="node28" href="$class_omni_sketch_1_1_sketch_1_1_counter_braids.html" title="Counter Braids." alt="" coords="278,2072,473,2128"/>
+<area shape="rect" id="node29" href="$class_omni_sketch_1_1_sketch_1_1_counter_tree.html" title="Counter Tree." alt="" coords="287,2152,464,2208"/>
+<area shape="rect" id="node30" href="$class_omni_sketch_1_1_sketch_1_1_d_h_sketch.html" title=" " alt="" coords="294,2232,457,2288"/>
+<area shape="rect" id="node31" href="$class_omni_sketch_1_1_sketch_1_1_deltoid.html" title="Deltoid." alt="" coords="300,2312,451,2368"/>
+<area shape="rect" id="node32" href="$class_omni_sketch_1_1_sketch_1_1_deltoid2_tuple.html" title="Deltoid2Tuple." alt="" coords="297,2392,454,2448"/>
+<area shape="rect" id="node33" href="$class_omni_sketch_1_1_sketch_1_1_elastic_sketch.html" title="Elastic Sketch." alt="" coords="298,2472,453,2528"/>
+<area shape="rect" id="node34" href="$class_omni_sketch_1_1_sketch_1_1_flow_radar.html" title="Flow Radar." alt="" coords="291,2552,459,2608"/>
+<area shape="rect" id="node35" href="$class_omni_sketch_1_1_sketch_1_1_h_h_univ_mon.html" title="HHUnivMon." alt="" coords="287,2632,464,2688"/>
+<area shape="rect" id="node36" href="$class_omni_sketch_1_1_sketch_1_1_hash_pipe.html" title="Hash Pipe." alt="" coords="295,2712,455,2768"/>
+<area shape="rect" id="node37" href="$class_omni_sketch_1_1_sketch_1_1_heavy_keeper.html" title="Heavy Keeper." alt="" coords="282,2792,469,2848"/>
+<area shape="rect" id="node38" href="$class_omni_sketch_1_1_sketch_1_1_l_d_sketch.html" title="LD Sketch." alt="" coords="296,2872,455,2928"/>
+<area shape="rect" id="node39" href="$class_omni_sketch_1_1_sketch_1_1_m_v_sketch.html" title=" " alt="" coords="294,2952,457,3008"/>
+<area shape="rect" id="node40" href="$class_omni_sketch_1_1_sketch_1_1_n_z_e_sketch.html" title=" " alt="" coords="291,3032,460,3088"/>
+<area shape="rect" id="node41" href="$class_omni_sketch_1_1_sketch_1_1_nitro_sketch.html" title="NitroSketch." alt="" coords="288,3112,463,3168"/>
+<area shape="rect" id="node42" href="$class_omni_sketch_1_1_sketch_1_1_p_c_m_sketch.html" title="Pyramid Count Min Sketch." alt="" coords="290,3192,461,3248"/>
+<area shape="rect" id="node43" href="$class_omni_sketch_1_1_sketch_1_1_p_c_u_sketch.html" title="Pyramid Count Min Sketch." alt="" coords="291,3272,460,3328"/>
+<area shape="rect" id="node44" href="$class_omni_sketch_1_1_sketch_1_1_p_r_sketch.html" title="PR Sketch." alt="" coords="296,3352,455,3408"/>
+<area shape="rect" id="node45" href="$class_omni_sketch_1_1_sketch_1_1_querying_counting_bloom_filter.html" title="Querying Counting Bloom Filter." alt="" coords="264,3432,487,3488"/>
+<area shape="rect" id="node46" href="$class_omni_sketch_1_1_sketch_1_1_s_a_l_s_a_c_m.html" title="SALSA Count Min Sketch." alt="" coords="294,3512,457,3568"/>
+<area shape="rect" id="node47" href="$class_omni_sketch_1_1_sketch_1_1_s_a_l_s_a_c_u.html" title="SALSA CU Sketch." alt="" coords="295,3592,456,3648"/>
+<area shape="rect" id="node48" href="$class_omni_sketch_1_1_sketch_1_1_sketch_learn.html" title="Sketch Learn." alt="" coords="286,3672,465,3728"/>
+<area shape="rect" id="node49" href="$class_omni_sketch_1_1_sketch_1_1_sketch_learn2_tuple.html" title="Sketch Learn." alt="" coords="291,3752,460,3808"/>
+<area shape="rect" id="node50" href="$class_omni_sketch_1_1_sketch_1_1_t_h_d___c_h_c_m_sketch.html" title="Count Min Sketch with CH." alt="" coords="278,3832,473,3888"/>
+<area shape="rect" id="node51" href="$class_omni_sketch_1_1_sketch_1_1_t_h_d___c_h_count_sketch.html" title="Count Sketch." alt="" coords="293,3913,458,3983"/>
+<area shape="rect" id="node52" href="$class_omni_sketch_1_1_sketch_1_1_t_h_d___c_h_deltoid.html" title="Deltoid with CH." alt="" coords="278,4008,473,4064"/>
+<area shape="rect" id="node53" href="$class_omni_sketch_1_1_sketch_1_1_t_h_d___c_h_flow_radar.html" title="Flow Radar." alt="" coords="278,4088,473,4144"/>
+<area shape="rect" id="node54" href="$class_omni_sketch_1_1_sketch_1_1_t_h_d___c_h_h_h_univ_mon.html" title="THD_CHHHUnivMon." alt="" coords="275,4168,475,4224"/>
+<area shape="rect" id="node55" href="$class_omni_sketch_1_1_sketch_1_1_t_h_d___c_h_nitro_sketch.html" title="THD_CHNitroSketch." alt="" coords="296,4249,455,4319"/>
+<area shape="rect" id="node56" href="$class_omni_sketch_1_1_sketch_1_1_t_h_d___c_h_sketch_learn.html" title="Sketch Learn." alt="" coords="294,4343,457,4414"/>
+<area shape="rect" id="node57" href="$class_omni_sketch_1_1_sketch_1_1_univ_mon.html" title="UnivMon." alt="" coords="297,4439,454,4495"/>
+<area shape="rect" id="node58" href="$class_omni_sketch_1_1_sketch_1_1_waving_sketch.html" title="Waving Sketch." alt="" coords="296,4519,455,4575"/>
 </map>

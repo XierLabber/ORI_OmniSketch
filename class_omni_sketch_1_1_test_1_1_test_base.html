@@ -112,15 +112,16 @@ $(document).ready(function(){initNavTree('class_omni_sketch_1_1_test_1_1_test_ba
 <p>Collection of metrics.  
  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#details">More...</a></p>
 
-<p><code>#include &lt;test.h&gt;</code></p>
+<p><code>#include &lt;test_thd.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for OmniSketch::Test::TestBase&lt; key_len, T &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_omni_sketch_1_1_test_1_1_test_base__inherit__graph.png" border="0" usemap="#a_omni_sketch_1_1_test_1_1_test_base_3_01key__len_00_01_t_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_omni_sketch_1_1_test_1_1_test_base_3_01key__len_00_01_t_01_4_inherit__map" id="a_omni_sketch_1_1_test_1_1_test_base_3_01key__len_00_01_t_01_4_inherit__map">
-<area shape="rect" title="Collection of metrics." alt="" coords="5,43,205,84"/>
-<area shape="rect" href="class_omni_sketch_1_1_test_1_1_bloom_filter_test.html" title="Testing class for Bloom Filter." alt="" coords="253,5,471,47"/>
-<area shape="rect" href="class_omni_sketch_1_1_test_1_1_counting_bloom_filter_test.html" title="Testing class for Bloom Filter." alt="" coords="262,71,462,127"/>
+<area shape="rect" title="Collection of metrics." alt="" coords="5,79,205,120"/>
+<area shape="rect" href="class_omni_sketch_1_1_test_1_1_bloom_filter_test.html" title="Testing class for Bloom Filter." alt="" coords="254,5,471,47"/>
+<area shape="rect" href="class_omni_sketch_1_1_test_1_1_c_h_counting_bloom_filter_test.html" title="Testing class for Bloom Filter." alt="" coords="253,71,472,127"/>
+<area shape="rect" href="class_omni_sketch_1_1_test_1_1_counting_bloom_filter_test.html" title="Testing class for Bloom Filter." alt="" coords="263,151,463,207"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -144,21 +145,54 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a98d8e9d0a0f0aca9fe14c5ee6ac668c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a98d8e9d0a0f0aca9fe14c5ee6ac668c0">testUpdate</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, typename std::vector&lt; <a class="el" href="struct_omni_sketch_1_1_data_1_1_record.html">Data::Record</a>&lt; key_len &gt;&gt;::const_iterator begin, typename std::vector&lt; <a class="el" href="struct_omni_sketch_1_1_data_1_1_record.html">Data::Record</a>&lt; key_len &gt;&gt;::const_iterator end, <a class="el" href="namespace_omni_sketch_1_1_data.html#ad0e84d4f1d65e2cf284f5ad3a41cbcc4">Data::CntMethod</a> cnt_method) final</td></tr>
 <tr class="memdesc:a98d8e9d0a0f0aca9fe14c5ee6ac668c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update a row of records (with values to the sketch)  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#a98d8e9d0a0f0aca9fe14c5ee6ac668c0">More...</a><br /></td></tr>
 <tr class="separator:a98d8e9d0a0f0aca9fe14c5ee6ac668c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e3c9d462ab3d771353f043e47634319"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a5e3c9d462ab3d771353f043e47634319">testQuery</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, const <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; &amp;gnd_truth) final</td></tr>
-<tr class="memdesc:a5e3c9d462ab3d771353f043e47634319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query for each flow in ground truth.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#a5e3c9d462ab3d771353f043e47634319">More...</a><br /></td></tr>
-<tr class="separator:a5e3c9d462ab3d771353f043e47634319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4827f5ab815ed08d5c3d78eb7fe1c502"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a4827f5ab815ed08d5c3d78eb7fe1c502">testQuery</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, const <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; &amp;gnd_truth) final</td></tr>
+<tr class="memdesc:a4827f5ab815ed08d5c3d78eb7fe1c502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query for each flow in ground truth.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#a4827f5ab815ed08d5c3d78eb7fe1c502">More...</a><br /></td></tr>
+<tr class="separator:a4827f5ab815ed08d5c3d78eb7fe1c502"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec1628a80bf98f95c8463a58dab82415"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#aec1628a80bf98f95c8463a58dab82415">testLookup</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, const <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; &amp;gnd_truth, const <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; &amp;sample) final</td></tr>
 <tr class="memdesc:aec1628a80bf98f95c8463a58dab82415"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lookup each flow in ground truth.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#aec1628a80bf98f95c8463a58dab82415">More...</a><br /></td></tr>
 <tr class="separator:aec1628a80bf98f95c8463a58dab82415"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28810d78eddb56cc366bb440e5206585"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a28810d78eddb56cc366bb440e5206585">testHeavyHitter</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, double threshold, <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; gnd_truth_heavy_hitters) final</td></tr>
-<tr class="memdesc:a28810d78eddb56cc366bb440e5206585"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_omni_sketch_1_1_test.html" title="Testing classes and metrics.">Test</a> heavy hitters.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#a28810d78eddb56cc366bb440e5206585">More...</a><br /></td></tr>
-<tr class="separator:a28810d78eddb56cc366bb440e5206585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa9f593c9412c406409e4f69b2bd4c0"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a6aa9f593c9412c406409e4f69b2bd4c0">testHeavyHitter</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, double threshold, <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; gnd_truth_heavy_hitters) final</td></tr>
+<tr class="memdesc:a6aa9f593c9412c406409e4f69b2bd4c0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_omni_sketch_1_1_test.html" title="Testing classes and metrics.">Test</a> heavy hitters.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#a6aa9f593c9412c406409e4f69b2bd4c0">More...</a><br /></td></tr>
+<tr class="separator:a6aa9f593c9412c406409e4f69b2bd4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d55de36f2a93b52069f8475bbe23804"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a0d55de36f2a93b52069f8475bbe23804">testHeavyChanger</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch_1, std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch_2, double threshold, <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; gnd_truth_heavy_changers) final</td></tr>
 <tr class="memdesc:a0d55de36f2a93b52069f8475bbe23804"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_omni_sketch_1_1_test.html" title="Testing classes and metrics.">Test</a> heavy changers.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#a0d55de36f2a93b52069f8475bbe23804">More...</a><br /></td></tr>
 <tr class="separator:a0d55de36f2a93b52069f8475bbe23804"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac65ba0fd5fb8a1f9350140807ac5becc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#ac65ba0fd5fb8a1f9350140807ac5becc">testDecode</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; gnd_truth) final</td></tr>
-<tr class="memdesc:ac65ba0fd5fb8a1f9350140807ac5becc"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_omni_sketch_1_1_test.html" title="Testing classes and metrics.">Test</a> decode.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#ac65ba0fd5fb8a1f9350140807ac5becc">More...</a><br /></td></tr>
-<tr class="separator:ac65ba0fd5fb8a1f9350140807ac5becc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13f4723b780d3bf37bc02a084086f1a9"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a13f4723b780d3bf37bc02a084086f1a9">testDecode</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; gnd_truth) final</td></tr>
+<tr class="memdesc:a13f4723b780d3bf37bc02a084086f1a9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_omni_sketch_1_1_test.html" title="Testing classes and metrics.">Test</a> decode.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#a13f4723b780d3bf37bc02a084086f1a9">More...</a><br /></td></tr>
+<tr class="separator:a13f4723b780d3bf37bc02a084086f1a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c2677f12942453b549ff0d572896bf9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a1c2677f12942453b549ff0d572896bf9">TestBase</a> (const std::string_view <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#aa07f6caf3c81fb63d9c8fdcc3607fa35">show_name</a>, const std::string_view <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#ac292124b13c79b07a7affff9fd003ec1">config_file</a>, const std::string_view <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a13da6d8852ea5f59882c5b03afb87549">test_path</a>)</td></tr>
+<tr class="memdesc:a1c2677f12942453b549ff0d572896bf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct by specifying all necessary tables in config file.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#a1c2677f12942453b549ff0d572896bf9">More...</a><br /></td></tr>
+<tr class="separator:a1c2677f12942453b549ff0d572896bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b54777d079651ed7f3646090694b165"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a9b54777d079651ed7f3646090694b165">show</a> () const final</td></tr>
+<tr class="memdesc:a9b54777d079651ed7f3646090694b165"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display metrics in a human-readable manner.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#a9b54777d079651ed7f3646090694b165">More...</a><br /></td></tr>
+<tr class="separator:a9b54777d079651ed7f3646090694b165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc3d233047e17bfed9ece2dc7affe277"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#afc3d233047e17bfed9ece2dc7affe277">runTest</a> ()</td></tr>
+<tr class="memdesc:afc3d233047e17bfed9ece2dc7affe277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the test and collect statistics.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#afc3d233047e17bfed9ece2dc7affe277">More...</a><br /></td></tr>
+<tr class="separator:afc3d233047e17bfed9ece2dc7affe277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5fd9ee0423473404b16de9b663ff3b9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#ad5fd9ee0423473404b16de9b663ff3b9">testSize</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch) final</td></tr>
+<tr class="memdesc:ad5fd9ee0423473404b16de9b663ff3b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the sketch.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#ad5fd9ee0423473404b16de9b663ff3b9">More...</a><br /></td></tr>
+<tr class="separator:ad5fd9ee0423473404b16de9b663ff3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d1503f5449d07736facca74088fa4d1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a3d1503f5449d07736facca74088fa4d1">testInsert</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, typename std::vector&lt; <a class="el" href="struct_omni_sketch_1_1_data_1_1_record.html">Data::Record</a>&lt; key_len &gt;&gt;::const_iterator begin, typename std::vector&lt; <a class="el" href="struct_omni_sketch_1_1_data_1_1_record.html">Data::Record</a>&lt; key_len &gt;&gt;::const_iterator end) final</td></tr>
+<tr class="memdesc:a3d1503f5449d07736facca74088fa4d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a row of records.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#a3d1503f5449d07736facca74088fa4d1">More...</a><br /></td></tr>
+<tr class="separator:a3d1503f5449d07736facca74088fa4d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0621d4f73170eb6a37df759189fb9cac"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a0621d4f73170eb6a37df759189fb9cac">testUpdate</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, typename std::vector&lt; <a class="el" href="struct_omni_sketch_1_1_data_1_1_record.html">Data::Record</a>&lt; key_len &gt;&gt;::const_iterator begin, typename std::vector&lt; <a class="el" href="struct_omni_sketch_1_1_data_1_1_record.html">Data::Record</a>&lt; key_len &gt;&gt;::const_iterator end, <a class="el" href="namespace_omni_sketch_1_1_data.html#ad0e84d4f1d65e2cf284f5ad3a41cbcc4">Data::CntMethod</a> cnt_method) final</td></tr>
+<tr class="memdesc:a0621d4f73170eb6a37df759189fb9cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update a row of records (with values to the sketch)  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#a0621d4f73170eb6a37df759189fb9cac">More...</a><br /></td></tr>
+<tr class="separator:a0621d4f73170eb6a37df759189fb9cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae916ff024601d483324d2d16b593f8a0"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#ae916ff024601d483324d2d16b593f8a0">testQuery</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, const <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; &amp;gnd_truth) final</td></tr>
+<tr class="memdesc:ae916ff024601d483324d2d16b593f8a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query for each flow in ground truth.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#ae916ff024601d483324d2d16b593f8a0">More...</a><br /></td></tr>
+<tr class="separator:ae916ff024601d483324d2d16b593f8a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07bdcc40e4f8564154164199d8f1e102"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a07bdcc40e4f8564154164199d8f1e102">testLookup</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, const <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; &amp;gnd_truth, const <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; &amp;sample) final</td></tr>
+<tr class="memdesc:a07bdcc40e4f8564154164199d8f1e102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lookup each flow in ground truth.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#a07bdcc40e4f8564154164199d8f1e102">More...</a><br /></td></tr>
+<tr class="separator:a07bdcc40e4f8564154164199d8f1e102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1f71cf21fca943d74afe8e19b9b24dc"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#af1f71cf21fca943d74afe8e19b9b24dc">testHeavyHitter</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, double threshold, <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; gnd_truth_heavy_hitters) final</td></tr>
+<tr class="memdesc:af1f71cf21fca943d74afe8e19b9b24dc"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_omni_sketch_1_1_test.html" title="Testing classes and metrics.">Test</a> heavy hitters.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#af1f71cf21fca943d74afe8e19b9b24dc">More...</a><br /></td></tr>
+<tr class="separator:af1f71cf21fca943d74afe8e19b9b24dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeec6119a71a7d4fdf37f4e864e2fee92"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#aeec6119a71a7d4fdf37f4e864e2fee92">testHeavyChanger</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch_1, std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch_2, double threshold, <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; gnd_truth_heavy_changers) final</td></tr>
+<tr class="memdesc:aeec6119a71a7d4fdf37f4e864e2fee92"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_omni_sketch_1_1_test.html" title="Testing classes and metrics.">Test</a> heavy changers.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#aeec6119a71a7d4fdf37f4e864e2fee92">More...</a><br /></td></tr>
+<tr class="separator:aeec6119a71a7d4fdf37f4e864e2fee92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8afa0a3e1a0fa4099c8d3900b9a09374"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a8afa0a3e1a0fa4099c8d3900b9a09374">testDecode</a> (std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;ptr_sketch, <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; gnd_truth) final</td></tr>
+<tr class="memdesc:a8afa0a3e1a0fa4099c8d3900b9a09374"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_omni_sketch_1_1_test.html" title="Testing classes and metrics.">Test</a> decode.  <a href="class_omni_sketch_1_1_test_1_1_test_base.html#a8afa0a3e1a0fa4099c8d3900b9a09374">More...</a><br /></td></tr>
+<tr class="separator:a8afa0a3e1a0fa4099c8d3900b9a09374"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -192,19 +226,47 @@ class OmniSketch::Test::TestBase&lt; key_len, T &gt;</h3>
 <tr>
 <td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a98d8e9d0a0f0aca9fe14c5ee6ac668c0" title="Update a row of records (with values to the sketch)">testUpdate()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#aa6163885014e4210ecba2621e906211f">update()</a> </td><td>RATE </td><td><code>update</code>  </td></tr>
 <tr>
-<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a5e3c9d462ab3d771353f043e47634319" title="Query for each flow in ground truth.">testQuery()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#acde318df3b2ce9ad5115754df15beb21">query()</a> </td><td>RATE, ARE, AAE, ACC, PODF, DIST </td><td><code>query</code>  </td></tr>
+<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a4827f5ab815ed08d5c3d78eb7fe1c502" title="Query for each flow in ground truth.">testQuery()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#acde318df3b2ce9ad5115754df15beb21">query()</a> </td><td>RATE, ARE, AAE, ACC, PODF, DIST </td><td><code>query</code>  </td></tr>
 <tr>
 <td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#aec1628a80bf98f95c8463a58dab82415" title="Lookup each flow in ground truth.">testLookup()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#aa64070e79e56557a7fe0b48df0268d7e">lookup()</a> </td><td>RATE, TP, FP, PRC </td><td><code>lookup</code>  </td></tr>
 <tr>
-<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a28810d78eddb56cc366bb440e5206585" title="Test heavy hitters.">testHeavyHitter()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#ab8dec0e0d4382016225dbd75788f3ff9">getHeavyHitter()</a> </td><td>TIME, ARE, PRC, RCL, F1 </td><td><code>heavyhitter</code>  </td></tr>
+<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a6aa9f593c9412c406409e4f69b2bd4c0" title="Test heavy hitters.">testHeavyHitter()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#ab8dec0e0d4382016225dbd75788f3ff9">getHeavyHitter()</a> </td><td>TIME, ARE, PRC, RCL, F1 </td><td><code>heavyhitter</code>  </td></tr>
 <tr>
 <td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a0d55de36f2a93b52069f8475bbe23804" title="Test heavy changers.">testHeavyChanger()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#aadc2b3b7792938931e86a80c6c7b5fe6">getHeavyChanger()</a>  </td><td>TIME, ARE, PRC, RCL, F1 </td><td><code>heavychanger</code>  </td></tr>
 <tr>
-<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#ac65ba0fd5fb8a1f9350140807ac5becc" title="Test decode.">testDecode()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#a00d45bbb6e1d12a2fe3c7d0a18bcbddc">decode()</a> </td><td>TIME, RATIO, ARE, AAE, ACC, PODF, DIST </td><td><code>decode</code>  </td></tr>
+<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a13f4723b780d3bf37bc02a084086f1a9" title="Test decode.">testDecode()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#a00d45bbb6e1d12a2fe3c7d0a18bcbddc">decode()</a> </td><td>TIME, RATIO, ARE, AAE, ACC, PODF, DIST </td><td><code>decode</code>  </td></tr>
+</table>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Docs for supported types of statistics</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">key_len</td><td>length of flowkey </td></tr>
+    <tr><td class="paramname">T</td><td>type of the counter</td></tr>
+  </table>
+  </dd>
+</dl>
+<table class="doxtable">
+<tr>
+<td><b><a class="el" href="namespace_omni_sketch_1_1_test.html" title="Testing classes and metrics.">Test</a> Routine</b> </td><td><b>Required Overriden Function</b> </td><td><b>Available Metrics (In <a class="el" href="namespace_omni_sketch_1_1_test.html#a160b52aa582997dee1396a606414c223" title="Metrics.">Test::Metric</a>)</b> </td><td><b>Name of the Testing Routine in TOML</b>  </td></tr>
+<tr>
+<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a7c8d4ec8b257ee76670d6e5274f656c0" title="Get the size of the sketch.">testSize()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#acc68d26a5ba8a7619a1858dcb2e80235">size()</a> </td><td>SIZE </td><td><em>None</em> (Once calling <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a7c8d4ec8b257ee76670d6e5274f656c0" title="Get the size of the sketch.">testSize()</a>, the metric is collected)   </td></tr>
+<tr>
+<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#aacfc4bbae570f916c5c87c16b06a96da" title="Insert a row of records.">testInsert()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#a0db74aa70b663fae2de994f433e8b4b3">insert()</a> </td><td>RATE </td><td><code>insert</code>  </td></tr>
+<tr>
+<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a98d8e9d0a0f0aca9fe14c5ee6ac668c0" title="Update a row of records (with values to the sketch)">testUpdate()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#aa6163885014e4210ecba2621e906211f">update()</a> </td><td>RATE </td><td><code>update</code>  </td></tr>
+<tr>
+<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a4827f5ab815ed08d5c3d78eb7fe1c502" title="Query for each flow in ground truth.">testQuery()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#acde318df3b2ce9ad5115754df15beb21">query()</a> </td><td>RATE, ARE, AAE, ACC, PODF, DIST </td><td><code>query</code>  </td></tr>
+<tr>
+<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#aec1628a80bf98f95c8463a58dab82415" title="Lookup each flow in ground truth.">testLookup()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#aa64070e79e56557a7fe0b48df0268d7e">lookup()</a> </td><td>RATE, TP, FP, PRC </td><td><code>lookup</code>  </td></tr>
+<tr>
+<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a6aa9f593c9412c406409e4f69b2bd4c0" title="Test heavy hitters.">testHeavyHitter()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#ab8dec0e0d4382016225dbd75788f3ff9">getHeavyHitter()</a> </td><td>TIME, ARE, PRC, RCL, F1 </td><td><code>heavyhitter</code>  </td></tr>
+<tr>
+<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a0d55de36f2a93b52069f8475bbe23804" title="Test heavy changers.">testHeavyChanger()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#aadc2b3b7792938931e86a80c6c7b5fe6">getHeavyChanger()</a>  </td><td>TIME, ARE, PRC, RCL, F1 </td><td><code>heavychanger</code>  </td></tr>
+<tr>
+<td><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html#a13f4723b780d3bf37bc02a084086f1a9" title="Test decode.">testDecode()</a> </td><td><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#a00d45bbb6e1d12a2fe3c7d0a18bcbddc">decode()</a> </td><td>TIME, RATIO, ARE, AAE, ACC, PODF, DIST </td><td><code>decode</code>  </td></tr>
 </table>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1c2677f12942453b549ff0d572896bf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c2677f12942453b549ff0d572896bf9">&#9670;&nbsp;</a></span>TestBase()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c2677f12942453b549ff0d572896bf9">&#9670;&nbsp;</a></span>TestBase() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,9 +341,84 @@ Example</h3>
 
 </div>
 </div>
+<a id="a1c2677f12942453b549ff0d572896bf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c2677f12942453b549ff0d572896bf9">&#9670;&nbsp;</a></span>TestBase() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T  = int64_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::<a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">TestBase</a> </td>
+          <td>(</td>
+          <td class="paramtype">const std::string_view&#160;</td>
+          <td class="paramname"><em>show_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string_view&#160;</td>
+          <td class="paramname"><em>config_file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string_view&#160;</td>
+          <td class="paramname"><em>test_path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct by specifying all necessary tables in config file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">show_name</td><td>The name to be shown in the output (may contain whitespaces) </td></tr>
+    <tr><td class="paramname">config_file</td><td>Path to the config file </td></tr>
+    <tr><td class="paramname">test_path</td><td>Path to the node which stores the testing metrics (concatenated with '.', see example below)</td></tr>
+  </table>
+  </dd>
+</dl>
+<h3><a class="anchor" id="autotoc_md16"></a>
+Example</h3>
+<p>If the toml file is as follows, </p><div class="fragment"><div class="line"># toml.toml</div>
+<div class="line">[MySketch]</div>
+<div class="line"> </div>
+<div class="line">   [MySketch.para]</div>
+<div class="line">   arg1 = 1</div>
+<div class="line">   arg2 = 2</div>
+<div class="line"> </div>
+<div class="line">   [MySketch.test]</div>
+<div class="line">   insert = [&quot;RATE&quot;]</div>
+<div class="line">   arg3 = 3</div>
+<div class="line"> </div>
+<div class="line">   [MySketch.data]</div>
+<div class="line">   data = &quot;../record.bin&quot;</div>
+<div class="line">   format = [[&quot;flowkey&quot;, &quot;padding&quot;], [13, 3]]</div>
+</div><!-- fragment --><p> and you want the readable name "My Tiny Little Sketch" when showing results, then you should call constructor in this way: </p><div class="fragment"><div class="line"><a class="code" href="class_omni_sketch_1_1_test_1_1_test_base.html#a1c2677f12942453b549ff0d572896bf9">TestBase</a>&lt;...&gt;(<span class="stringliteral">&quot;My Tiny Little Sketch&quot;</span>, <span class="stringliteral">&quot;toml.toml&quot;</span>, <span class="stringliteral">&quot;MySketch.test&quot;</span>);</div>
+</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd><ul>
+<li>Except for <code>show_name</code>, all other strings should contain no whitespaces. </li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8f69ecdc1770170421fafb5b4c418d3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f69ecdc1770170421fafb5b4c418d3d">&#9670;&nbsp;</a></span>runTest()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f69ecdc1770170421fafb5b4c418d3d">&#9670;&nbsp;</a></span>runTest() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -305,12 +442,44 @@ template&lt;int32_t key_len, typename T &gt; </div>
 <p>Run the test and collect statistics. </p>
 <p>Make sure this method is overriden in subclass. </p>
 
-<p>Reimplemented in <a class="el" href="class_omni_sketch_1_1_test_1_1_hash_pipe_test.html#a5a8ce3f2dde4298771b34341e4a89276">OmniSketch::Test::HashPipeTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_flow_radar_test.html#a8091e259761907d9d533e418bc3d22b0">OmniSketch::Test::FlowRadarTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_u_sketch_test.html#a3ee724e7ad30415d77f38cf57177e2af">OmniSketch::Test::CUSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_count_sketch_test.html#af6303a033b2113583e28a6c7f796894f">OmniSketch::Test::CountSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_counting_bloom_filter_test.html#a4bb4afb36e2137822e427a04f0da7aaf">OmniSketch::Test::CountingBloomFilterTest&lt; key_len, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_m_sketch_test.html#a672c66fd680e07bc5dcb6daeed19b2bc">OmniSketch::Test::CMSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_c_m_sketch_test.html#a2671c93746106cc6056bf8dc90e33547">OmniSketch::Test::CHCMSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, and <a class="el" href="class_omni_sketch_1_1_test_1_1_bloom_filter_test.html#aac7ab528414523e7c7f7587ccc5032d8">OmniSketch::Test::BloomFilterTest&lt; key_len, hash_t &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="class_omni_sketch_1_1_test_1_1_waving_sketch_test.html#ac1ac2c834f3896482c8ea440f4e7f728">OmniSketch::Test::WavingSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_univ_mon_test.html#aca751b65973627c4783893aaed20f1bd">OmniSketch::Test::UnivMonTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_sketch_learn_test.html#a7e87d3451b7871f6f97d8218466265dd">OmniSketch::Test::THD_CHSketchLearnTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_nitro_sketch_test.html#a7708ff2cf01e101e790912de5d6d7e53">OmniSketch::Test::THD_CHNitroSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_h_h_univ_mon_test.html#a0b01725d296af628827ada10a9ffdbc1">OmniSketch::Test::THD_CHHHUnivMonTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_flow_radar_test.html#a051dda99922c449123cee1fc4977c13a">OmniSketch::Test::THD_CHFlowRadarTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_deltoid_test.html#a70df4dce0db465b0ee9902dabd4965b9">OmniSketch::Test::THD_CHDeltoidTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_count_sketch_test.html#a7d5221277baee91b9cb91738c1d6ae09">OmniSketch::Test::THD_CHCountSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_c_m_sketch_test.html#af906323aab909b8681b428c1571b1f0b">OmniSketch::Test::THD_CHCMSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_sketch_learn_test.html#a8f430cf23eceaa28cec5c7a5ce8f51f4">OmniSketch::Test::SketchLearnTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_sketch_learn2_tuple_test.html#ab834c2895737207977ec663c3a0eb8c9">OmniSketch::Test::SketchLearn2TupleTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_s_a_l_s_a_c_u_test.html#a3dd2b011c9213a12766894f078e1e81f">OmniSketch::Test::SALSACUTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_s_a_l_s_a_c_m_test.html#aa60a8a1ef176f0e3113282794a2eac85">OmniSketch::Test::SALSACMTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_querying_counting_bloom_filter_test.html#aa95d995be4e0d6742035bf1385ab6705">OmniSketch::Test::QueryingCountingBloomFilterTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_p_r_sketch_test.html#a076afdcffaa45ceecaf1d1f80f56d262">OmniSketch::Test::PRSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_p_c_u_sketch_test.html#ad4445401be2d4c57ab7db67a258550e7">OmniSketch::Test::PCUSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_p_c_m_sketch_test.html#af48e04aa3e3962bbdba3f8fd18eebfc1">OmniSketch::Test::PCMSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_n_z_e_sketch_test.html#ac5fbef179ba280fdbd7a3f3eb1fa33d2">OmniSketch::Test::NZESketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_nitro_sketch_test.html#ad79f146226f8b8b070f79e39334cddcb">OmniSketch::Test::NitroSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_m_v_sketch_test.html#a60841ca4d73ca36ca54884d3c723f7cc">OmniSketch::Test::MVSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_l_d_sketch_test.html#a48579fec9901676d3cd0f951e64a63f7">OmniSketch::Test::LDSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_h_h_univ_mon_test.html#a3569175189a46ff7bf73f9efc2721694">OmniSketch::Test::HHUnivMonTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_heavy_keeper_test.html#ae7ec8f865d4bddb5fa1e9af9e6dc9f8b">OmniSketch::Test::HeavyKeeperTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_hash_pipe_test.html#a5a8ce3f2dde4298771b34341e4a89276">OmniSketch::Test::HashPipeTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_flow_radar_test.html#a8091e259761907d9d533e418bc3d22b0">OmniSketch::Test::FlowRadarTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_elastic_sketch_test.html#aa68548a8a3ce0169c282262d2fa893e0">OmniSketch::Test::ElasticSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_d_h_sketch_test.html#ac3aaf80dfd63249e5ac355e73f9b006b">OmniSketch::Test::DHSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_deltoid_test.html#afcd05ecb76b54308d3acba6531d34ed0">OmniSketch::Test::DeltoidTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_deltoid2_tuple_test.html#a5ff8443f043910c2afa6f94abee242f2">OmniSketch::Test::Deltoid2TupleTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_u_sketch_test.html#a3ee724e7ad30415d77f38cf57177e2af">OmniSketch::Test::CUSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_count_sketch_test.html#af6303a033b2113583e28a6c7f796894f">OmniSketch::Test::CountSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_counting_bloom_filter_test.html#a4bb4afb36e2137822e427a04f0da7aaf">OmniSketch::Test::CountingBloomFilterTest&lt; key_len, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_counter_tree_test.html#af9b3275f889716bd7ce29d1c6cb87dd0">OmniSketch::Test::CounterTreeTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_counter_braids_test.html#a8ec23da60cc16e8c791d3b3b88b97dbc">OmniSketch::Test::CounterBraidsTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_m_sketch_test.html#a672c66fd680e07bc5dcb6daeed19b2bc">OmniSketch::Test::CMSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_waving_sketch_test.html#a5f0fc971dfb1a050f801ad943461776a">OmniSketch::Test::CHWavingSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_univ_mon_test.html#aa25b8d3fef38ada09be63314072dcca9">OmniSketch::Test::CHUnivMonTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_sketch_learn_test.html#af18ed229c4affc34dcfd36529399abb7">OmniSketch::Test::CHSketchLearnTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_sketch_learn2_tuple_test.html#af629ea98c82321811c4c79c34a86457d">OmniSketch::Test::CHSketchLearn2TupleTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_querying_counting_bloom_filter_test.html#a69565400b79f31fa1e3da180342fb8a0">OmniSketch::Test::CHQueryingCountingBloomFilterTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_p_r_sketch_test.html#a996172abed6a2dfc9c07222e3794f45d">OmniSketch::Test::CHPRSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_n_z_e_sketch_test.html#a6c12dd54491a036a6ff90fb00ab48486">OmniSketch::Test::CHNZESketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_nitro_sketch_test.html#a484e60ad455f5e25fe5e61ef63bca089">OmniSketch::Test::CHNitroSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_m_v_sketch_test.html#a36be958e460dabed25d091367ccc6832">OmniSketch::Test::CHMVSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_h_h_univ_mon_test.html#ab73b9a585cd192c05874e36085424bb8">OmniSketch::Test::CHHHUnivMonTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_heavy_keeper_test.html#abb9945b1b3624475e0f030631220cd16">OmniSketch::Test::CHHeavyKeeperTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_hash_pipe_test.html#a331e9427b314745816831ceb45d6f29d">OmniSketch::Test::CHHashPipeTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_flow_radar_test.html#aec9bcf34fa16112970a03a4475ca5aa6">OmniSketch::Test::CHFlowRadarTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_elastic_sketch_test.html#adae3ad38aa2d8f847f262dcb9391ba3f">OmniSketch::Test::CHElasticSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_deltoid_test.html#a218c156ac5bc6e17693f9a35f9a4ac9a">OmniSketch::Test::CHDeltoidTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_deltoid2_tuple_test.html#a6893ce02bf337ab25af207a4e075d0c3">OmniSketch::Test::CHDeltoid2TupleTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_c_u_sketch_test.html#acfba000e00061012f8b5f52f4fab62f1">OmniSketch::Test::CHCUSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_count_sketch_test.html#ad683e41707f38b08bfa428a0c04d5088">OmniSketch::Test::CHCountSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_counting_bloom_filter_test.html#aeab5e0ce03631da59e57eae47c0f8ffd">OmniSketch::Test::CHCountingBloomFilterTest&lt; key_len, no_layer, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_c_m_sketch_test.html#a2671c93746106cc6056bf8dc90e33547">OmniSketch::Test::CHCMSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, and <a class="el" href="class_omni_sketch_1_1_test_1_1_bloom_filter_test.html#aac7ab528414523e7c7f7587ccc5032d8">OmniSketch::Test::BloomFilterTest&lt; key_len, hash_t &gt;</a>.</p>
+
+</div>
+</div>
+<a id="afc3d233047e17bfed9ece2dc7affe277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc3d233047e17bfed9ece2dc7affe277">&#9670;&nbsp;</a></span>runTest() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T  = int64_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::runTest </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Run the test and collect statistics. </p>
+<p>Make sure this method is overriden in subclass. </p>
+
+<p>Reimplemented in <a class="el" href="class_omni_sketch_1_1_test_1_1_waving_sketch_test.html#ac1ac2c834f3896482c8ea440f4e7f728">OmniSketch::Test::WavingSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_univ_mon_test.html#aca751b65973627c4783893aaed20f1bd">OmniSketch::Test::UnivMonTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_sketch_learn_test.html#a7e87d3451b7871f6f97d8218466265dd">OmniSketch::Test::THD_CHSketchLearnTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_nitro_sketch_test.html#a7708ff2cf01e101e790912de5d6d7e53">OmniSketch::Test::THD_CHNitroSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_h_h_univ_mon_test.html#a0b01725d296af628827ada10a9ffdbc1">OmniSketch::Test::THD_CHHHUnivMonTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_flow_radar_test.html#a051dda99922c449123cee1fc4977c13a">OmniSketch::Test::THD_CHFlowRadarTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_deltoid_test.html#a70df4dce0db465b0ee9902dabd4965b9">OmniSketch::Test::THD_CHDeltoidTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_count_sketch_test.html#a7d5221277baee91b9cb91738c1d6ae09">OmniSketch::Test::THD_CHCountSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_t_h_d___c_h_c_m_sketch_test.html#af906323aab909b8681b428c1571b1f0b">OmniSketch::Test::THD_CHCMSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_sketch_learn_test.html#a8f430cf23eceaa28cec5c7a5ce8f51f4">OmniSketch::Test::SketchLearnTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_sketch_learn2_tuple_test.html#ab834c2895737207977ec663c3a0eb8c9">OmniSketch::Test::SketchLearn2TupleTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_s_a_l_s_a_c_u_test.html#a3dd2b011c9213a12766894f078e1e81f">OmniSketch::Test::SALSACUTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_s_a_l_s_a_c_m_test.html#aa60a8a1ef176f0e3113282794a2eac85">OmniSketch::Test::SALSACMTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_querying_counting_bloom_filter_test.html#aa95d995be4e0d6742035bf1385ab6705">OmniSketch::Test::QueryingCountingBloomFilterTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_p_r_sketch_test.html#a076afdcffaa45ceecaf1d1f80f56d262">OmniSketch::Test::PRSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_p_c_u_sketch_test.html#ad4445401be2d4c57ab7db67a258550e7">OmniSketch::Test::PCUSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_p_c_m_sketch_test.html#af48e04aa3e3962bbdba3f8fd18eebfc1">OmniSketch::Test::PCMSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_n_z_e_sketch_test.html#ac5fbef179ba280fdbd7a3f3eb1fa33d2">OmniSketch::Test::NZESketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_nitro_sketch_test.html#ad79f146226f8b8b070f79e39334cddcb">OmniSketch::Test::NitroSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_m_v_sketch_test.html#a60841ca4d73ca36ca54884d3c723f7cc">OmniSketch::Test::MVSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_l_d_sketch_test.html#a48579fec9901676d3cd0f951e64a63f7">OmniSketch::Test::LDSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_h_h_univ_mon_test.html#a3569175189a46ff7bf73f9efc2721694">OmniSketch::Test::HHUnivMonTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_heavy_keeper_test.html#ae7ec8f865d4bddb5fa1e9af9e6dc9f8b">OmniSketch::Test::HeavyKeeperTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_hash_pipe_test.html#a5a8ce3f2dde4298771b34341e4a89276">OmniSketch::Test::HashPipeTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_flow_radar_test.html#a8091e259761907d9d533e418bc3d22b0">OmniSketch::Test::FlowRadarTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_elastic_sketch_test.html#aa68548a8a3ce0169c282262d2fa893e0">OmniSketch::Test::ElasticSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_d_h_sketch_test.html#ac3aaf80dfd63249e5ac355e73f9b006b">OmniSketch::Test::DHSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_deltoid_test.html#afcd05ecb76b54308d3acba6531d34ed0">OmniSketch::Test::DeltoidTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_deltoid2_tuple_test.html#a5ff8443f043910c2afa6f94abee242f2">OmniSketch::Test::Deltoid2TupleTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_u_sketch_test.html#a3ee724e7ad30415d77f38cf57177e2af">OmniSketch::Test::CUSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_count_sketch_test.html#af6303a033b2113583e28a6c7f796894f">OmniSketch::Test::CountSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_counting_bloom_filter_test.html#a4bb4afb36e2137822e427a04f0da7aaf">OmniSketch::Test::CountingBloomFilterTest&lt; key_len, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_counter_tree_test.html#af9b3275f889716bd7ce29d1c6cb87dd0">OmniSketch::Test::CounterTreeTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_counter_braids_test.html#a8ec23da60cc16e8c791d3b3b88b97dbc">OmniSketch::Test::CounterBraidsTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_m_sketch_test.html#a672c66fd680e07bc5dcb6daeed19b2bc">OmniSketch::Test::CMSketchTest&lt; key_len, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_waving_sketch_test.html#a5f0fc971dfb1a050f801ad943461776a">OmniSketch::Test::CHWavingSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_univ_mon_test.html#aa25b8d3fef38ada09be63314072dcca9">OmniSketch::Test::CHUnivMonTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_sketch_learn_test.html#af18ed229c4affc34dcfd36529399abb7">OmniSketch::Test::CHSketchLearnTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_sketch_learn2_tuple_test.html#af629ea98c82321811c4c79c34a86457d">OmniSketch::Test::CHSketchLearn2TupleTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_querying_counting_bloom_filter_test.html#a69565400b79f31fa1e3da180342fb8a0">OmniSketch::Test::CHQueryingCountingBloomFilterTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_p_r_sketch_test.html#a996172abed6a2dfc9c07222e3794f45d">OmniSketch::Test::CHPRSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_n_z_e_sketch_test.html#a6c12dd54491a036a6ff90fb00ab48486">OmniSketch::Test::CHNZESketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_nitro_sketch_test.html#a484e60ad455f5e25fe5e61ef63bca089">OmniSketch::Test::CHNitroSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_m_v_sketch_test.html#a36be958e460dabed25d091367ccc6832">OmniSketch::Test::CHMVSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_h_h_univ_mon_test.html#ab73b9a585cd192c05874e36085424bb8">OmniSketch::Test::CHHHUnivMonTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_heavy_keeper_test.html#abb9945b1b3624475e0f030631220cd16">OmniSketch::Test::CHHeavyKeeperTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_hash_pipe_test.html#a331e9427b314745816831ceb45d6f29d">OmniSketch::Test::CHHashPipeTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_flow_radar_test.html#aec9bcf34fa16112970a03a4475ca5aa6">OmniSketch::Test::CHFlowRadarTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_elastic_sketch_test.html#adae3ad38aa2d8f847f262dcb9391ba3f">OmniSketch::Test::CHElasticSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_deltoid_test.html#a218c156ac5bc6e17693f9a35f9a4ac9a">OmniSketch::Test::CHDeltoidTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_deltoid2_tuple_test.html#a6893ce02bf337ab25af207a4e075d0c3">OmniSketch::Test::CHDeltoid2TupleTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_c_u_sketch_test.html#acfba000e00061012f8b5f52f4fab62f1">OmniSketch::Test::CHCUSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_count_sketch_test.html#ad683e41707f38b08bfa428a0c04d5088">OmniSketch::Test::CHCountSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_counting_bloom_filter_test.html#aeab5e0ce03631da59e57eae47c0f8ffd">OmniSketch::Test::CHCountingBloomFilterTest&lt; key_len, no_layer, hash_t &gt;</a>, <a class="el" href="class_omni_sketch_1_1_test_1_1_c_h_c_m_sketch_test.html#a2671c93746106cc6056bf8dc90e33547">OmniSketch::Test::CHCMSketchTest&lt; key_len, no_layer, T, hash_t &gt;</a>, and <a class="el" href="class_omni_sketch_1_1_test_1_1_bloom_filter_test.html#aac7ab528414523e7c7f7587ccc5032d8">OmniSketch::Test::BloomFilterTest&lt; key_len, hash_t &gt;</a>.</p>
 
 </div>
 </div>
 <a id="a287ebe64a56c28a64cd913b2ef30602d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a287ebe64a56c28a64cd913b2ef30602d">&#9670;&nbsp;</a></span>show()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a287ebe64a56c28a64cd913b2ef30602d">&#9670;&nbsp;</a></span>show() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,11 +503,42 @@ template&lt;int32_t key_len, typename T &gt; </div>
 <p>Display metrics in a human-readable manner. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>DIST </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>DIST </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>DIST </dd></dl>
 
 </div>
 </div>
-<a id="ac65ba0fd5fb8a1f9350140807ac5becc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac65ba0fd5fb8a1f9350140807ac5becc">&#9670;&nbsp;</a></span>testDecode()</h2>
+<a id="a9b54777d079651ed7f3646090694b165"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b54777d079651ed7f3646090694b165">&#9670;&nbsp;</a></span>show() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T  = int64_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::show </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display metrics in a human-readable manner. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>DIST </dd></dl>
+
+</div>
+</div>
+<a id="a13f4723b780d3bf37bc02a084086f1a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13f4723b780d3bf37bc02a084086f1a9">&#9670;&nbsp;</a></span>testDecode() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -349,7 +549,55 @@ template&lt;int32_t key_len, typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testDecode </td>
+          <td class="memname">double <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testDecode </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>ptr_sketch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt;&#160;</td>
+          <td class="paramname"><em>gnd_truth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="namespace_omni_sketch_1_1_test.html" title="Testing classes and metrics.">Test</a> decode. </p>
+<p>You should override the <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#a00d45bbb6e1d12a2fe3c7d0a18bcbddc" title="Decode all flowkeys along with their values.">Sketch::SketchBase::decode()</a> method.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr_sketch</td><td>pointer to the sketch </td></tr>
+    <tr><td class="paramname">gnd_truth</td><td>ground truth </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8afa0a3e1a0fa4099c8d3900b9a09374"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8afa0a3e1a0fa4099c8d3900b9a09374">&#9670;&nbsp;</a></span>testDecode() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T  = int64_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testDecode </td>
           <td>(</td>
           <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>ptr_sketch</em>, </td>
@@ -386,7 +634,7 @@ template&lt;int32_t key_len, typename T &gt; </div>
 </div>
 </div>
 <a id="a0d55de36f2a93b52069f8475bbe23804"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d55de36f2a93b52069f8475bbe23804">&#9670;&nbsp;</a></span>testHeavyChanger()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d55de36f2a93b52069f8475bbe23804">&#9670;&nbsp;</a></span>testHeavyChanger() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -447,8 +695,70 @@ template&lt;int32_t key_len, typename T &gt; </div>
 
 </div>
 </div>
-<a id="a28810d78eddb56cc366bb440e5206585"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28810d78eddb56cc366bb440e5206585">&#9670;&nbsp;</a></span>testHeavyHitter()</h2>
+<a id="aeec6119a71a7d4fdf37f4e864e2fee92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeec6119a71a7d4fdf37f4e864e2fee92">&#9670;&nbsp;</a></span>testHeavyChanger() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T  = int64_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testHeavyChanger </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>ptr_sketch_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>ptr_sketch_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>threshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt;&#160;</td>
+          <td class="paramname"><em>gnd_truth_heavy_changers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="namespace_omni_sketch_1_1_test.html" title="Testing classes and metrics.">Test</a> heavy changers. </p>
+<p>You should override the Sketch::SketchBase::getHeavyChangers() method.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr_sketch_1</td><td>pointer to the first sketch </td></tr>
+    <tr><td class="paramname">ptr_sketch_2</td><td>pointer to the second sketch </td></tr>
+    <tr><td class="paramname">threshold</td><td>threshold value of heavy changers </td></tr>
+    <tr><td class="paramname">gnd_truth_heavy_changers</td><td>ground truth of heavy changers (relative to the first sketch) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6aa9f593c9412c406409e4f69b2bd4c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aa9f593c9412c406409e4f69b2bd4c0">&#9670;&nbsp;</a></span>testHeavyHitter() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -459,7 +769,62 @@ template&lt;int32_t key_len, typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testHeavyHitter </td>
+          <td class="memname">double <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testHeavyHitter </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>ptr_sketch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>threshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt;&#160;</td>
+          <td class="paramname"><em>gnd_truth_heavy_hitters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="namespace_omni_sketch_1_1_test.html" title="Testing classes and metrics.">Test</a> heavy hitters. </p>
+<p>You should override the <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#ab8dec0e0d4382016225dbd75788f3ff9" title="Get all the heavy hitters.">Sketch::SketchBase::getHeavyHitter()</a> method.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr_sketch</td><td>pointer to the sketch </td></tr>
+    <tr><td class="paramname">threshold</td><td>threshold value of heavy hitters </td></tr>
+    <tr><td class="paramname">gnd_truth_heavy_hitters</td><td>ground truth of heavy hitters </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af1f71cf21fca943d74afe8e19b9b24dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1f71cf21fca943d74afe8e19b9b24dc">&#9670;&nbsp;</a></span>testHeavyHitter() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T  = int64_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testHeavyHitter </td>
           <td>(</td>
           <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>ptr_sketch</em>, </td>
@@ -503,7 +868,7 @@ template&lt;int32_t key_len, typename T &gt; </div>
 </div>
 </div>
 <a id="aacfc4bbae570f916c5c87c16b06a96da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacfc4bbae570f916c5c87c16b06a96da">&#9670;&nbsp;</a></span>testInsert()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aacfc4bbae570f916c5c87c16b06a96da">&#9670;&nbsp;</a></span>testInsert() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -557,8 +922,63 @@ template&lt;int32_t key_len, typename T &gt; </div>
 
 </div>
 </div>
+<a id="a3d1503f5449d07736facca74088fa4d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d1503f5449d07736facca74088fa4d1">&#9670;&nbsp;</a></span>testInsert() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T  = int64_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testInsert </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>ptr_sketch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename std::vector&lt; <a class="el" href="struct_omni_sketch_1_1_data_1_1_record.html">Data::Record</a>&lt; key_len &gt;&gt;::const_iterator&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename std::vector&lt; <a class="el" href="struct_omni_sketch_1_1_data_1_1_record.html">Data::Record</a>&lt; key_len &gt;&gt;::const_iterator&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Insert a row of records. </p>
+<p>Records in [begin, end) will be sequentially inserted. You should override the <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#a0db74aa70b663fae2de994f433e8b4b3" title="Insert a flowkey without value.">Sketch::SketchBase::insert()</a> method.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr_sketch</td><td>pointer to the sketch </td></tr>
+    <tr><td class="paramname">begin</td><td>[begin, end) </td></tr>
+    <tr><td class="paramname">end</td><td>[begin, end) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="aec1628a80bf98f95c8463a58dab82415"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec1628a80bf98f95c8463a58dab82415">&#9670;&nbsp;</a></span>testLookup()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aec1628a80bf98f95c8463a58dab82415">&#9670;&nbsp;</a></span>testLookup() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -612,8 +1032,63 @@ template&lt;int32_t key_len, typename T &gt; </div>
 
 </div>
 </div>
-<a id="a5e3c9d462ab3d771353f043e47634319"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e3c9d462ab3d771353f043e47634319">&#9670;&nbsp;</a></span>testQuery()</h2>
+<a id="a07bdcc40e4f8564154164199d8f1e102"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07bdcc40e4f8564154164199d8f1e102">&#9670;&nbsp;</a></span>testLookup() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T  = int64_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testLookup </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>ptr_sketch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>gnd_truth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>sample</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Lookup each flow in ground truth. </p>
+<p>You should override the <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#aa64070e79e56557a7fe0b48df0268d7e" title="Look up a flowkey in the sketch.">Sketch::SketchBase::lookup()</a> method.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr_sketch</td><td>pointer to the sketch </td></tr>
+    <tr><td class="paramname">gnd_truth</td><td>ground truth </td></tr>
+    <tr><td class="paramname">sample</td><td>sampled ground truth </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4827f5ab815ed08d5c3d78eb7fe1c502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4827f5ab815ed08d5c3d78eb7fe1c502">&#9670;&nbsp;</a></span>testQuery() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -624,7 +1099,55 @@ template&lt;int32_t key_len, typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testQuery </td>
+          <td class="memname">double <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testQuery </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>ptr_sketch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_omni_sketch_1_1_data_1_1_gnd_truth.html">Data::GndTruth</a>&lt; key_len, T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>gnd_truth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Query for each flow in ground truth. </p>
+<p>You should override the <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#acde318df3b2ce9ad5115754df15beb21" title="Query the sketch for the estimated size of a flowkey.">Sketch::SketchBase::query()</a> method.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr_sketch</td><td>pointer to the sketch </td></tr>
+    <tr><td class="paramname">gnd_truth</td><td>ground truth </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae916ff024601d483324d2d16b593f8a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae916ff024601d483324d2d16b593f8a0">&#9670;&nbsp;</a></span>testQuery() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T  = int64_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testQuery </td>
           <td>(</td>
           <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>ptr_sketch</em>, </td>
@@ -661,7 +1184,7 @@ template&lt;int32_t key_len, typename T &gt; </div>
 </div>
 </div>
 <a id="a7c8d4ec8b257ee76670d6e5274f656c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c8d4ec8b257ee76670d6e5274f656c0">&#9670;&nbsp;</a></span>testSize()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c8d4ec8b257ee76670d6e5274f656c0">&#9670;&nbsp;</a></span>testSize() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -697,8 +1220,45 @@ template&lt;int32_t key_len, typename T &gt; </div>
 
 </div>
 </div>
+<a id="ad5fd9ee0423473404b16de9b663ff3b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5fd9ee0423473404b16de9b663ff3b9">&#9670;&nbsp;</a></span>testSize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T  = int64_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testSize </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>ptr_sketch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the size of the sketch. </p>
+<p>You should override the <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#acc68d26a5ba8a7619a1858dcb2e80235" title="Return the size of the sketch.">Sketch::SketchBase::size()</a> method.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr_sketch</td><td>pointer to the sketch </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a98d8e9d0a0f0aca9fe14c5ee6ac668c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98d8e9d0a0f0aca9fe14c5ee6ac668c0">&#9670;&nbsp;</a></span>testUpdate()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a98d8e9d0a0f0aca9fe14c5ee6ac668c0">&#9670;&nbsp;</a></span>testUpdate() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -710,6 +1270,59 @@ template&lt;int32_t key_len, typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testUpdate </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>ptr_sketch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename std::vector&lt; <a class="el" href="struct_omni_sketch_1_1_data_1_1_record.html">Data::Record</a>&lt; key_len &gt;&gt;::const_iterator&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename std::vector&lt; <a class="el" href="struct_omni_sketch_1_1_data_1_1_record.html">Data::Record</a>&lt; key_len &gt;&gt;::const_iterator&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_omni_sketch_1_1_data.html#ad0e84d4f1d65e2cf284f5ad3a41cbcc4">Data::CntMethod</a>&#160;</td>
+          <td class="paramname"><em>cnt_method</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update a row of records (with values to the sketch) </p>
+<p>Records in [begin, end) will be sequentially updated. You should override the <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#aa6163885014e4210ecba2621e906211f" title="Update a flowkey with certain value.">Sketch::SketchBase::update()</a> method. </p>
+
+</div>
+</div>
+<a id="a0621d4f73170eb6a37df759189fb9cac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0621d4f73170eb6a37df759189fb9cac">&#9670;&nbsp;</a></span>testUpdate() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T  = int64_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="class_omni_sketch_1_1_test_1_1_test_base.html">OmniSketch::Test::TestBase</a>&lt; key_len, T &gt;::testUpdate </td>
           <td>(</td>
           <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">Sketch::SketchBase</a>&lt; key_len, T &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>ptr_sketch</em>, </td>

@@ -89,11 +89,11 @@ var NAVTREE =
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", null ]
+        [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -102,8 +102,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_bloom_filter_8h.html",
-"class_omni_sketch_1_1_test_1_1_count_sketch_test.html",
-"test__config_8cpp.html#afd3262824d83934d9426d889a5075d7f"
+"_p_r_sketch_test_8h.html#a8434e47ec833d84efedf2ad82d883f74",
+"class_omni_sketch_1_1_sketch_1_1_c_h_flow_radar.html#a7f653272bcb533610cf7820328835858",
+"class_omni_sketch_1_1_sketch_1_1_d_h_s_node.html#aa7fe9b5ef28e214c23c7b3b66f027ebd",
+"class_omni_sketch_1_1_sketch_1_1_t_h_d___c_h_nitro_sketch.html#aebbccd3b2a5a59a2dc59171c033b0e58",
+"class_omni_sketch_1_1_test_1_1_test_base.html#aeec6119a71a7d4fdf37f4e864e2fee92",
+"namespace_omni_sketch_1_1_test.html#a160b52aa582997dee1396a606414c223a97ec20e6c34dd1d2acedd91adf564e7b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

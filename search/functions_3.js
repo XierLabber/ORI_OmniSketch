@@ -1,9 +1,19 @@
 var searchData=
 [
-  ['dataformat_392',['DataFormat',['../class_omni_sketch_1_1_data_1_1_data_format.html#ac853a6be5bfd10b799a48d96ee01e04f',1,'OmniSketch::Data::DataFormat']]],
-  ['decode_393',['decode',['../class_omni_sketch_1_1_sketch_1_1_sketch_base.html#a00d45bbb6e1d12a2fe3c7d0a18bcbddc',1,'OmniSketch::Sketch::SketchBase::decode()'],['../class_omni_sketch_1_1_sketch_1_1_flow_radar.html#af29d32d2da27b4be9c1cd0602e7d4ad3',1,'OmniSketch::Sketch::FlowRadar::decode()'],['../class_my_sketch.html#a41f1f76e869be374d99700a517ecbb44',1,'MySketch::decode()']]],
-  ['diff_394',['diff',['../class_omni_sketch_1_1_data_1_1_stream_data.html#a94d28bdd79c4cd25b476a9a501e89645',1,'OmniSketch::Data::StreamData']]],
-  ['dumppcappacketinpcap_395',['dumpPcapPacketInPcap',['../class_omni_sketch_1_1_util_1_1_pcap_parser.html#a5b01e9eea6c03dbfb7bda0e91dd4bd45',1,'OmniSketch::Util::PcapParser']]],
-  ['dumppcappacketsinbinary_396',['dumpPcapPacketsInBinary',['../class_omni_sketch_1_1_util_1_1_pcap_parser.html#a6034f274882497ab70e0ff1dd7977710',1,'OmniSketch::Util::PcapParser']]],
-  ['dynamicintx_397',['DynamicIntX',['../class_omni_sketch_1_1_util_1_1_dynamic_int_x.html#a96731387599d05e33c5bcdbdd3d099b6',1,'OmniSketch::Util::DynamicIntX']]]
+  ['dataformat_1126',['DataFormat',['../class_omni_sketch_1_1_data_1_1_data_format.html#ac853a6be5bfd10b799a48d96ee01e04f',1,'OmniSketch::Data::DataFormat']]],
+  ['decode_1127',['decode',['../class_omni_sketch_1_1_sketch_1_1_sketch_base.html#a00d45bbb6e1d12a2fe3c7d0a18bcbddc',1,'OmniSketch::Sketch::SketchBase::decode()'],['../class_omni_sketch_1_1_sketch_1_1_c_h_flow_radar.html#a658329e5e6fd190c95acb39dfd0a0a55',1,'OmniSketch::Sketch::CHFlowRadar::decode()'],['../class_omni_sketch_1_1_sketch_1_1_counter_braids.html#a961531600aad96d468180c1b20abbaa7',1,'OmniSketch::Sketch::CounterBraids::decode()'],['../class_omni_sketch_1_1_sketch_1_1_flow_radar.html#af29d32d2da27b4be9c1cd0602e7d4ad3',1,'OmniSketch::Sketch::FlowRadar::decode()'],['../class_omni_sketch_1_1_sketch_1_1_t_h_d___c_h_flow_radar.html#affd6fb668e85c857a626d1e588d6071e',1,'OmniSketch::Sketch::THD_CHFlowRadar::decode()'],['../class_my_sketch.html#a41f1f76e869be374d99700a517ecbb44',1,'MySketch::decode()']]],
+  ['delete_5fbucket_1128',['delete_bucket',['../class_omni_sketch_1_1_sketch_1_1_c_h_heavy_keeper_1_1_stream_summary.html#a6d835d2217c924dfe2fa62445562ea2e',1,'OmniSketch::Sketch::CHHeavyKeeper::StreamSummary']]],
+  ['deltoid_1129',['Deltoid',['../class_omni_sketch_1_1_sketch_1_1_deltoid.html#a51698fb30203948dd1a6b0c54b8fcfbc',1,'OmniSketch::Sketch::Deltoid']]],
+  ['deltoid2tuple_1130',['Deltoid2Tuple',['../class_omni_sketch_1_1_sketch_1_1_deltoid2_tuple.html#a178242d725879ffa15304edf41d627f7',1,'OmniSketch::Sketch::Deltoid2Tuple']]],
+  ['deltoid2tupletest_1131',['Deltoid2TupleTest',['../class_omni_sketch_1_1_test_1_1_deltoid2_tuple_test.html#a9c3dac5f54eb9b0889a0f1bdd6d03871',1,'OmniSketch::Test::Deltoid2TupleTest']]],
+  ['deltoidtest_1132',['DeltoidTest',['../class_omni_sketch_1_1_test_1_1_deltoid_test.html#a93f7c64983b3d805c74ae8f9da14ef86',1,'OmniSketch::Test::DeltoidTest']]],
+  ['destroy_1133',['destroy',['../class_omni_sketch_1_1_sketch_1_1_stream_summary.html#a3bc61632918e0564da6dcf471e4fb76f',1,'OmniSketch::Sketch::StreamSummary']]],
+  ['dhsfingerprint_1134',['DHSFingerPrint',['../namespace_omni_sketch_1_1_sketch.html#ae1b28a7036c178c76e65b00c376b5f15',1,'OmniSketch::Sketch']]],
+  ['dhsketch_1135',['DHSketch',['../class_omni_sketch_1_1_sketch_1_1_d_h_sketch.html#ae2222f0c787557ce3eaa149b141b47b5',1,'OmniSketch::Sketch::DHSketch']]],
+  ['dhsketchtest_1136',['DHSketchTest',['../class_omni_sketch_1_1_test_1_1_d_h_sketch_test.html#a7c5ff1da712673d2b92973e429a94b14',1,'OmniSketch::Test::DHSketchTest']]],
+  ['dhsnode_1137',['DHSNode',['../class_omni_sketch_1_1_sketch_1_1_d_h_s_node.html#a03f11e0b85d32840d3ce7a451212a903',1,'OmniSketch::Sketch::DHSNode']]],
+  ['diff_1138',['diff',['../class_omni_sketch_1_1_data_1_1_stream_data.html#a94d28bdd79c4cd25b476a9a501e89645',1,'OmniSketch::Data::StreamData']]],
+  ['dumppcappacketinpcap_1139',['dumpPcapPacketInPcap',['../class_omni_sketch_1_1_util_1_1_pcap_parser.html#a5b01e9eea6c03dbfb7bda0e91dd4bd45',1,'OmniSketch::Util::PcapParser']]],
+  ['dumppcappacketsinbinary_1140',['dumpPcapPacketsInBinary',['../class_omni_sketch_1_1_util_1_1_pcap_parser.html#a6034f274882497ab70e0ff1dd7977710',1,'OmniSketch::Util::PcapParser']]],
+  ['dynamicintx_1141',['DynamicIntX',['../class_omni_sketch_1_1_util_1_1_dynamic_int_x.html#a96731387599d05e33c5bcdbdd3d099b6',1,'OmniSketch::Util::DynamicIntX']]]
 ];

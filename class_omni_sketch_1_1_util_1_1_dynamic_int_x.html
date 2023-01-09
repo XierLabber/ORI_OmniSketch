@@ -124,6 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad7a7cab218bd26f89074bf67d70cd4b2"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_util_1_1_dynamic_int_x.html#ad7a7cab218bd26f89074bf67d70cd4b2">getVal</a> () const</td></tr>
 <tr class="memdesc:ad7a7cab218bd26f89074bf67d70cd4b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value of the counter.  <a href="class_omni_sketch_1_1_util_1_1_dynamic_int_x.html#ad7a7cab218bd26f89074bf67d70cd4b2">More...</a><br /></td></tr>
 <tr class="separator:ad7a7cab218bd26f89074bf67d70cd4b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af41a6901920f58791dc2dd93df90824d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_util_1_1_dynamic_int_x.html#af41a6901920f58791dc2dd93df90824d">setVal</a> (T val)</td></tr>
+<tr class="memdesc:af41a6901920f58791dc2dd93df90824d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value of the counter.  <a href="class_omni_sketch_1_1_util_1_1_dynamic_int_x.html#af41a6901920f58791dc2dd93df90824d">More...</a><br /></td></tr>
+<tr class="separator:af41a6901920f58791dc2dd93df90824d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
@@ -212,6 +215,36 @@ template&lt;typename T &gt; </div>
 <p>Update by a certain value. </p>
 <dl class="section note"><dt>Note</dt><dd>If <code>T</code> is signed and <code>val</code> is negative, make sure val is within <code>[-(2^n - 1), 2^n - 1]</code>, where <code>n = 8 * sizeof(T) - 2</code>. (This is a technical requirement due to the correct interpretation of overflow) For example, the range when <code>T = int32_t</code> is <code>[-1073741823, 1073741823]</code>.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>the overflowed value </dd></dl>
+
+</div>
+</div>
+<a id="af41a6901920f58791dc2dd93df90824d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af41a6901920f58791dc2dd93df90824d">&#9670;&nbsp;</a></span>setVal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_omni_sketch_1_1_util_1_1_dynamic_int_x.html">OmniSketch::Util::DynamicIntX</a>&lt; T &gt;::setVal </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the value of the counter. </p>
 
 </div>
 </div>

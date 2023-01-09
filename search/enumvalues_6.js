@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['rate_527',['RATE',['../namespace_omni_sketch_1_1_test.html#a160b52aa582997dee1396a606414c223a759f27ceb062808a0ca806eca5b34d63',1,'OmniSketch::Test']]],
-  ['ratio_528',['RATIO',['../namespace_omni_sketch_1_1_test.html#a160b52aa582997dee1396a606414c223aa25dbfc91c74388d26fd63877ceed5c7',1,'OmniSketch::Test']]],
-  ['rcl_529',['RCL',['../namespace_omni_sketch_1_1_test.html#a160b52aa582997dee1396a606414c223a33d54af0e748ff8d7e3faffd8089ca40',1,'OmniSketch::Test']]]
+  ['rate_1432',['RATE',['../namespace_omni_sketch_1_1_test.html#a160b52aa582997dee1396a606414c223a613fcafd6dd331f2fc490d511c742291',1,'OmniSketch::Test']]],
+  ['ratio_1433',['RATIO',['../namespace_omni_sketch_1_1_test.html#a160b52aa582997dee1396a606414c223a7a1480278766ba42e0681123c3409c00',1,'OmniSketch::Test']]],
+  ['rcl_1434',['RCL',['../namespace_omni_sketch_1_1_test.html#a160b52aa582997dee1396a606414c223abd2ff7abddb39e03067ce4ad5d25c9cc',1,'OmniSketch::Test']]]
 ];

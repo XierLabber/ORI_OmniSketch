@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mangle_5fmagic_573',['MANGLE_MAGIC',['../utils_8h.html#a9138c9ddf745ec0db9af9bea299403b8',1,'utils.h']]]
+  ['iter_1576',['ITER',['../_counter_braids_8h.html#ab5b92945430bd0cb7a04673282cf70c3',1,'CounterBraids.h']]]
 ];

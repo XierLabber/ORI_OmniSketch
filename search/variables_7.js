@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['show_5fname_499',['show_name',['../class_omni_sketch_1_1_test_1_1_test_base.html#aa07f6caf3c81fb63d9c8fdcc3607fa35',1,'OmniSketch::Test::TestBase']]],
-  ['size_500',['size',['../class_omni_sketch_1_1_sketch_1_1_sketch_learn_1_1ans__t.html#a31bcf3047bf3ff9d8bc630b8aaa3674a',1,'OmniSketch::Sketch::SketchLearn::ans_t']]]
+  ['next_1395',['next',['../class_omni_sketch_1_1_sketch_1_1hash__table__elem.html#ab0d8f2bc995be68a9f15132be897251b',1,'OmniSketch::Sketch::hash_table_elem::next()'],['../class_omni_sketch_1_1_sketch_1_1bucket__list__elem.html#a40ae85bcf283b763bcdd5bdc0d77f04f',1,'OmniSketch::Sketch::bucket_list_elem::next()'],['../class_omni_sketch_1_1_sketch_1_1_c_h_heavy_keeper_1_1hash__table__elem.html#ae23e74d2caa6e7e19053fc2f35a70914',1,'OmniSketch::Sketch::CHHeavyKeeper::hash_table_elem::next()'],['../class_omni_sketch_1_1_sketch_1_1_c_h_heavy_keeper_1_1bucket__list__elem.html#add2569a35a2014c6000628900a841a2d',1,'OmniSketch::Sketch::CHHeavyKeeper::bucket_list_elem::next()']]],
+  ['next_5fhash_5felem_1396',['next_hash_elem',['../class_omni_sketch_1_1_sketch_1_1hash__table__elem.html#aef5316e92f632c256d50838da9786b62',1,'OmniSketch::Sketch::hash_table_elem::next_hash_elem()'],['../class_omni_sketch_1_1_sketch_1_1_c_h_heavy_keeper_1_1hash__table__elem.html#acd8ff674b17412b31d7ecfc670d55c05',1,'OmniSketch::Sketch::CHHeavyKeeper::hash_table_elem::next_hash_elem()']]]
 ];

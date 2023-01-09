@@ -1,5 +1,14 @@
 var searchData=
 [
-  ['hashpipe_422',['HashPipe',['../class_omni_sketch_1_1_sketch_1_1_hash_pipe.html#a920238db091a095542cbb835032a839b',1,'OmniSketch::Sketch::HashPipe']]],
-  ['hashpipetest_423',['HashPipeTest',['../class_omni_sketch_1_1_test_1_1_hash_pipe_test.html#a54ab2afded5d8444bfec7bac9b706875',1,'OmniSketch::Test::HashPipeTest']]]
+  ['hash_5ftable_5felem_1196',['hash_table_elem',['../class_omni_sketch_1_1_sketch_1_1hash__table__elem.html#af96c46aafc8ce28dd6a812b7ed125a37',1,'OmniSketch::Sketch::hash_table_elem::hash_table_elem()'],['../class_omni_sketch_1_1_sketch_1_1_c_h_heavy_keeper_1_1hash__table__elem.html#a8bb0ace134f48eecd216162ef7e981ac',1,'OmniSketch::Sketch::CHHeavyKeeper::hash_table_elem::hash_table_elem()']]],
+  ['hashpipe_1197',['HashPipe',['../class_omni_sketch_1_1_sketch_1_1_hash_pipe.html#a920238db091a095542cbb835032a839b',1,'OmniSketch::Sketch::HashPipe']]],
+  ['hashpipetest_1198',['HashPipeTest',['../class_omni_sketch_1_1_test_1_1_hash_pipe_test.html#a54ab2afded5d8444bfec7bac9b706875',1,'OmniSketch::Test::HashPipeTest']]],
+  ['heavy_5fpart_1199',['heavy_part',['../class_omni_sketch_1_1_sketch_1_1_c_h_waving_sketch_1_1heavy__part.html#ac7a4a5bef356a91889a50eeabe976f91',1,'OmniSketch::Sketch::CHWavingSketch::heavy_part::heavy_part()'],['../class_omni_sketch_1_1_sketch_1_1_waving_sketch_1_1heavy__part.html#a94690ef90c0063bd65c12afa2fe0e3fd',1,'OmniSketch::Sketch::WavingSketch::heavy_part::heavy_part()']]],
+  ['heavykeeper_1200',['HeavyKeeper',['../class_omni_sketch_1_1_sketch_1_1_heavy_keeper.html#aa6c731d39c869158636ae4834328bb4f',1,'OmniSketch::Sketch::HeavyKeeper']]],
+  ['heavykeepertest_1201',['HeavyKeeperTest',['../class_omni_sketch_1_1_test_1_1_heavy_keeper_test.html#a524b592cf84d1faed2cbb7dc7c31f8fe',1,'OmniSketch::Test::HeavyKeeperTest']]],
+  ['heavypartinsert_1202',['heavypartInsert',['../class_omni_sketch_1_1_sketch_1_1_c_h_elastic_sketch.html#af6e50088db54a2f36ed05af54729d110',1,'OmniSketch::Sketch::CHElasticSketch::heavypartInsert()'],['../class_omni_sketch_1_1_sketch_1_1_elastic_sketch.html#a4ed2ee32e673ad9fac6286e29cf9f3c5',1,'OmniSketch::Sketch::ElasticSketch::heavypartInsert()']]],
+  ['heavypartquery_1203',['heavypartQuery',['../class_omni_sketch_1_1_sketch_1_1_c_h_elastic_sketch.html#a8f2a817d58541384e7557d2aaf7c8361',1,'OmniSketch::Sketch::CHElasticSketch::heavypartQuery()'],['../class_omni_sketch_1_1_sketch_1_1_elastic_sketch.html#ae47074ce3cd806c33cfbd56da35e1d51',1,'OmniSketch::Sketch::ElasticSketch::heavypartQuery()']]],
+  ['hhunivmon_1204',['HHUnivMon',['../class_omni_sketch_1_1_sketch_1_1_h_h_univ_mon.html#ab6bccb97003910233f0cffdd6f7a4245',1,'OmniSketch::Sketch::HHUnivMon']]],
+  ['hhunivmontest_1205',['HHUnivMonTest',['../class_omni_sketch_1_1_test_1_1_h_h_univ_mon_test.html#a9bbe25420e47ebed47e87b473789a705',1,'OmniSketch::Test::HHUnivMonTest']]],
+  ['highest_5fbit_5fadd_1206',['highest_bit_add',['../class_omni_sketch_1_1_sketch_1_1_counter_hierarchy.html#a6ffbe4f3a27883b54dd62dba71f8a593',1,'OmniSketch::Sketch::CounterHierarchy::highest_bit_add(int32_t val)'],['../class_omni_sketch_1_1_sketch_1_1_counter_hierarchy.html#a6ffbe4f3a27883b54dd62dba71f8a593',1,'OmniSketch::Sketch::CounterHierarchy::highest_bit_add(int32_t val)']]]
 ];

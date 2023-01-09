@@ -142,6 +142,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af289e98d21659ee23298d13575ec6c69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_sketch_1_1_count_sketch.html#af289e98d21659ee23298d13575ec6c69">clear</a> ()</td></tr>
 <tr class="memdesc:af289e98d21659ee23298d13575ec6c69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the sketch.  <a href="class_omni_sketch_1_1_sketch_1_1_count_sketch.html#af289e98d21659ee23298d13575ec6c69">More...</a><br /></td></tr>
 <tr class="separator:af289e98d21659ee23298d13575ec6c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a611e5866295d95b8f04531d7750b4f1d"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_sketch_1_1_count_sketch.html#a611e5866295d95b8f04531d7750b4f1d">getDepth</a> () const</td></tr>
+<tr class="separator:a611e5866295d95b8f04531d7750b4f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7eb8bf461de75be0cadb2b8c56dca82"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_sketch_1_1_count_sketch.html#ab7eb8bf461de75be0cadb2b8c56dca82">getWidth</a> () const</td></tr>
+<tr class="separator:ab7eb8bf461de75be0cadb2b8c56dca82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0abe38a152e5703c8356bb0902b5792"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_sketch_1_1_count_sketch.html#aa0abe38a152e5703c8356bb0902b5792">getCnt</a> (int32_t i, int32_t j)</td></tr>
+<tr class="separator:aa0abe38a152e5703c8356bb0902b5792"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_omni_sketch_1_1_sketch_1_1_sketch_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_omni_sketch_1_1_sketch_1_1_sketch_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html">OmniSketch::Sketch::SketchBase&lt; key_len, T &gt;</a></td></tr>
 <tr class="memitem:a0db74aa70b663fae2de994f433e8b4b3 inherit pub_methods_class_omni_sketch_1_1_sketch_1_1_sketch_base"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#a0db74aa70b663fae2de994f433e8b4b3">insert</a> (const <a class="el" href="class_omni_sketch_1_1_flow_key.html">FlowKey</a>&lt; key_len &gt; &amp;flowkey)</td></tr>
 <tr class="memdesc:a0db74aa70b663fae2de994f433e8b4b3 inherit pub_methods_class_omni_sketch_1_1_sketch_1_1_sketch_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a flowkey without value.  <a href="class_omni_sketch_1_1_sketch_1_1_sketch_base.html#a0db74aa70b663fae2de994f433e8b4b3">More...</a><br /></td></tr>
@@ -239,6 +245,68 @@ template&lt;int32_t key_len, typename T , typename hash_t &gt; </div>
 </div><div class="memdoc">
 
 <p>Reset the sketch. </p>
+
+</div>
+</div>
+<a id="aa0abe38a152e5703c8356bb0902b5792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0abe38a152e5703c8356bb0902b5792">&#9670;&nbsp;</a></span>getCnt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T , typename hash_t &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="class_omni_sketch_1_1_sketch_1_1_count_sketch.html">OmniSketch::Sketch::CountSketch</a>&lt; key_len, T, hash_t &gt;::getCnt </td>
+          <td>(</td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a611e5866295d95b8f04531d7750b4f1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a611e5866295d95b8f04531d7750b4f1d">&#9670;&nbsp;</a></span>getDepth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T , typename hash_t &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t <a class="el" href="class_omni_sketch_1_1_sketch_1_1_count_sketch.html">OmniSketch::Sketch::CountSketch</a>&lt; key_len, T, hash_t &gt;::getDepth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7eb8bf461de75be0cadb2b8c56dca82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7eb8bf461de75be0cadb2b8c56dca82">&#9670;&nbsp;</a></span>getWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int32_t key_len, typename T , typename hash_t &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t <a class="el" href="class_omni_sketch_1_1_sketch_1_1_count_sketch.html">OmniSketch::Sketch::CountSketch</a>&lt; key_len, T, hash_t &gt;::getWidth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

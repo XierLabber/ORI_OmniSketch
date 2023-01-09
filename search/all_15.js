@@ -1,14 +1,6 @@
 var searchData=
 [
-  ['_7ebloomfilter_263',['~BloomFilter',['../class_omni_sketch_1_1_sketch_1_1_bloom_filter.html#afd6842086f6e70b5337db8dbe3413046',1,'OmniSketch::Sketch::BloomFilter']]],
-  ['_7echcmsketch_264',['~CHCMSketch',['../class_omni_sketch_1_1_sketch_1_1_c_h_c_m_sketch.html#a64ff20c6783f4725c8a1bf36e55410b7',1,'OmniSketch::Sketch::CHCMSketch']]],
-  ['_7ecmsketch_265',['~CMSketch',['../class_omni_sketch_1_1_sketch_1_1_c_m_sketch.html#ac07b250fa159dde4523a25d984f5ce87',1,'OmniSketch::Sketch::CMSketch']]],
-  ['_7ecounterhierarchy_266',['~CounterHierarchy',['../class_omni_sketch_1_1_sketch_1_1_counter_hierarchy.html#a047b2f1b75dd2dd4adf4169a016f919b',1,'OmniSketch::Sketch::CounterHierarchy']]],
-  ['_7ecountingbloomfilter_267',['~CountingBloomFilter',['../class_omni_sketch_1_1_sketch_1_1_counting_bloom_filter.html#a7c978fe95890b6c51227d8aabd708cdb',1,'OmniSketch::Sketch::CountingBloomFilter']]],
-  ['_7ecountsketch_268',['~CountSketch',['../class_omni_sketch_1_1_sketch_1_1_count_sketch.html#a7239e32d8cd1b35948193609e81d83b3',1,'OmniSketch::Sketch::CountSketch']]],
-  ['_7ecusketch_269',['~CUSketch',['../class_omni_sketch_1_1_sketch_1_1_c_u_sketch.html#ae23f98c51b54a85f1d58ec468e1bc436',1,'OmniSketch::Sketch::CUSketch']]],
-  ['_7eflowradar_270',['~FlowRadar',['../class_omni_sketch_1_1_sketch_1_1_flow_radar.html#a728bdc0e933236d91d7aceeb9c356840',1,'OmniSketch::Sketch::FlowRadar']]],
-  ['_7ehashpipe_271',['~HashPipe',['../class_omni_sketch_1_1_sketch_1_1_hash_pipe.html#a4c9f0566d137751d68dbcd5838a50293',1,'OmniSketch::Sketch::HashPipe']]],
-  ['_7epcapparser_272',['~PcapParser',['../class_omni_sketch_1_1_util_1_1_pcap_parser.html#aef9c0e89495ef302c3da4bfc84961e85',1,'OmniSketch::Util::PcapParser']]],
-  ['_7esketchlearn_273',['~SketchLearn',['../class_omni_sketch_1_1_sketch_1_1_sketch_learn.html#a37dc17fda847c565c12f01472c0d5f4f',1,'OmniSketch::Sketch::SketchLearn::~SketchLearn()'],['../class_omni_sketch_1_1_sketch_1_1_sketch_learn.html#a37dc17fda847c565c12f01472c0d5f4f',1,'OmniSketch::Sketch::SketchLearn::~SketchLearn()']]]
+  ['val_5fwill_5falways_5fbe_5fone_686',['VAL_WILL_ALWAYS_BE_ONE',['../_c_h_m_v_sketch_8h.html#a26b0a59a4eab2489fbbc12dba51970eb',1,'CHMVSketch.h']]],
+  ['value_687',['value',['../class_omni_sketch_1_1_sketch_1_1bucket__list__elem.html#a2faa97c02d4f0f2ff40714366f69962a',1,'OmniSketch::Sketch::bucket_list_elem::value()'],['../class_omni_sketch_1_1_sketch_1_1_c_h_heavy_keeper_1_1bucket__list__elem.html#a04999071d0ba1d3a2aa42b1ba1232fee',1,'OmniSketch::Sketch::CHHeavyKeeper::bucket_list_elem::value()']]],
+  ['verbose_688',['VERBOSE',['../logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9ace3e26676763569084c86b8c3b67d601',1,'logger.h']]]
 ];

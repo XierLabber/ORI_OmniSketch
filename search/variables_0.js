@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['bit_5fflow_488',['bit_flow',['../class_omni_sketch_1_1_sketch_1_1_sketch_learn_1_1ans__t.html#a670e6ea4e3d3870ed6795cd0cfd2c478',1,'OmniSketch::Sketch::SketchLearn::ans_t::bit_flow()'],['../class_omni_sketch_1_1_sketch_1_1_sketch_learn_1_1two__types__of__flow.html#aa24e752cd2d54716310e4bb3d8fd6388',1,'OmniSketch::Sketch::SketchLearn::two_types_of_flow::bit_flow()']]]
+  ['bucket_5flist_5fhead_1377',['bucket_list_head',['../class_omni_sketch_1_1_sketch_1_1_c_h_heavy_keeper_1_1_stream_summary.html#a465e03c0f659ce2e8c8873e508affbe6',1,'OmniSketch::Sketch::CHHeavyKeeper::StreamSummary']]],
+  ['bucket_5flist_5ftail_1378',['bucket_list_tail',['../class_omni_sketch_1_1_sketch_1_1_c_h_heavy_keeper_1_1_stream_summary.html#addb072d2e368ea93562b5a3e38e0fc08',1,'OmniSketch::Sketch::CHHeavyKeeper::StreamSummary']]]
 ];

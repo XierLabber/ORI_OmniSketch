@@ -1,0 +1,56 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_omni_sketch_1_1_test_1_1_test_base.html" title=" " alt="" coords="5,2015,205,2057"/>
+<area shape="rect" id="node2" href="$class_omni_sketch_1_1_test_1_1_c_h_c_m_sketch_test.html" title="Testing class for Count Min Sketch." alt="" coords="257,5,483,61"/>
+<area shape="rect" id="node3" href="$class_omni_sketch_1_1_test_1_1_c_h_c_u_sketch_test.html" title="Testing class for CU Sketch." alt="" coords="259,85,481,141"/>
+<area shape="rect" id="node4" href="$class_omni_sketch_1_1_test_1_1_c_h_count_sketch_test.html" title="Testing class for CH Count Sketch." alt="" coords="271,165,469,221"/>
+<area shape="rect" id="node5" href="$class_omni_sketch_1_1_test_1_1_c_h_deltoid2_tuple_test.html" title="Testing class for CHDeltoid2Tuple." alt="" coords="262,245,478,301"/>
+<area shape="rect" id="node6" href="$class_omni_sketch_1_1_test_1_1_c_h_deltoid_test.html" title="Testing class for CHDeltoid." alt="" coords="266,325,474,381"/>
+<area shape="rect" id="node7" href="$class_omni_sketch_1_1_test_1_1_c_h_elastic_sketch_test.html" title="Testing class for Elastic Sketch Sketch." alt="" coords="268,405,472,461"/>
+<area shape="rect" id="node8" href="$class_omni_sketch_1_1_test_1_1_c_h_flow_radar_test.html" title="Testing class for CH Flow Radar." alt="" coords="274,485,466,541"/>
+<area shape="rect" id="node9" href="$class_omni_sketch_1_1_test_1_1_c_h_h_h_univ_mon_test.html" title="Testing class for HHUnivMon Sketch." alt="" coords="265,565,475,621"/>
+<area shape="rect" id="node10" href="$class_omni_sketch_1_1_test_1_1_c_h_hash_pipe_test.html" title="Testing class for CHHashPipe." alt="" coords="273,645,467,701"/>
+<area shape="rect" id="node11" href="$class_omni_sketch_1_1_test_1_1_c_h_heavy_keeper_test.html" title="Testing class for Heavy Keeper." alt="" coords="269,725,471,781"/>
+<area shape="rect" id="node12" href="$class_omni_sketch_1_1_test_1_1_c_h_m_v_sketch_test.html" title="Testing class for MV Sketch Sketch." alt="" coords="257,805,483,861"/>
+<area shape="rect" id="node13" href="$class_omni_sketch_1_1_test_1_1_c_h_n_z_e_sketch_test.html" title="Testing class for NZE Sketch." alt="" coords="255,885,485,941"/>
+<area shape="rect" id="node14" href="$class_omni_sketch_1_1_test_1_1_c_h_nitro_sketch_test.html" title="Testing class for CHNitroSketch." alt="" coords="273,965,467,1021"/>
+<area shape="rect" id="node15" href="$class_omni_sketch_1_1_test_1_1_c_h_p_r_sketch_test.html" title="Testing class for PR Sketch Sketch." alt="" coords="259,1045,481,1101"/>
+<area shape="rect" id="node16" href="$class_omni_sketch_1_1_test_1_1_c_h_querying_counting_bloom_filter_test.html" title="Testing class for Bloom Filter." alt="" coords="253,1125,487,1181"/>
+<area shape="rect" id="node17" href="$class_omni_sketch_1_1_test_1_1_c_h_sketch_learn2_tuple_test.html" title="Testing class for CHSketchLearn2Tuple." alt="" coords="268,1205,472,1261"/>
+<area shape="rect" id="node18" href="$class_omni_sketch_1_1_test_1_1_c_h_sketch_learn_test.html" title="Testing class for CHSketchLearn." alt="" coords="268,1285,472,1341"/>
+<area shape="rect" id="node19" href="$class_omni_sketch_1_1_test_1_1_c_h_univ_mon_test.html" title="Testing class for UnivMon Sketch." alt="" coords="265,1365,475,1421"/>
+<area shape="rect" id="node20" href="$class_omni_sketch_1_1_test_1_1_c_h_waving_sketch_test.html" title="Testing class for Waving Sketch." alt="" coords="265,1445,475,1501"/>
+<area shape="rect" id="node21" href="$class_omni_sketch_1_1_test_1_1_c_m_sketch_test.html" title="Testing class for Count Min Sketch." alt="" coords="267,1526,473,1567"/>
+<area shape="rect" id="node22" href="$class_omni_sketch_1_1_test_1_1_c_u_sketch_test.html" title="Testing class for CU Sketch." alt="" coords="268,1591,472,1633"/>
+<area shape="rect" id="node23" href="$class_omni_sketch_1_1_test_1_1_count_sketch_test.html" title="Testing class for Count Sketch." alt="" coords="259,1657,481,1698"/>
+<area shape="rect" id="node24" href="$class_omni_sketch_1_1_test_1_1_counter_braids_test.html" title="Testing class for Count Min Sketch." alt="" coords="273,1723,467,1779"/>
+<area shape="rect" id="node25" href="$class_omni_sketch_1_1_test_1_1_counter_tree_test.html" title="Testing class for Counter Tree Sketch." alt="" coords="259,1803,481,1845"/>
+<area shape="rect" id="node26" href="$class_omni_sketch_1_1_test_1_1_d_h_sketch_test.html" title="Testing class for DH Sketch." alt="" coords="267,1869,473,1910"/>
+<area shape="rect" id="node27" href="$class_omni_sketch_1_1_test_1_1_deltoid2_tuple_test.html" title="Testing class for Deltoid2Tuple." alt="" coords="271,1935,469,1991"/>
+<area shape="rect" id="node28" href="$class_omni_sketch_1_1_test_1_1_deltoid_test.html" title="Testing class for Deltoid." alt="" coords="273,2015,467,2057"/>
+<area shape="rect" id="node29" href="$class_omni_sketch_1_1_test_1_1_elastic_sketch_test.html" title="Testing class for Elastic Sketch." alt="" coords="277,2081,463,2137"/>
+<area shape="rect" id="node30" href="$class_omni_sketch_1_1_test_1_1_flow_radar_test.html" title="Testing class for Flow Radar." alt="" coords="265,2162,475,2203"/>
+<area shape="rect" id="node31" href="$class_omni_sketch_1_1_test_1_1_h_h_univ_mon_test.html" title="Testing class for HHUnivMon." alt="" coords="259,2227,481,2269"/>
+<area shape="rect" id="node32" href="$class_omni_sketch_1_1_test_1_1_hash_pipe_test.html" title="Testing class for Bloom Filter." alt="" coords="269,2293,471,2334"/>
+<area shape="rect" id="node33" href="$class_omni_sketch_1_1_test_1_1_heavy_keeper_test.html" title="Testing class for Heavy Keeper." alt="" coords="255,2358,485,2399"/>
+<area shape="rect" id="node34" href="$class_omni_sketch_1_1_test_1_1_l_d_sketch_test.html" title="Testing class for LD Sketch." alt="" coords="269,2423,471,2465"/>
+<area shape="rect" id="node35" href="$class_omni_sketch_1_1_test_1_1_m_v_sketch_test.html" title="Testing class for MV Sketch." alt="" coords="267,2489,473,2530"/>
+<area shape="rect" id="node36" href="$class_omni_sketch_1_1_test_1_1_n_z_e_sketch_test.html" title="Testing class for NZESketch." alt="" coords="264,2554,476,2595"/>
+<area shape="rect" id="node37" href="$class_omni_sketch_1_1_test_1_1_nitro_sketch_test.html" title="Testing class for NitroSketch." alt="" coords="261,2619,479,2661"/>
+<area shape="rect" id="node38" href="$class_omni_sketch_1_1_test_1_1_p_c_m_sketch_test.html" title="Testing class for PCM Sketch." alt="" coords="263,2685,477,2726"/>
+<area shape="rect" id="node39" href="$class_omni_sketch_1_1_test_1_1_p_c_u_sketch_test.html" title="Testing class for PCU Sketch." alt="" coords="264,2750,476,2791"/>
+<area shape="rect" id="node40" href="$class_omni_sketch_1_1_test_1_1_p_r_sketch_test.html" title="Testing class for PR Sketch." alt="" coords="269,2815,471,2857"/>
+<area shape="rect" id="node41" href="$class_omni_sketch_1_1_test_1_1_querying_counting_bloom_filter_test.html" title="Testing class for Querying Counting Bloom Filter Sketch." alt="" coords="269,2881,471,2937"/>
+<area shape="rect" id="node42" href="$class_omni_sketch_1_1_test_1_1_s_a_l_s_a_c_m_test.html" title="Testing class for SALSA Count Min Sketch." alt="" coords="254,2962,486,3003"/>
+<area shape="rect" id="node43" href="$class_omni_sketch_1_1_test_1_1_s_a_l_s_a_c_u_test.html" title="Testing class for SALSA CU Sketch." alt="" coords="255,3027,485,3069"/>
+<area shape="rect" id="node44" href="$class_omni_sketch_1_1_test_1_1_sketch_learn2_tuple_test.html" title="Testing class for Sketch Learn." alt="" coords="273,3093,467,3149"/>
+<area shape="rect" id="node45" href="$class_omni_sketch_1_1_test_1_1_sketch_learn_test.html" title="Testing class for Sketch Learn." alt="" coords="277,3173,463,3229"/>
+<area shape="rect" id="node46" href="$class_omni_sketch_1_1_test_1_1_t_h_d___c_h_c_m_sketch_test.html" title="Testing class for Count Min Sketch." alt="" coords="273,3253,467,3309"/>
+<area shape="rect" id="node47" href="$class_omni_sketch_1_1_test_1_1_t_h_d___c_h_count_sketch_test.html" title="Testing class for CH Count Sketch." alt="" coords="273,3333,467,3389"/>
+<area shape="rect" id="node48" href="$class_omni_sketch_1_1_test_1_1_t_h_d___c_h_deltoid_test.html" title="Testing class for THD_CHDeltoid." alt="" coords="275,3413,465,3469"/>
+<area shape="rect" id="node49" href="$class_omni_sketch_1_1_test_1_1_t_h_d___c_h_flow_radar_test.html" title="Testing class for CH Flow Radar." alt="" coords="273,3493,467,3549"/>
+<area shape="rect" id="node50" href="$class_omni_sketch_1_1_test_1_1_t_h_d___c_h_h_h_univ_mon_test.html" title="Testing class for HHUnivMon Sketch." alt="" coords="273,3573,467,3629"/>
+<area shape="rect" id="node51" href="$class_omni_sketch_1_1_test_1_1_t_h_d___c_h_nitro_sketch_test.html" title="Testing class for THD_CHNitroSketch." alt="" coords="273,3653,467,3709"/>
+<area shape="rect" id="node52" href="$class_omni_sketch_1_1_test_1_1_t_h_d___c_h_sketch_learn_test.html" title="Testing class for THD_CHSketchLearn." alt="" coords="273,3733,467,3789"/>
+<area shape="rect" id="node53" href="$class_omni_sketch_1_1_test_1_1_univ_mon_test.html" title="Testing class for UnivMon." alt="" coords="270,3814,470,3855"/>
+<area shape="rect" id="node54" href="$class_omni_sketch_1_1_test_1_1_waving_sketch_test.html" title="Testing class for Waving Sketch." alt="" coords="275,3880,465,3936"/>
+</map>

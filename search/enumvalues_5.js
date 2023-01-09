@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['percentile_524',['Percentile',['../namespace_omni_sketch_1_1_data.html#a31806ea44d4f1cddd59e81149b705cb0ac1195615c355fbea5df8ebcc02e685e5',1,'OmniSketch::Data']]],
-  ['podf_525',['PODF',['../namespace_omni_sketch_1_1_test.html#a160b52aa582997dee1396a606414c223a568ad44acd547d7ab4bdf4670ede0920',1,'OmniSketch::Test']]],
-  ['prc_526',['PRC',['../namespace_omni_sketch_1_1_test.html#a160b52aa582997dee1396a606414c223af819442295ff500c9077cda1faef6577',1,'OmniSketch::Test']]]
+  ['percentile_1429',['Percentile',['../namespace_omni_sketch_1_1_data.html#a31806ea44d4f1cddd59e81149b705cb0ac1195615c355fbea5df8ebcc02e685e5',1,'OmniSketch::Data']]],
+  ['podf_1430',['PODF',['../namespace_omni_sketch_1_1_test.html#a160b52aa582997dee1396a606414c223a611d78779ee2a822db664e5704a42741',1,'OmniSketch::Test']]],
+  ['prc_1431',['PRC',['../namespace_omni_sketch_1_1_test.html#a160b52aa582997dee1396a606414c223a7cc4cc28a5e408c6a428d6caa3e5884d',1,'OmniSketch::Test']]]
 ];

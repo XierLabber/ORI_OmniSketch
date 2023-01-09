@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['start_5ftimer_574',['START_TIMER',['../test_8h.html#a5b397597422a5a54c07ad100c09c97e7',1,'test.h']]],
-  ['stop_5ftimer_575',['STOP_TIMER',['../test_8h.html#a66c59b488e6f6a1f1f4204742de4a8c1',1,'test.h']]]
+  ['judge_5fif_5fswap_1577',['JUDGE_IF_SWAP',['../_c_h_elastic_sketch_8h.html#a2306e0fe15799c5310b5230ecc5efefa',1,'JUDGE_IF_SWAP():&#160;CHElasticSketch.h'],['../_elastic_sketch_8h.html#a2306e0fe15799c5310b5230ecc5efefa',1,'JUDGE_IF_SWAP():&#160;ElasticSketch.h']]]
 ];
