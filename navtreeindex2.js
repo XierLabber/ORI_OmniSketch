@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"class_omni_sketch_1_1_sketch_1_1_c_h_flow_radar.html#a2d1b5248d49b6bec07fe4e8dfbeaaf5f":[5,0,0,2,13,5],
+"class_omni_sketch_1_1_sketch_1_1_c_h_flow_radar.html#a658329e5e6fd190c95acb39dfd0a0a55":[5,0,0,2,13,3],
 "class_omni_sketch_1_1_sketch_1_1_c_h_flow_radar.html#a7f653272bcb533610cf7820328835858":[5,0,0,2,13,0],
 "class_omni_sketch_1_1_sketch_1_1_c_h_flow_radar.html#ab9b1f230f570e31281cd7e73d61fd0eb":[5,0,0,2,13,2],
 "class_omni_sketch_1_1_sketch_1_1_c_h_flow_radar.html#abbc7d1a22ea579ed045179c8be4308fc":[5,0,0,2,13,1],
@@ -70,9 +72,9 @@ var NAVTREEINDEX2 =
 "class_omni_sketch_1_1_sketch_1_1_c_h_m_v_sketch.html":[5,0,0,2,17],
 "class_omni_sketch_1_1_sketch_1_1_c_h_m_v_sketch.html#a099f25bf49433ea159bcb3504279e520":[5,0,0,2,17,7],
 "class_omni_sketch_1_1_sketch_1_1_c_h_m_v_sketch.html#a210caeb956afaf66b032539f9581688e":[5,0,0,2,17,6],
+"class_omni_sketch_1_1_sketch_1_1_c_h_m_v_sketch.html#a399d4765def2fe0fb417b773f1e353ce":[5,0,0,2,17,0],
 "class_omni_sketch_1_1_sketch_1_1_c_h_m_v_sketch.html#a4466ddbc846407d8425cc54d58be5457":[5,0,0,2,17,4],
 "class_omni_sketch_1_1_sketch_1_1_c_h_m_v_sketch.html#a93d53fd44e0ea287441f4996dfd423c0":[5,0,0,2,17,2],
-"class_omni_sketch_1_1_sketch_1_1_c_h_m_v_sketch.html#aa56766600acd64a01af1f252ba240199":[5,0,0,2,17,0],
 "class_omni_sketch_1_1_sketch_1_1_c_h_m_v_sketch.html#ab4faea142f1b912a0c9954ca7e5d7c42":[5,0,0,2,17,10],
 "class_omni_sketch_1_1_sketch_1_1_c_h_m_v_sketch.html#abd3e59d3a9baae6584fba1170e48ad8e":[5,0,0,2,17,1],
 "class_omni_sketch_1_1_sketch_1_1_c_h_m_v_sketch.html#ad53382448831744de5beee038897bdff":[5,0,0,2,17,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "class_omni_sketch_1_1_sketch_1_1_counting_bloom_filter.html#ad6ab35fff550d12548ac4a015a65ef8f":[5,0,0,2,29,3],
 "class_omni_sketch_1_1_sketch_1_1_d_h_s_node.html":[5,0,0,2,35],
 "class_omni_sketch_1_1_sketch_1_1_d_h_s_node.html#a03f11e0b85d32840d3ce7a451212a903":[5,0,0,2,35,0],
-"class_omni_sketch_1_1_sketch_1_1_d_h_s_node.html#a1dba882fd836d429742d10be60f43623":[5,0,0,2,35,2],
-"class_omni_sketch_1_1_sketch_1_1_d_h_s_node.html#a707434c57a22bdc6b99377b6895c99bd":[5,0,0,2,35,5],
-"class_omni_sketch_1_1_sketch_1_1_d_h_s_node.html#a7ac07bb8d7d0a12a74cee509b3b18384":[5,0,0,2,35,3]
+"class_omni_sketch_1_1_sketch_1_1_d_h_s_node.html#a1dba882fd836d429742d10be60f43623":[5,0,0,2,35,2]
 };

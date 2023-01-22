@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"_p_r_sketch_test_8h.html":[6,0,1,4,41],
+"_p_r_sketch_test_8h.html#a7c8184a7ee3144260e61f4f14ae58af3":[6,0,1,4,41,2],
 "_p_r_sketch_test_8h.html#a8434e47ec833d84efedf2ad82d883f74":[6,0,1,4,41,1],
 "_p_r_sketch_test_8h.html#a91dc1f0ac8e2c3ec7b7087f280d98e4b":[6,0,1,4,41,3],
 "_querying_counting_bloom_filter_8h.html":[6,0,1,3,42],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "class_omni_sketch_1_1_sketch_1_1_c_h_elastic_sketch.html#ad3f6c5108d243b44b8d96abcf6fd760d":[5,0,0,2,12,0],
 "class_omni_sketch_1_1_sketch_1_1_c_h_elastic_sketch.html#ad56981091822db77c3053b765206b95a":[5,0,0,2,12,1],
 "class_omni_sketch_1_1_sketch_1_1_c_h_elastic_sketch.html#af6e50088db54a2f36ed05af54729d110":[5,0,0,2,12,4],
-"class_omni_sketch_1_1_sketch_1_1_c_h_flow_radar.html":[5,0,0,2,13],
-"class_omni_sketch_1_1_sketch_1_1_c_h_flow_radar.html#a2d1b5248d49b6bec07fe4e8dfbeaaf5f":[5,0,0,2,13,5],
-"class_omni_sketch_1_1_sketch_1_1_c_h_flow_radar.html#a658329e5e6fd190c95acb39dfd0a0a55":[5,0,0,2,13,3]
+"class_omni_sketch_1_1_sketch_1_1_c_h_flow_radar.html":[5,0,0,2,13]
 };

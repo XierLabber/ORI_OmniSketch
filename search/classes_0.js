@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['awarehash_756',['AwareHash',['../class_omni_sketch_1_1_hash_1_1_aware_hash.html',1,'OmniSketch::Hash']]]
+  ['awarehash_758',['AwareHash',['../class_omni_sketch_1_1_hash_1_1_aware_hash.html',1,'OmniSketch::Hash']]]
 ];
