@@ -489,13 +489,13 @@
 
   [MV.para]
   depth = 2
-  width = 14561
+  width = 90000
 
   [MV.data]
   hx_method = "TopK"
   threshold_heavy_hitter = 3000
   cnt_method = "InPacket"
-  data = "../data/records-400K.bin"
+  data = "../data/synthetic_data/synthetic_skew_0.0.bin"
   format = [["flowkey", "padding", "timestamp", "length", "padding"], [13, 3, 8, 2, 6]]
 
   [MV.test]
@@ -505,13 +505,15 @@
 
   [MV.ch]
   V_cnt_no_ratio = 0.9
-  V_width_cnt = [5, 14]
+  V_width_cnt = [5, 17]
   V_no_hash = [3]
   C_cnt_no_ratio = 0.9
-  C_width_cnt = [5, 14]
+  C_width_cnt = [7, 15]
   C_no_hash = [3]
   guess_negative_weight = 1
   guess_positive_weight = 1
+  cm_width = 4
+  cm_row = 5000
 
 [NZE] # NZE
 

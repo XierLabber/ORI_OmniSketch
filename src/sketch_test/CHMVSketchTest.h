@@ -66,11 +66,12 @@ void CHMVSketchTest<key_len, no_layer, T, hash_t>::runTest() {
   /// Part I.
   ///   Parse the config file
   int32_t depth, width;
+  size_t cm_row, cm_width;
   double V_cnt_no_ratio;
   std::vector<size_t> V_width_cnt, V_no_hash;
   double C_cnt_no_ratio;
   std::vector<size_t> C_width_cnt, C_no_hash;
-  int32_t guess_negative_weight, guess_positive_weight;
+  // int32_t guess_negative_weight, guess_positive_weight;
 
   double num_heavy_hitter;
   std::string data_file; // data config
@@ -112,9 +113,13 @@ void CHMVSketchTest<key_len, no_layer, T, hash_t>::runTest() {
     return;
   if (!parser.parseConfig(C_no_hash, "C_no_hash"))
     return;
-  if (!parser.parseConfig(guess_negative_weight,  "guess_negative_weight"))
+  // if (!parser.parseConfig(guess_negative_weight,  "guess_negative_weight"))
+  //   return;
+  // if (!parser.parseConfig(guess_positive_weight, "guess_positive_weight"))
+  //   return;
+  if (!parser.parseConfig(cm_width, "cm_width"))
     return;
-  if (!parser.parseConfig(guess_positive_weight, "guess_positive_weight"))
+  if (!parser.parseConfig(cm_row, "cm_row"))
     return;
 
   Data::DataFormat format(arr); // conver from toml::array to Data::DataFormat
@@ -143,8 +148,7 @@ void CHMVSketchTest<key_len, no_layer, T, hash_t>::runTest() {
   std::unique_ptr<Sketch::SketchBase<key_len, T>> ptr(
       new Sketch::CHMVSketch<key_len, no_layer, T, hash_t>(
           depth, width, V_cnt_no_ratio, V_width_cnt, V_no_hash,
-          C_cnt_no_ratio, C_width_cnt, C_no_hash, guess_negative_weight,
-          guess_positive_weight));
+          C_cnt_no_ratio, C_width_cnt, C_no_hash, cm_row, cm_width));
   /// remember that the left ptr must point to the base class in order to call
   /// the methods in it
 

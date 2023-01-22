@@ -9,6 +9,8 @@
 
 #define VAL_WILL_ALWAYS_BE_ONE
 #define RECORD_GUESS_WRONG_TIME
+#define USE_CHCM
+#define DEBUG
 
 #include <algorithm>
 #include <map>
@@ -45,8 +47,12 @@ class CHMVSketch : public SketchBase<key_len, T> {
   std::vector<size_t> C_width_cnt;
   std::vector<size_t> C_no_hash;
 
+#ifndef USE_CHCM
   int32_t guess_negative_weight;
   int32_t guess_positive_weight;
+#else
+  size_t cm_row, cm_width;
+#endif
 
   CounterHierarchy<no_layer, T, hash_t>* CounterC;
 #ifdef RECORD_GUESS_WRONG_TIME
@@ -62,8 +68,13 @@ public:
     const std::vector<size_t> &V_width_cnt, const std::vector<size_t> &V_no_hash, 
     double C_cnt_no_ratio,
     const std::vector<size_t> &C_width_cnt, const std::vector<size_t> &C_no_hash, 
-    int32_t guess_negative_weight = 3, int32_t guess_positive_weight = 1);
-  
+  #ifndef USE_CHCM
+    int32_t guess_negative_weight = 3, int32_t guess_positive_weight = 1
+  #else
+    size_t cm_row_, size_t cm_width_
+  #endif
+    );
+
   CHMVSketch(CHMVSketch &&) = delete;
   ~CHMVSketch();
   CHMVSketch &operator=(const CHMVSketch &) = delete;
@@ -99,10 +110,19 @@ CHMVSketch<key_len, no_layer, T, hash_t>::CHMVSketch(
     const std::vector<size_t> &V_width_cnt, const std::vector<size_t> &V_no_hash, 
     double C_cnt_no_ratio,
     const std::vector<size_t> &C_width_cnt, const std::vector<size_t> &C_no_hash,
-    int32_t guess_negative_weight, int32_t guess_positive_weight)
+  #ifndef USE_CHCM
+    int32_t guess_negative_weight, int32_t guess_positive_weight
+  #else
+    size_t cm_row_, size_t cm_width_
+  #endif
+    )
     : depth_(depth), width_(Util::NextPrime(width)), V_width_cnt(V_width_cnt),
     V_no_hash(V_no_hash), C_width_cnt(C_width_cnt), C_no_hash(C_no_hash),
+  #ifndef USE_CHCM
     guess_negative_weight(guess_negative_weight), guess_positive_weight(guess_positive_weight) {
+  #else
+    cm_row(cm_row_), cm_width(cm_width_) {
+  #endif
   // check ratio
   if (V_cnt_no_ratio <= 0.0 || V_cnt_no_ratio >= 1.0) {
     throw std::out_of_range("Out of Range: Ratio of #counters of adjacent "
@@ -138,8 +158,13 @@ CHMVSketch<key_len, no_layer, T, hash_t>::CHMVSketch(
   // CH
   CounterV = new CounterHierarchy<no_layer, T, hash_t>(V_no_cnt, this->V_width_cnt,
                                                       this->V_no_hash);
+#ifndef USE_CHCM
   CounterC = new CounterHierarchy<no_layer, T, hash_t>(C_no_cnt, this->C_width_cnt,
                                                       this->C_no_hash, true);
+#else
+  CounterC = new CounterHierarchy<no_layer, T, hash_t>(C_no_cnt, this->C_width_cnt,
+                                                      this->C_no_hash, true, true, cm_row, cm_width);
+#endif
 #ifdef RECORD_GUESS_WRONG_TIME
   guess_wrong_time = 0;
 #endif
@@ -159,15 +184,23 @@ CHMVSketch<key_len, no_layer, T, hash_t>::~CHMVSketch() {
 template <int32_t key_len, int32_t no_layer, typename T, typename hash_t>
 void CHMVSketch<key_len, no_layer, T, hash_t>::update(const FlowKey<key_len> &flow_key,
                                           T val) {
+  #ifdef DEBUG
+  static int calledTimes = 0;
+  calledTimes++;
+  if(calledTimes % 1000 == 0)
+    std::cout << "update " << calledTimes << " Times!\n";
+  #endif
   if(val != 1){
     printf("NOT 1! VAL = %d\n",val);
   }
   for (int i = 0; i < depth_; ++i) {
     int index = hash_fns_[i](flow_key) % width_;
     CounterV->updateCnt(getIdx(i, index), val);
-    if(CounterK[i][index] == flow_key)
+    if(CounterK[i][index] == flow_key){
       CounterC->updateCnt(getIdx(i, index), val);
+    }
     else{
+      #ifndef USE_CHCM
       CounterC->updateCnt(getIdx(i, index), -val);
       #ifndef VAL_WILL_ALWAYS_BE_ONE
       size_t chIdx = getIdx(i, index);
@@ -192,12 +225,67 @@ void CHMVSketch<key_len, no_layer, T, hash_t>::update(const FlowKey<key_len> &fl
             guess_wrong_time++; 
          }
       #endif
+      #else
+      size_t chIdx = getIdx(i, index);
+      CounterC->updateCnt(chIdx, -val);
+      if(CounterC->getEstCnt(chIdx) < 0){
+        CounterK[i][index] = flow_key;
+        CounterC->updateCnt(chIdx, 2 * val);
+      }
+      #endif
     }
   }
 }
 
 template <int32_t key_len, int32_t no_layer, typename T, typename hash_t>
 T CHMVSketch<key_len, no_layer, T, hash_t>::query(const FlowKey<key_len> &flow_key) const {
+  
+  static bool my_cnt_distrib = true;
+  if (my_cnt_distrib) {
+      {
+        std::cout << "counter V" << std::endl;
+        std::vector<double> distrib(32);
+        for (int32_t i = 0; i < V_no_cnt[0]; ++i) {
+        T val = CounterV->getOriginalCnt(i);
+        for (int32_t k = 0; k < 32; ++k) {
+            if (std::abs(val) >= (1 << k))
+            distrib[k] += 1.0;
+            else
+            break;
+        }
+        }
+        for (int32_t k = 0; k < 32; ++k) {
+        std::cout << k << ": " << distrib[k] / V_no_cnt[0] << " \n";
+        if (distrib[k] == 0.0) {
+            std::cout << std::endl;
+            break;
+        }
+        }
+        my_cnt_distrib = false;
+      }
+      {
+        std::cout << "counter C" << std::endl;
+        std::vector<double> distrib(32);
+        for (int32_t i = 0; i < C_no_cnt[0]; ++i) {
+        T val = CounterC->getOriginalCnt(i);
+        for (int32_t k = 0; k < 32; ++k) {
+            if (std::abs(val) >= (1 << k))
+            distrib[k] += 1.0;
+            else
+            break;
+        }
+        }
+        for (int32_t k = 0; k < 32; ++k) {
+        std::cout << k << ": " << distrib[k] / C_no_cnt[0] << " \n";
+        if (distrib[k] == 0.0) {
+            std::cout << std::endl;
+            break;
+        }
+        }
+        my_cnt_distrib = false;
+      }
+  }
+  
   std::vector<T> S_cap(depth_);
 
   for(int i = 0; i < depth_; i++){
